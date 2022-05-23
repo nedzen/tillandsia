@@ -2901,6 +2901,11 @@
   dependencies:
     "reusify" "^1.0.4"
 
+"fathom-client@^3.4.1":
+  "integrity" "sha512-iQFKx9B9RDeGLzgNqsaXWg3Fvu7yfq1Z8GjpAG3DP8IoGoPRWOOktpM7DUKiUzoE3d37hdvDQvkqUHfNzVwimg=="
+  "resolved" "https://registry.npmjs.org/fathom-client/-/fathom-client-3.4.1.tgz"
+  "version" "3.4.1"
+
 "fb-watchman@^2.0.0":
   "integrity" "sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg=="
   "resolved" "https://registry.npmjs.org/fb-watchman/-/fb-watchman-2.0.1.tgz"
