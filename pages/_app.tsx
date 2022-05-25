@@ -5,7 +5,7 @@ import * as Fathom from 'fathom-client';
 
 import type { AppProps } from 'next/app';
 import React from 'react';
-import '../styles/globals.css';
+import '../styles/globals.scss';
 
 function App({ Component, pageProps } : AppProps ) : JSX.Element {
   
