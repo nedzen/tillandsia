@@ -2,7 +2,7 @@ import React from 'react';
 import { MetaProps } from '../types/layout';
 import Head from './Head';
 import Navigation from './Navigation';
-
+import Subscribe from './Subscribe';
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -16,6 +16,7 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
     <>
       <Head customMeta={customMeta} />
       <Navigation />
+      <Subscribe />
       <main>{children}</main>
       <footer> Marius </footer>
     </>
