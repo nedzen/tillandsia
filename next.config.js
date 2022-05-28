@@ -5,6 +5,9 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  images: {
+    domains: ['ipfs.io']
+  },
 }
 
 // module.exports = withMDX(withPlaiceholder({
