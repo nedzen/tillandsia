@@ -24,6 +24,8 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
             </Link>
           </h3>
           <p>{post.description}</p>
+          <mark><p> | {post.tag} | </p></mark>
+          <mark><p> | {post.image} | </p></mark>
           <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
             <a>Read More</a>
           </Link>
@@ -34,7 +36,7 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts(['date', 'description', 'slug', 'title']);
+  const posts = getAllPosts(['date', 'description', 'slug', 'title', 'tag', 'image']);
   return {
     props: { posts },
   };
