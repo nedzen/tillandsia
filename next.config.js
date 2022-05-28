@@ -1,14 +1,16 @@
 /** @type {import('next').NextConfig} */
-const path = require('path')
 
-module.exports = {
+const path = require('path')
+const { withPlaiceholder } = require("@plaiceholder/next");
+
+module.exports = withPlaiceholder({
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
     domains: ['ipfs.io']
   },
-}
+})
 
 // module.exports = withMDX(withPlaiceholder({
 //   reactStrictMode: true,
