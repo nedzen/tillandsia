@@ -51,7 +51,7 @@ const Subscribe = () => {
           Subscribe
         </button>
       </div>
-      <div className="message">{message ? <mark>message</mark> : ``}</div>
+      <div className="message">{message ? <mark>{message}</mark> : ``}</div>
     </form>
   );
 };
