@@ -60,15 +60,110 @@ a {
 		color: $base-link-hover
 	}
 }
+.remark-code-title {
+	background-color: rgb(227, 227, 227);
+	margin-bottom: 1px;
+	font-weight: bold;
+}
 
 main {
-	outline: 1px solid red;
+	// outline: 1px solid red;
 	max-width: 900px;
 	margin: 0 auto;
 }
 article {
 	margin-bottom: 5rem;
 }
+
+/* Post styles */
+.prose pre {
+   background-color: rgb(227, 227, 227);
+	//  border: 1px solid red;
+}
+
+.prose code {
+  // border: 1px solid blue;
+	background-color: rgb(227, 227, 227);
+	border-radius: 2px;
+	padding: 1px 3px;
+}
+
+.prose img {
+  /* Don't apply styles to next/image */
+  margin: 0;
+}
+
+/* Prism Styles */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: gray;
+}
+
+.token.punctuation {
+  color: gray;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color:green;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: purple;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: yellow
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: blue;
+}
+
+.token.function,
+.token.class-name {
+  color: black;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: yellowgreen;
+  // color: yellow;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: gray;
+}
+
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+pre {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 // @include scrollbars(3px, #FFF, #000);
 
 // .m0 {

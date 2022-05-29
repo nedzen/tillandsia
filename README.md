@@ -30,3 +30,13 @@ npm run dev
 ```
 
 Your new site will be up at http://localhost:3000/
+
+
+# working with IPFS
+Removing pins pass in flag `cid` or `name` (filename)
+`ipfs pin remote rm --service=pinata -cid=QmYTCUoyLvkgLiWcVuwr8sQK5RGb9jdSSFpSMvGghEcYC8`
+
+Using pinata CLI
+`pinata-cli --help`
+
+IPFS docs : <https://docs.ipfs.io/how-to/address-ipfs-on-web/>
