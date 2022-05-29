@@ -36,22 +36,20 @@ const Subscribe = () => {
   };
 
   return (
-    <form onSubmit={subscribe}>
-      <label htmlFor="email-input">{'Email Address'}</label>
-      <input
-        id="email-input"
-        name="email"
-        placeholder="you@awesome.com"
-        ref={inputEl}
-        required
-        type="email"
-      />
-      <div>
-        {message
-          ? message
-          : `I'll only send emails when new content is posted. No spam.`}
+    <form onSubmit={subscribe} className="subscribeForm">
+      <div className='subscribeWrap'>
+        <input
+          id="email-input"
+          name="email"
+          placeholder="Get my newsletter"
+          ref={inputEl}
+          required
+          type="email"
+          className='textInput'
+        />
+        <button className='btn' type="submit">Subscribe</button>
       </div>
-      <button type="submit">{'✨ Subscribe 💌'}</button>
+      <div className='message'>{message ? message : ``}</div>
     </form>
   );
 }

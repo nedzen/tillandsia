@@ -40,3 +40,5 @@ Using pinata CLI
 `pinata-cli --help`
 
 IPFS docs : <https://docs.ipfs.io/how-to/address-ipfs-on-web/>
+
+https://docs.pinata.cloud/api-pinning/pinning-services-api#configuring-pinata-in-the-ipfs-cli

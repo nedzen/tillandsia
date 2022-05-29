@@ -26,7 +26,7 @@ $h6-fs : to-rem(16px);
 $lead-fs : $h4-fs;
 //
 $medium-fs : to-rem(14px);
-$small-fs : to-rem(11px);
+$small-fs : to-rem(12px);
 
 // Layout ---------------------------------------
 $unit: 3rem; // this won't compute if i use 'to-rem' function
@@ -41,7 +41,7 @@ $site-width: 75em; // 12000px
 // $small-site-width: to-rem(560px);
 // $unit: 1.875em;
 // $unit: calculateRem(30px);
-$_unit: 16;
+$_unit: 16px;
 
 // increment by 0.25
 $unit_1: to-rem($_unit * 0.25); // 4
@@ -68,10 +68,10 @@ $unit_16: to-rem($_unit * 48); // 768
 
 
 /* COLORS --------------------------------------- */
-$yellow: #1D1D1D;
+$purple: #6100FF;
 $base-color: #1D1D1D;
-$base-link-color: $yellow;
-$base-link-hover: $base-color;
+$base-link-color: black;
+$base-link-hover: $purple;
 $base-bg: #F2F2F2;
 
 
