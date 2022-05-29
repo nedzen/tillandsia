@@ -9,13 +9,13 @@
   //  Add missing namespace
   //
   @if not str-index($svg, xmlns) {
-    $svg: str-replace($svg, "<svg", '<svg xmlns="http://www.w3.org/2000/svg"');
+    $svg: str-replace($svg, '<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
   }
   //
   //  Chunk up string in order to avoid
   //  "stack level too deep" error
   //
-  $encoded: "";
+  $encoded: '';
   $slice: 2000;
   $index: 0;
   $loops: ceil(str-length($svg) / $slice);
@@ -25,12 +25,12 @@
     //   Encode
     //
     $chunk: str-replace($chunk, '"', "'");
-    $chunk: str-replace($chunk, "%", "%25");
-    $chunk: str-replace($chunk, "#", "%23");
-    $chunk: str-replace($chunk, "{", "%7B");
-    $chunk: str-replace($chunk, "}", "%7D");
-    $chunk: str-replace($chunk, "<", "%3C");
-    $chunk: str-replace($chunk, ">", "%3E");
+    $chunk: str-replace($chunk, '%', '%25');
+    $chunk: str-replace($chunk, '#', '%23');
+    $chunk: str-replace($chunk, '{', '%7B');
+    $chunk: str-replace($chunk, '}', '%7D');
+    $chunk: str-replace($chunk, '<', '%3C');
+    $chunk: str-replace($chunk, '>', '%3E');
 
     //
     //    The maybe list
@@ -53,7 +53,7 @@
     $encoded: #{$encoded}#{$chunk};
     $index: $index + $slice;
   }
-  @return url("data:image/svg+xml,#{$encoded}");
+  @return url('data:image/svg+xml,#{$encoded}');
 }
 
 //  Background svg mixin
@@ -62,31 +62,35 @@
 }
 
 //  Helper function to replace characters in a string
-@function str-replace($string, $search, $replace: "") {
+@function str-replace($string, $search, $replace: '') {
   $index: str-index($string, $search);
   @return if(
     $index,
     str-slice($string, 1, $index - 1) + $replace +
-      str-replace(str-slice($string, $index + str-length($search)), $search, $replace),
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      ),
     $string
   );
 }
-
 
 // other interesting mixins for working with SVGs
 @mixin aspect-ratio($arglist... /*$width/$ratio, $height*/) {
   $map: keywords($arglist);
   $height: map-get($map, height) or nth-or-null($arglist, 2);
   $width: map-get($map, width) or nth-or-null($arglist, 1);
-  $ratio: map-get($map, ratio) or if($width and $height, $width/$height, nth-or-null($arglist, 1)) or 1;
+  $ratio: map-get($map, ratio) or
+    if($width and $height, $width/$height, nth-or-null($arglist, 1)) or 1;
   $padding: 1 / $ratio * 100%;
   &:before {
-    content: "";
+    content: '';
     float: left;
     padding-bottom: $padding;
   }
   &:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }

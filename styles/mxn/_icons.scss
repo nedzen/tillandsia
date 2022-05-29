@@ -27,11 +27,9 @@
     // I dont understand why the divder is not 10.
     // work in progress (for scalebale svgs)
     padding-top: strip-unit($h) / $r * $w / 10;
-  }
-  @else if $h {
+  } @else if $h {
     padding-top: $h;
-  }
-  @else {
+  } @else {
     padding-top: $w;
   }
 }

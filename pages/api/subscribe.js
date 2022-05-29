@@ -2,7 +2,7 @@ import mailchimp from '@mailchimp/mailchimp_marketing';
 
 mailchimp.setConfig({
   apiKey: process.env.MAILCHIMP_API_KEY,
-  server: process.env.MAILCHIMP_API_SERVER // e.g. us1
+  server: process.env.MAILCHIMP_API_SERVER, // e.g. us1
 });
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
@@ -16,7 +16,7 @@ export default async (req, res) => {
   try {
     await mailchimp.lists.addListMember(process.env.MAILCHIMP_AUDIENCE_ID, {
       email_address: email,
-      status: 'subscribed'
+      status: 'subscribed',
     });
 
     return res.status(201).json({ error: '' });

@@ -1,21 +1,22 @@
-
 @font-face {
-  font-family: "iA Writer Duospace";
+  font-family: 'iA Writer Duospace';
   font-weight: normal;
   font-style: normal;
-  src:
-    url("#{$font-directory-path}/ia_writer_duospace/iAWriterDuospace-Regular.eot") format("embedded-opentype"),
-    url("#{$font-directory-path}/ia_writer_duospace/iAWriterDuospace-Regular.woff2") format("woff2"),
-    url("#{$font-directory-path}/ia_writer_duospace/iAWriterDuospace-Regular.woff") format("woff");
+  src: url('#{$font-directory-path}/ia_writer_duospace/iAWriterDuospace-Regular.eot')
+      format('embedded-opentype'),
+    url('#{$font-directory-path}/ia_writer_duospace/iAWriterDuospace-Regular.woff2')
+      format('woff2'),
+    url('#{$font-directory-path}/ia_writer_duospace/iAWriterDuospace-Regular.woff')
+      format('woff');
 }
 
 @font-face {
-  font-family: "HEX-Regular";
+  font-family: 'HEX-Regular';
   font-weight: normal;
   font-style: normal;
-  src:
-    url("#{$font-directory-path}/hex/hex-regular-webfont.woff2") format("woff2"),
-    url("#{$font-directory-path}/hex/hex-regular-webfont.woff") format("woff");
+  src: url('#{$font-directory-path}/hex/hex-regular-webfont.woff2')
+      format('woff2'),
+    url('#{$font-directory-path}/hex/hex-regular-webfont.woff') format('woff');
 }
 
 // @font-face {
@@ -23,7 +24,7 @@
 //   font-weight: normal;
 //   font-style: italic;
 //   src: url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Italic.eot") format("embedded-opentype"),
-//    url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Italic.woff2") format("woff2"), 
+//    url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Italic.woff2") format("woff2"),
 //    url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Italic.woff") format("woff");
 // }
 
@@ -31,8 +32,8 @@
 //   font-family: "iA Writer Duospace";
 //   font-weight: bold;
 //   font-style: normal;
-//   src: url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Bold.eot") format("embedded-opentype"), 
-//   url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Bold.woff2") format("woff2"), 
+//   src: url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Bold.eot") format("embedded-opentype"),
+//   url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Bold.woff2") format("woff2"),
 //   url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-Bold.woff") format("woff");
 // }
 
@@ -40,7 +41,7 @@
 //   font-family: "iA Writer Duospace";
 //   font-weight: bold;
 //   font-style: italic;
-//   src: url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-BoldItalic.eot") format("embedded-opentype"), 
-//   url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-BoldItalic.woff2") format("woff2"), 
+//   src: url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-BoldItalic.eot") format("embedded-opentype"),
+//   url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-BoldItalic.woff2") format("woff2"),
 //   url("#{$font-directory-path}ia_writer_duospace/iAWriterDuospace-BoldItalic.woff") format("woff");
 // }

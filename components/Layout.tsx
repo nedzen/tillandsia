@@ -4,7 +4,7 @@ import Head from './Head';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Subscribe from './Subscribe';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -14,14 +14,14 @@ type LayoutProps = {
 export const WEBSITE_HOST_URL = 'https://nextjs-typescript-mdx-blog.vercel.app';
 
 const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <>
       <Head customMeta={customMeta} />
       <Navigation />
-      { router.pathname == ('/')? <Subscribe/> : '' }
+      {router.pathname == '/' ? <Subscribe /> : ''}
       <main>{children}</main>
-      <Footer/>
+      <Footer />
     </>
   );
 };

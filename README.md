@@ -31,8 +31,8 @@ npm run dev
 
 Your new site will be up at http://localhost:3000/
 
-
 # working with IPFS
+
 Removing pins pass in flag `cid` or `name` (filename)
 `ipfs pin remote rm --service=pinata -cid=QmYTCUoyLvkgLiWcVuwr8sQK5RGb9jdSSFpSMvGghEcYC8`
 

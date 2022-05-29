@@ -3,8 +3,8 @@
 
 [class*='ico-'] {
   position: relative;
-	overflow: hidden;
-	display: block;
+  overflow: hidden;
+  display: block;
   // &[class*='24'] {
   //   @include svg(50px, 50px);
   //   @include background-svg($ico-ello);
@@ -45,40 +45,40 @@ $ico-discord: '<svg width="66" height="50" viewBox="0 0 66 51" fill="none" xmlns
 </svg>';
 
 .ico-discord {
-	@include svg(66px, 50px);
-	@include background-svg($ico-discord);
+  @include svg(66px, 50px);
+  @include background-svg($ico-discord);
 }
 
 .ico-hen {
-	@include svg(186px, 50px);
-	@include background-svg($ico-hen);
+  @include svg(186px, 50px);
+  @include background-svg($ico-hen);
 }
 
 .ico-ello {
-	@include svg(50px, 50px);
-	@include background-svg($ico-ello);
+  @include svg(50px, 50px);
+  @include background-svg($ico-ello);
 }
 .ico-insta {
-	@include svg(50px, 50px);
-	@include background-svg($ico-insta);
+  @include svg(50px, 50px);
+  @include background-svg($ico-insta);
 }
 .ico-github {
-	@include svg(52px, 50px);
-	@include background-svg($ico-github);
+  @include svg(52px, 50px);
+  @include background-svg($ico-github);
 }
 .ico-medium {
-	@include svg(50px, 50px);
-	@include background-svg($ico-medium);
+  @include svg(50px, 50px);
+  @include background-svg($ico-medium);
 }
 .ico-li {
-	@include svg(50px, 50px);
-	@include background-svg($ico-li);
+  @include svg(50px, 50px);
+  @include background-svg($ico-li);
 }
 .ico-fb {
-	@include svg(50px, 50px);
-	@include background-svg($ico-fb);
+  @include svg(50px, 50px);
+  @include background-svg($ico-fb);
 }
 .ico-tw {
-	@include svg(62px, 50px);
-	@include background-svg($ico-tw);
+  @include svg(62px, 50px);
+  @include background-svg($ico-tw);
 }

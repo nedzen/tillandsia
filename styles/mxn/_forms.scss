@@ -48,7 +48,7 @@
   color: inherit;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: to-rem(8);
     right: to-rem(8);
@@ -128,7 +128,7 @@
     font-size: to-rem(14);
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       bottom: 0;
@@ -140,13 +140,13 @@
     }
 
     &::after {
-      content: "";
+      content: '';
       transition: background-color 0.3s;
     }
   }
 
   &:checked + label::after {
-    content: "";
+    content: '';
     position: absolute;
     left: to-rem(5);
     top: to-rem(3);
@@ -190,7 +190,7 @@
     font-size: to-rem(14);
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       bottom: 0;
@@ -202,7 +202,7 @@
     }
 
     &::after {
-      content: "";
+      content: '';
       opacity: 0;
       transition: opacity 0.3s;
     }
@@ -210,7 +210,7 @@
 
   /* Not depending on the user's font here improves consistency. */
   &:checked + label::after {
-    content: "";
+    content: '';
     position: absolute;
     display: block;
     opacity: 1;

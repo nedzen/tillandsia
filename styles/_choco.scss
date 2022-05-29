@@ -126,7 +126,7 @@ body {
   opacity: 0;
 
   &:after {
-    content: " ";
+    content: ' ';
     display: block;
 
     @include size(54px);
@@ -210,7 +210,7 @@ body {
   &::after {
     @include transition(200ms);
 
-    content: "";
+    content: '';
     position: absolute;
     background-color: #fff;
     bottom: 48%;
@@ -242,7 +242,7 @@ $c-arr: 40;
   &::after {
     @include transition(200ms);
 
-    content: "";
+    content: '';
     position: absolute;
     background-color: #fff;
 
@@ -381,7 +381,7 @@ $c-arr: 40;
   &::after {
     @include transition(200ms);
 
-    content: "";
+    content: '';
     position: absolute;
     border: 2px solid white;
   }

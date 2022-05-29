@@ -1,8 +1,8 @@
 // https://spsarolkar.github.io/rouge-theme-preview/
 
 // Tokens
-@import "tokens/code_token_colors";
-@import "tokens/code_token_typography";
+@import 'tokens/code_token_colors';
+@import 'tokens/code_token_typography';
 
 // This would be awesome to make it work directly with figma design tokens
 // https://github.com/middleman/middleman-syntax
@@ -31,7 +31,6 @@ samp {
     color: #777;
   }
 
-
   table {
     td {
       padding: 5px 10px;
@@ -53,7 +52,6 @@ samp {
     color: $token-colors-gl;
 
     // background-color: $token-colors-gl-bg
- 
   }
 
   .gp {
@@ -61,7 +59,13 @@ samp {
     font-weight: bold;
   }
 
-  .c, .ch, .cd, .cm, .cpf, .c1, .cs {
+  .c,
+  .ch,
+  .cd,
+  .cm,
+  .cpf,
+  .c1,
+  .cs {
     color: $token-colors-c;
     font-style: $token-fonts-c-style;
   }
@@ -75,7 +79,6 @@ samp {
     color: $token-colors-err;
 
     // background-color: $token-colors-err-bg
- 
   }
 
   .gr {
@@ -84,17 +87,21 @@ samp {
     font-style: $token-fonts-gr-style;
   }
 
-  .k, .kd, .kv {
+  .k,
+  .kd,
+  .kv {
     color: $token-colors-k;
     font-weight: $token-fonts-k-weight;
   }
 
-  .o, .ow {
+  .o,
+  .ow {
     color: $token-colors-o;
     font-weight: $token-fonts-o-weight;
   }
 
-  .p, .pi {
+  .p,
+  .pi {
     color: $token-colors-p;
   }
 
@@ -118,7 +125,6 @@ samp {
     color: $token-colors-gt;
 
     // background-color: $token-colors-gt-bg
- 
   }
 
   .kc {
@@ -196,7 +202,14 @@ samp {
     font-weight: $token-fonts-nt-weight;
   }
 
-  .m, .mb, .mf, .mh, .mi, .il, .mo, .mx {
+  .m,
+  .mb,
+  .mf,
+  .mh,
+  .mi,
+  .il,
+  .mo,
+  .mx {
     color: $token-colors-m;
     font-weight: $token-fonts-m-weight;
   }
@@ -211,7 +224,16 @@ samp {
     font-weight: $token-fonts-ss-weight;
   }
 
-  .s, .sa, .sb, .dl, .sd, .s2, .sh, .sx, .sr, .s1 {
+  .s,
+  .sa,
+  .sb,
+  .dl,
+  .sd,
+  .s2,
+  .sh,
+  .sx,
+  .sr,
+  .s1 {
     color: $token-colors-s;
     font-weight: $token-fonts-s-weight;
   }
@@ -248,7 +270,8 @@ samp {
     color: $token-colors-go;
   }
 
-  .nf, .fm {
+  .nf,
+  .fm {
     color: $token-colors-nf;
   }
 
@@ -260,7 +283,11 @@ samp {
     color: $token-colors-na;
   }
 
-  .nv, .vc, .vg, .vi, .vm {
+  .nv,
+  .vc,
+  .vg,
+  .vi,
+  .vm {
     color: $token-colors-nv;
     font-weight: $token-fonts-nv-weight;
   }
@@ -289,9 +316,9 @@ samp {
 /// ------------------ CHANGED CODE THEME ------------------
 /// ------------------ REMAP TO ABOVE COLORS ----------------
 .remark-code-title {
-	background-color: rgb(227, 227, 227);
-	margin-bottom: 1px;
-	font-weight: bold;
+  background-color: rgb(227, 227, 227);
+  margin-bottom: 1px;
+  font-weight: bold;
   font-size: $small-fs;
   padding: $_unit;
   border-radius: 2px;
@@ -302,16 +329,16 @@ samp {
 pre > code {
   font-size: $small-fs;
   background-color: rgb(227, 227, 227);
-	line-height: 1.7em;
+  line-height: 1.7em;
   padding: $_unit;
   display: block;
 }
 
 .prose code,
 code {
-	background-color: rgb(227, 227, 227);
-	border-radius: 2px;
-	padding: 1px 3px;
+  background-color: rgb(227, 227, 227);
+  border-radius: 2px;
+  padding: 1px 3px;
 }
 
 .prose img {
@@ -338,7 +365,7 @@ code {
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color:rgb(0, 172, 0);
+  color: rgb(0, 172, 0);
   font-weight: bold;
 }
 
@@ -356,7 +383,7 @@ code {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: rgb(0, 183, 255)
+  color: rgb(0, 183, 255);
 }
 
 .token.atrule,

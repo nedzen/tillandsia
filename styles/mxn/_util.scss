@@ -28,7 +28,7 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 @mixin flip-y {
@@ -37,7 +37,7 @@
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
   filter: FlipV;
-  -ms-filter: "FlipV";
+  -ms-filter: 'FlipV';
 }
 
 // selecting text
@@ -71,26 +71,24 @@
   &::after {
     display: block;
     clear: both;
-    content: "";
+    content: '';
   }
 }
 
 // usefull for quickly hiding elements
 @mixin hide($x: null) {
-  @if $x == "hidden" {
+  @if $x == 'hidden' {
     visibility: hidden;
-  }
-  @else if $x {
+  } @else if $x {
     display: $x;
-  }
-  @else {
+  } @else {
     display: none;
   }
 }
 
 @mixin height-adjust($a: 100%) {
   &:before {
-    content: "";
+    content: '';
     display: block;
     padding-top: $a;
   }
@@ -112,8 +110,7 @@
     @include hover {
       @content;
     }
-  }
-  @else {
+  } @else {
     &:focus,
     &:hover {
       @content;
@@ -127,7 +124,7 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 // Utilities ---------------------------------------
@@ -156,7 +153,7 @@
     @include transition(300ms);
 
     opacity: 0.3;
-    content: "#{$a} ";
+    content: '#{$a} ';
     color: pink;
     background-color: black;
 
@@ -180,35 +177,30 @@
     #{$i} {
       outline: 1px dotted $c;
     }
-  }
-  @else {
+  } @else {
     outline: 1px dotted $c2;
   }
 }
 
 body.debug {
   @include media-breakpoint-only(xs) {
-    @include debug("*", pink);
+    @include debug('*', pink);
   }
-
 
   @include media-breakpoint-only(sm) {
-    @include debug("*", fuchsia);
+    @include debug('*', fuchsia);
   }
-
 
   @include media-breakpoint-only(md) {
-    @include debug("*", orange);
+    @include debug('*', orange);
   }
-
 
   @include media-breakpoint-only(lg) {
-    @include debug("*", blue);
+    @include debug('*', blue);
   }
 
-
   @include media-breakpoint-up(xl) {
-    @include debug("*", red);
+    @include debug('*', red);
   }
 }
 

@@ -1,173 +1,169 @@
-@import "var";
-@import "mxn";
-@import "ia";
-@import "hex";
-@import "base";
+@import 'var';
+@import 'mxn';
+@import 'ia';
+@import 'hex';
+@import 'base';
 // @import "icons";
-@import "typography";
-@import "layout";
-@import "ds";
-@import "code"; // obsolete (remap to new script)
+@import 'typography';
+@import 'layout';
+@import 'ds';
+@import 'code'; // obsolete (remap to new script)
 
 %container {
-	@include transition(200ms);
-	@include mx-center;
-	max-width: $site-width;
-	display: block;
+  @include transition(200ms);
+  @include mx-center;
+  max-width: $site-width;
+  display: block;
 }
 
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
 html {
-	overflow: hidden;
-	height: 100%;
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
-	background-color: $base-bg;
-	color: $base-color;
-	position: relative;
-	height: 100%;
-	overflow: auto;
-	font-size: 100%;
-	padding: 0 $_unit;
-	margin: 0;
+  background-color: $base-bg;
+  color: $base-color;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  font-size: 100%;
+  padding: 0 $_unit;
+  margin: 0;
 }
 
 ul {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-	color: $base-link-color;
-	text-decoration: underline;
-	@include transition(100ms);
-	&:hover {
-		color: $base-link-hover
-	}
+  color: $base-link-color;
+  text-decoration: underline;
+  @include transition(100ms);
+  &:hover {
+    color: $base-link-hover;
+  }
 }
 
 main {
-	@extend %container;
-	margin: 0 auto;
+  @extend %container;
+  margin: 0 auto;
 }
 
 .post-title {
-	font-weight: normal;
+  font-weight: normal;
 }
-
 
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
 
 .subscribeForm {
-	display: block;
-	@extend %container;
-	margin: calc($_unit * 2) auto;
+  display: block;
+  @extend %container;
+  margin: calc($_unit * 2) auto;
 }
 
 .subscribeWrap {
-	@include display-flex;	
-	input.textInput  {
-		flex-grow: 1;
-		max-width: 300px;
-	}
+  @include display-flex;
+  input.textInput {
+    flex-grow: 1;
+    max-width: 300px;
+  }
 }
 
 input.textInput,
 button.btn {
-	font-size: 20px;
-	border: none;
-	padding: 0.5em 0.6em;
-	@include transition(100ms);
-	border-radius: 2px;
+  font-size: 20px;
+  border: none;
+  padding: 0.5em 0.6em;
+  @include transition(100ms);
+  border-radius: 2px;
 }
 
 button.btn {
-	font-weight: 500;
-	background-color: $base-color;
-	color: white;
-	cursor: pointer;
-	outline: none;
-	&:hover {
-		background-color: $purple;
-	}
+  font-weight: 500;
+  background-color: $base-color;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    background-color: $purple;
+  }
 }
 
-input.textInput { 
-	background-color: white;
-	border: 2px solid white;
-	outline-style: none;
-	box-shadow: none;
-	border-color: transparent;
-	&:hover{
-		border-color: $purple!important;
-	}
+input.textInput {
+  background-color: white;
+  border: 2px solid white;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  &:hover {
+    border-color: $purple !important;
+  }
 }
 
 .postMeta {
-	font-weight: bold;
-	display: inline-block;
-	font-size: $small-fs;
+  font-weight: bold;
+  display: inline-block;
+  font-size: $small-fs;
 }
 
 .postTag {
-	font-weight: bold;
-	display: inline-block;
-	background-color: $n-1;
-	&::before {
-		content:'#';
-	}
+  font-weight: bold;
+  display: inline-block;
+  background-color: $n-1;
+  &::before {
+    content: '#';
+  }
 }
 
 .navBar {
-	padding: calc($_unit) 0;
+  padding: calc($_unit) 0;
 }
 
 .navLinks {
-	@extend %container;
-	li {
-		font-size: $base-fs;
-		display: inline-block;
-		padding-right: $_unit;
-	}
+  @extend %container;
+  li {
+    font-size: $base-fs;
+    display: inline-block;
+    padding-right: $_unit;
+  }
 }
 
 .message {
-	font-size: $small-fs;
+  font-size: $small-fs;
 }
-
 
 .siteFooter {
-	padding: $_unit 0;
-	> ul > li {
-		font-size: $small-fs;
-	}
+  padding: $_unit 0;
+  > ul > li {
+    font-size: $small-fs;
+  }
 }
 
-
-@include scrollbars(3px, #FFF, #000);
+@include scrollbars(3px, #fff, #000);
 
 // ----------------------------
 
 .post-title {
-	margin-top: 6px;
+  margin-top: 6px;
 }
 .articleList {
-	padding-top: $unit * 2;
-	li {
-		display: block;
-		margin-bottom: calc($_unit * 4 );
-	}
+  padding-top: $unit * 2;
+  li {
+    display: block;
+    margin-bottom: calc($_unit * 4);
+  }
 }
 
 header.postHeader {
-	h1 {
-		margin-bottom: calc($unit/2);
-	}
-	padding-bottom: $unit;
+  h1 {
+    margin-bottom: calc($unit/2);
+  }
+  padding-bottom: $unit;
 }
-

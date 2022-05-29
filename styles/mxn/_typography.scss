@@ -1,7 +1,8 @@
 @mixin add-font($font-name, $font-weight, $font-style) {
   @font-face {
     font-family: $font-name;
-    src: url($font-directory-path + $font-name + ".woff2") format("woff2"), url($font-directory-path + $font-name + ".woff") format("woff");
+    src: url($font-directory-path + $font-name + '.woff2') format('woff2'),
+      url($font-directory-path + $font-name + '.woff') format('woff');
     font-weight: $font-weight;
     font-style: $font-style;
   }

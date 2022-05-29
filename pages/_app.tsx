@@ -7,8 +7,7 @@ import type { AppProps } from 'next/app';
 import React from 'react';
 import '../styles/app.scss';
 
-function App({ Component, pageProps } : AppProps ) : JSX.Element {
-  
+function App({ Component, pageProps }: AppProps): JSX.Element {
   const router = useRouter();
 
   useEffect(() => {

@@ -16,7 +16,7 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
       {posts.map((post) => (
         <article key={post.slug}>
           <p> {format(parseISO(post.date), 'MMMM dd, yyyy')}</p>
-          <h3 className='post-title'>
+          <h3 className="post-title">
             <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
               <a className="text-gray-900 dark:text-white dark:hover:text-blue-400">
                 {post.title}
@@ -24,8 +24,12 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
             </Link>
           </h3>
           <p>{post.description}</p>
-          <mark><p> | {post.tag} | </p></mark>
-          <mark><p> | {post.image} | </p></mark>
+          <mark>
+            <p> | {post.tag} | </p>
+          </mark>
+          <mark>
+            <p> | {post.image} | </p>
+          </mark>
           <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
             <a>Read More</a>
           </Link>
@@ -36,7 +40,14 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts(['date', 'description', 'slug', 'title', 'tag', 'image']);
+  const posts = getAllPosts([
+    'date',
+    'description',
+    'slug',
+    'title',
+    'tag',
+    'image',
+  ]);
   return {
     props: { posts },
   };

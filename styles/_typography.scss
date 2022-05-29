@@ -19,38 +19,52 @@ body {
   // 	font-size: $base-fs
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   display: block;
   // font-weight: 700;
   line-height: 1.25em !important;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   // font-family: $hex-ff;
-	line-height: 1em!important;
-  font-weight: normal!important;
+  line-height: 1em !important;
+  font-weight: normal !important;
   font-size: $h1-fs;
   margin: $unit_3 0 $unit_6;
 
   // +showunit($h1-fs)
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: $h2-fs;
   margin: $unit_3 0 $unit_4;
-  font-weight: normal!important;
+  font-weight: normal !important;
   // +showunit($h2-fs)
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: $h3-fs;
   margin: $unit_4 0 $unit_4;
 
   // +showunit($h3-fs)
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: $h4-fs;
   margin: $unit_1 0 $unit_3;
   font-weight: 700;

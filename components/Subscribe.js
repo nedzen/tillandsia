@@ -13,12 +13,12 @@ const Subscribe = () => {
     // 3. Send a request to our API with the user's email address.
     const res = await fetch('/api/subscribe', {
       body: JSON.stringify({
-        email: inputEl.current.value
+        email: inputEl.current.value,
       }),
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
-      method: 'POST'
+      method: 'POST',
     });
 
     const { error } = await res.json();
@@ -37,7 +37,7 @@ const Subscribe = () => {
 
   return (
     <form onSubmit={subscribe} className="subscribeForm">
-      <div className='subscribeWrap'>
+      <div className="subscribeWrap">
         <input
           id="email-input"
           name="email"
@@ -45,13 +45,15 @@ const Subscribe = () => {
           ref={inputEl}
           required
           type="email"
-          className='textInput'
+          className="textInput"
         />
-        <button className='btn' type="submit">Subscribe</button>
+        <button className="btn" type="submit">
+          Subscribe
+        </button>
       </div>
-      <div className='message'>{message ? <mark>message</mark> : ``}</div>
+      <div className="message">{message ? <mark>message</mark> : ``}</div>
     </form>
   );
-}
+};
 
-export default Subscribe
+export default Subscribe;

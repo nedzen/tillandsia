@@ -4,35 +4,35 @@
 // Typography ---------------------------------------
 // When I change the font root fs the sizes of rem unit change.
 
-$root-fs : 66.5%; // this unit equals to 10px making maths easy.
+$root-fs: 66.5%; // this unit equals to 10px making maths easy.
 // 1.6 rem = 16px
-$base-fs : 1.8rem;
-$base-lh : 1.7em;
-$base-fw : normal;
+$base-fs: 1.8rem;
+$base-lh: 1.7em;
+$base-fw: normal;
 //
 
 // $base-ff : 'Inter', sans-serif;
 
-$mono-ff : "iA Writer Duospace", monospace;
-$hex-ff : 'hexregular', $mono-ff;
-$base-ff : $mono-ff;
+$mono-ff: 'iA Writer Duospace', monospace;
+$hex-ff: 'hexregular', $mono-ff;
+$base-ff: $mono-ff;
 
-$h1-fs : to-rem(52px);
-$h2-fs : to-rem(40px);
-$h3-fs : to-rem(30px);
-$h4-fs : to-rem(23px);
-$h5-fs : to-rem(18px);
-$h6-fs : to-rem(16px);
-$lead-fs : $h4-fs;
+$h1-fs: to-rem(52px);
+$h2-fs: to-rem(40px);
+$h3-fs: to-rem(30px);
+$h4-fs: to-rem(23px);
+$h5-fs: to-rem(18px);
+$h6-fs: to-rem(16px);
+$lead-fs: $h4-fs;
 //
-$medium-fs : to-rem(14px);
-$small-fs : to-rem(12px);
+$medium-fs: to-rem(14px);
+$small-fs: to-rem(12px);
 
 // Layout ---------------------------------------
 $unit: 3rem; // this won't compute if i use 'to-rem' function
 $grid: 8;
 $col: calc(100 / $grid) * 1%;
-$class-slug: "col";
+$class-slug: 'col';
 $gutter: $unit;
 $site-margin: 4%;
 
@@ -66,14 +66,12 @@ $unit_14: to-rem($_unit * 32); // 512
 $unit_15: to-rem($_unit * 40); // 640
 $unit_16: to-rem($_unit * 48); // 768
 
-
 /* COLORS --------------------------------------- */
-$purple: #6100FF;
-$base-color: #1D1D1D;
+$purple: #6100ff;
+$base-color: #1d1d1d;
 $base-link-color: black;
 $base-link-hover: $purple;
-$base-bg: #F2F2F2;
-
+$base-bg: #f2f2f2;
 
 /* Neutrals palette */
 $n-9: #3f3f3f;
@@ -88,8 +86,8 @@ $n-1: #ededed;
 $n-0: #f9f9f9; // gray light
 
 // Signaling
-$pink: transparentize(fuchsia, .6);
-$pink-2: transparentize(blue, .8);
+$pink: transparentize(fuchsia, 0.6);
+$pink-2: transparentize(blue, 0.8);
 
 // // Social media
 // $tw_color: #00aced;
@@ -105,23 +103,25 @@ $sassy-accent-color: $n-9 !default;
 $sassy-disabled-color: $n-4 !default;
 $sassy-base-text-color: $n-8;
 
-
 // // ---------------------------------------------
 // // ---------------------------------------------
 // // configure Buttons.
 // // ---------------------------------------------
 // // style and shadows.
 //
-$btn_active_shadow: 0px 0px 1px 0px rgba($n-8, .05), 0px 3px 6px 0px rgba($n-8, .05);
-$btn_hover_shadow: 0px 0px 1px 0px rgba($n-8, .05), 0px 3px 6px 0px rgba($n-8, .05);
-$btn_pressed_shadow: 0px 0px 1px 0px rgba($n-8, .05), 0px 3px 6px 0px rgba($n-8, .05);
+$btn_active_shadow: 0px 0px 1px 0px rgba($n-8, 0.05),
+  0px 3px 6px 0px rgba($n-8, 0.05);
+$btn_hover_shadow: 0px 0px 1px 0px rgba($n-8, 0.05),
+  0px 3px 6px 0px rgba($n-8, 0.05);
+$btn_pressed_shadow: 0px 0px 1px 0px rgba($n-8, 0.05),
+  0px 3px 6px 0px rgba($n-8, 0.05);
 
 // Effect: Drop Shadow
 // Radius: 13px
 // Offset: 0px, 1px
 // rgba(39, 56, 93, 0.1)
 
-$prod-img-shadow: 0px 1px 13px 0px rgba($n-8, .15);
+$prod-img-shadow: 0px 1px 13px 0px rgba($n-8, 0.15);
 // Stroke: Solid
 // Align: Inside
 // Width: 1px
@@ -132,7 +132,7 @@ $prod-img-shadow: 0px 1px 13px 0px rgba($n-8, .15);
 // Offset: 0px, 4px
 // rgba(2, 24, 102, 0.17)
 
-$prod-feature-shadow: 0px 4px 14px 0px rgba($n-8, .05);
+$prod-feature-shadow: 0px 4px 14px 0px rgba($n-8, 0.05);
 // Stroke Color Style: btn_brd
 // Solid
 // rgba(2, 24, 102, 0.1)
@@ -147,34 +147,49 @@ $prod-feature-shadow: 0px 4px 14px 0px rgba($n-8, .05);
 // paddings in a map
 // default buttons config.
 
-$btn_pad: ( top: 0, right: 15px, bottom: 1px, left: 15px);
-$btn_height : 32px;
-$btn_border : 1px; // if zero no need to configure further border properties
-$btn_border_color : rgba($n-8, .13);
-$btn_fs : $base-fs;
-$btn_radius : 3px;
-$btn_bg : white;
+$btn_pad: (
+  top: 0,
+  right: 15px,
+  bottom: 1px,
+  left: 15px,
+);
+$btn_height: 32px;
+$btn_border: 1px; // if zero no need to configure further border properties
+$btn_border_color: rgba($n-8, 0.13);
+$btn_fs: $base-fs;
+$btn_radius: 3px;
+$btn_bg: white;
 // small buttons
-$need-small-buttons : true;
+$need-small-buttons: true;
 
 // ------------------------
-$btn-sm_pad: ( top: 2px, right: 15px, bottom: 0, left: 15px);
-$btn-sm_height : 30px;
-$btn-sm_fs : 14px;
+$btn-sm_pad: (
+  top: 2px,
+  right: 15px,
+  bottom: 0,
+  left: 15px,
+);
+$btn-sm_height: 30px;
+$btn-sm_fs: 14px;
 // small buttons
-$need-big-buttons : true;
+$need-big-buttons: true;
 // ------------------------
-$btn-big_pad: ( top: 1px, right: 15px, bottom: 0, left: 15px);
-$btn-big_height : 40px;
-$btn-big_fs : 16px;
+$btn-big_pad: (
+  top: 1px,
+  right: 15px,
+  bottom: 0,
+  left: 15px,
+);
+$btn-big_height: 40px;
+$btn-big_fs: 16px;
 // Block buttons
-$need-block-buttons : true;
+$need-block-buttons: true;
 // ------------------------
 // Icon left buttons
-$need-icon-left-buttons : false;
+$need-icon-left-buttons: false;
 // ------------------------
 // Icon right buttons
-$need-icon-right-buttons : true;
+$need-icon-right-buttons: true;
 // ------------------------
 // Square buttons with icon inside - wip
 // $need-square-buttons:  true;
@@ -191,8 +206,8 @@ $btn-styles: (
     hover-color: white,
     active-border-color: white,
     active-bg-color: $n-9,
-    active-color: white
-  )
+    active-color: white,
+  ),
 );
 //--------------------
 // paletthe
@@ -203,7 +218,7 @@ $btn-styles: (
 
 $enable-overlay-grid: false;
 $debug-mode: true;
-$enable-ds : true;
+$enable-ds: true;
 // navbar --------------------
 $nav-h: to-rem(90px);
 
@@ -238,10 +253,10 @@ $font-directory-path: '../public/fonts/';
 //   xl: $site-width
 // ) !default;
 $container-max-widths: (
-  sm: 33.750em,
+  sm: 33.75em,
   md: 45em,
   lg: 60em,
-  xl: 71.250em
+  xl: 71.25em,
 ) !default;
 
 $grid-breakpoints: (
@@ -249,7 +264,7 @@ $grid-breakpoints: (
   sm: 36em,
   md: 48em,
   lg: 62em,
-  xl: $site-width
+  xl: $site-width,
 ) !default;
 
 // Adding bootstrap vars required for navigation
