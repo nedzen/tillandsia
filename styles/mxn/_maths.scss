@@ -61,7 +61,8 @@ $loops: 0;
 /// @return {Number} - Unitless number
 @function strip-unit($number) {
 	@if type-of($number) == "number" and not unitless($number) {
-		@return $number / ($number * 0 + 1);
+		$newnum: calc($number * 0) + 1;
+		@return calc($number / $newnum);
 	}
 
 	@return $number;
@@ -73,7 +74,7 @@ $loops: 0;
 // 	@return +to-fixed($a/(+strip-unit($root-fs)), 3) * 1rem
 
 @function to-rem($size) {
-	$remSize: strip-unit($size) / 10;
+	$remSize: calc(strip-unit($size) / 10);
 
 	@return #{$remSize}rem;
 }

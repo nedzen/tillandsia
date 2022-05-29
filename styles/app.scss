@@ -45,6 +45,7 @@ li {
 a {
 	color: $base-link-color;
 	text-decoration: underline;
+	@include transition(100ms);
 	&:hover {
 		color: $base-link-hover
 	}
@@ -82,6 +83,7 @@ button.btn {
 	border: none;
 	padding: 0.5em 0.6em;
 	@include transition(100ms);
+	border-radius: 2px;
 }
 
 button.btn {
@@ -98,7 +100,6 @@ button.btn {
 input.textInput { 
 	background-color: white;
 	border: 2px solid white;
-	border-radius: 0!important;
 	outline-style: none;
 	box-shadow: none;
 	border-color: transparent;
@@ -162,3 +163,11 @@ input.textInput {
 		margin-bottom: calc($_unit * 4 );
 	}
 }
+
+header.postHeader {
+	h1 {
+		margin-bottom: calc($unit/2);
+	}
+	padding-bottom: $unit;
+}
+

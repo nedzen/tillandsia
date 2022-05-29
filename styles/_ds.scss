@@ -64,7 +64,7 @@ body {
     font-size: $small-fs;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: ($unit / 2) 0;
+    padding: calc($unit / 2) 0;
     margin-bottom: $unit;
     // border-bottom: 1px solid $brand-green;
   }

@@ -43,17 +43,19 @@ const PostPage = ({ source, frontMatter }: PostPageProps): JSX.Element => {
   return (
     <Layout customMeta={customMeta}>
       <article>
-        <h1 className="mb-3 text-gray-900 dark:text-white">
-          {frontMatter.title}
-          <mark> {frontMatter.tag} sss</mark>
-          {frontMatter.tag}
-        </h1>
-        <p className="mb-10 text-sm text-gray-500 dark:text-gray-400">
-          {format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}
-        </p>
-        <div className="prose dark:prose-dark">
-          <MDXRemote {...source} components={components} />
-        </div>
+        <header className="postHeader">
+          <h1> {frontMatter.title} </h1>
+          <div className="postMeta">
+            {format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}
+            &nbsp;
+            {frontMatter.tag ? (
+              <span className="postTag">{frontMatter.tag}</span>
+            ) : (
+              ''
+            )}
+          </div>
+        </header>
+        <MDXRemote {...source} components={components} />
       </article>
     </Layout>
   );

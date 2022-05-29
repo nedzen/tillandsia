@@ -49,7 +49,7 @@ const Subscribe = () => {
         />
         <button className='btn' type="submit">Subscribe</button>
       </div>
-      <div className='message'>{message ? message : ``}</div>
+      <div className='message'>{message ? <mark>message</mark> : ``}</div>
     </form>
   );
 }

@@ -13,17 +13,19 @@ type IndexProps = {
 export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
-      <ul className='articleList'>
+      <ul className="articleList">
         {posts.map((post) => (
           <li key={post.slug}>
             <article>
-              <div className='postMeta'>
+              <div className="postMeta">
                 {format(parseISO(post.date), 'MMMM dd, yyyy')}
                 &nbsp;
-                { post.tag ? <span className='postTag'>{post.tag}</span> : "" }
+                {post.tag ? <span className="postTag">{post.tag}</span> : ''}
               </div>
-              <h3 className='post-title'>
-                <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>{post.title}</Link>
+              <h3 className="post-title">
+                <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                  <a>{post.title}</a>
+                </Link>
               </h3>
               {/* { post.image ? '' : '' } */}
               <p>{post.description}</p>
@@ -36,7 +38,14 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts(['date', 'description', 'slug', 'title', 'tag', 'image']);
+  const posts = getAllPosts([
+    'date',
+    'description',
+    'slug',
+    'title',
+    'tag',
+    'image',
+  ]);
   return {
     props: { posts },
   };

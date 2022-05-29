@@ -294,17 +294,21 @@ samp {
 	font-weight: bold;
   font-size: $small-fs;
   padding: $_unit;
+  border-radius: 2px;
 }
 
 /* Post styles */
-.prose pre {
+.prose pre,
+pre > code {
   font-size: $small-fs;
   background-color: rgb(227, 227, 227);
 	line-height: 1.7em;
   padding: $_unit;
+  display: block;
 }
 
-.prose code {
+.prose code,
+code {
 	background-color: rgb(227, 227, 227);
 	border-radius: 2px;
 	padding: 1px 3px;
