@@ -20,6 +20,10 @@
 html {
   overflow: hidden;
   height: 100%;
+  @include media-breakpoint-up(sm) {
+    font-size: 50%;
+  }
+  font-size: 45%;
 }
 
 body {
@@ -29,7 +33,7 @@ body {
   height: 100%;
   overflow: auto;
   font-size: 100%;
-  padding: 0 $_unit;
+  padding: 0 calc($unit/2);
   margin: 0;
 }
 
@@ -60,12 +64,16 @@ main {
   font-weight: normal;
 }
 
+@include selection {
+  background-color: transparentize(#000, 0.7);
+  color: #777;
+}
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
 
 .subscribeForm {
   display: block;
   @extend %container;
-  margin: calc($_unit * 2) auto;
+  margin: calc($unit * 2) auto;
 }
 
 .subscribeWrap {
@@ -73,12 +81,13 @@ main {
   input.textInput {
     flex-grow: 1;
     max-width: 300px;
+    min-width: 100px;
   }
 }
 
 input.textInput,
 button.btn {
-  font-size: 20px;
+  font-size: $h5-fs;
   border: none;
   padding: 0.5em 0.6em;
   @include transition(100ms);
@@ -116,14 +125,16 @@ input.textInput {
 .postTag {
   font-weight: bold;
   display: inline-block;
-  background-color: $n-1;
+  background-color: $n-2;
+  padding: 1px 3px;
+  border-radius: 2px;
   &::before {
     content: '#';
   }
 }
 
 .navBar {
-  padding: calc($_unit) 0;
+  padding: calc($unit) 0;
 }
 
 .navLinks {
@@ -131,7 +142,7 @@ input.textInput {
   li {
     font-size: $base-fs;
     display: inline-block;
-    padding-right: $_unit;
+    padding-right: $unit;
   }
 }
 
@@ -140,7 +151,7 @@ input.textInput {
 }
 
 .siteFooter {
-  padding: $_unit 0;
+  padding: $unit 0;
   > ul > li {
     font-size: $small-fs;
   }
@@ -157,7 +168,7 @@ input.textInput {
   padding-top: $unit * 2;
   li {
     display: block;
-    margin-bottom: calc($_unit * 4);
+    margin-bottom: calc($unit * 4);
   }
 }
 

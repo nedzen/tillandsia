@@ -25,8 +25,8 @@ $h5-fs: to-rem(18px);
 $h6-fs: to-rem(16px);
 $lead-fs: $h4-fs;
 //
-$medium-fs: to-rem(14px);
-$small-fs: to-rem(12px);
+$medium-fs: to-rem(16px);
+$small-fs: to-rem(14px);
 
 // Layout ---------------------------------------
 $unit: 3rem; // this won't compute if i use 'to-rem' function

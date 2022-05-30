@@ -22,7 +22,7 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
                 &nbsp;
                 {post.tag ? <span className="postTag">{post.tag}</span> : ''}
               </div>
-              <h3 className="post-title">
+              <h3 className="post-title h4">
                 <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
                   <a>{post.title}</a>
                 </Link>
