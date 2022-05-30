@@ -210,12 +210,6 @@ $btn-styles: (
   ),
 );
 //--------------------
-// paletthe
-// $gray-light : #F4F4F4;
-// $gray : #C3C3C3;
-// $selection-color : #FFFFAB;
-// $enable-transitions: true;
-
 $enable-overlay-grid: false;
 $debug-mode: true;
 $enable-ds: true;
@@ -223,35 +217,8 @@ $enable-ds: true;
 $nav-h: to-rem(90px);
 
 // GENERAL from BOOTSTRAP ---------------------------------------
-// $font-family-base : $base-ff;
-// $font-size-base : $base-fs;
-// $font-weight-base : $base-fw;
-// $line-height-base : $base-lh !default;
+
 $font-directory-path: '../public/fonts/';
-// $body-color : #000000;
-// $body-bg : $gray-light;
-// Links
-// $link-decoration : none !default;
-// $link-hover-color : #000;
-// $link-hover-decoration : none !default;
-// BOOTSTRAP GRID
-// $enable-grid-classes : true !default;
-// $grid-gutter-width : $unit !default;
-// $grid-columns : 8 !default;
-// $container-max-widths: (
-//   sm: 540px,
-//   md: 720px,
-//   lg: 960px,
-//   xl: 1140px
-// ) !default;
-// Breakpoints
-// $grid-breakpoints: (
-//   xs: 0,
-//   sm: 576px,
-//   md: 768px,
-//   lg: 992px,
-//   xl: $site-width
-// ) !default;
 $container-max-widths: (
   sm: 33.75em,
   md: 45em,
@@ -266,8 +233,3 @@ $grid-breakpoints: (
   lg: 62em,
   xl: $site-width,
 ) !default;
-
-// Adding bootstrap vars required for navigation
-// $nav-z-index: 999999999;
-// $main_nav_height: $unit_8;
-// $nav-bkpoint: "sm"
