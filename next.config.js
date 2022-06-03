@@ -17,7 +17,7 @@ module.exports = withPlaiceholder({
       'bafybeigntr5m5wliquv6ljcxoj3tmvhhkmfdnqewpym7zuvbxyn43bxvhy.ipfs.infura-ipfs.io',
       'bafybeifc3zi7n66ytepzevkhsx54hf5llidcgykrchrpbikhdtn53i4ofi.ipfs.infura-ipfs.io',
       'bafybeid2stie2nb2voh4f3mphpchwhipf5pmw3zf3ived4kz3ko6hp6buu.ipfs.infura-ipfs.io',
-      'bafybeigmfpwlvzpwsmuoeqizsgiof6xheefjugt3lmw2hzb377lrmofik4.ipfs.infura-ipfs.io'
+      'bafybeigmfpwlvzpwsmuoeqizsgiof6xheefjugt3lmw2hzb377lrmofik4.ipfs.infura-ipfs.io',
     ],
   },
 });

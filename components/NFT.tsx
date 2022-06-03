@@ -25,9 +25,11 @@ const NFT = (props): any => {
         height={h}
         priority
       />
-      <Link href={url}>
-        <a>NFT</a>
-      </Link>
+      <p>
+        <Link href={url}>
+          <a>Get NFT on rarible</a>
+        </Link>
+      </p>
     </>
   );
 };

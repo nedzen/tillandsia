@@ -15,9 +15,9 @@ export const NFTpage = (): JSX.Element => {
       <ul className="articleList">
         {NFTs.map((nft, index: number) => {
           return (
-            <>
-              <NFT key={index} data={nft} />
-            </>
+            <li key={index}>
+              <NFT data={nft} />
+            </li>
           );
         })}
       </ul>

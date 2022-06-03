@@ -15,6 +15,11 @@ const Navigation = (): JSX.Element => {
             <a>Info</a>
           </Link>
         </li>
+        <li>
+          <Link href="/nft">
+            <a>NFT</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
