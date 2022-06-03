@@ -8,7 +8,17 @@ module.exports = withPlaiceholder({
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    domains: ['ipfs.io'],
+    domains: [
+      'bafybeie67v76ryk4t7vx55kw5az43dnc2medgmvir33orv7atam625cnrm.ipfs.infura-ipfs.io',
+      'bafybeig3qdnhqrxujlqg4tqn4p4f2dri3vtyp4kdggvloubnuspi44wuiu.ipfs.infura-ipfs.io',
+      'bafybeie7o3i4yztcnwcvn7vm2tl3nbcyngubl6ozetlplfueog7kwhipji.ipfs.infura-ipfs.io',
+      'bafybeig6b5obr6xjuzojv2ooalexb635pmcyetsmnqvbeehzz7gmw55mqa.ipfs.infura-ipfs.io',
+      'bafybeidmmelnnt4zzvuuzezoprabgo4of2fiyn6lr5z6kwxz5nibeilazy.ipfs.infura-ipfs.io',
+      'bafybeigntr5m5wliquv6ljcxoj3tmvhhkmfdnqewpym7zuvbxyn43bxvhy.ipfs.infura-ipfs.io',
+      'bafybeifc3zi7n66ytepzevkhsx54hf5llidcgykrchrpbikhdtn53i4ofi.ipfs.infura-ipfs.io',
+      'bafybeid2stie2nb2voh4f3mphpchwhipf5pmw3zf3ived4kz3ko6hp6buu.ipfs.infura-ipfs.io',
+      'bafybeigmfpwlvzpwsmuoeqizsgiof6xheefjugt3lmw2hzb377lrmofik4.ipfs.infura-ipfs.io'
+    ],
   },
 });
 
