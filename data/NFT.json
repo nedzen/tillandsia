@@ -1,63 +1,81 @@
 [
   {
     "title": "leak",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0x913b46c810ca7a9f5a88894ccff086832b823b24",
     "url": "https://rarible.com/token/polygon/0x913b46c810ca7a9f5a88894ccff086832b823b24:90273974914282870690346437205062680115842312674309263334320963164031386910729?tab=owners",
     "file": "https://bafybeie67v76ryk4t7vx55kw5az43dnc2medgmvir33orv7atam625cnrm.ipfs.infura-ipfs.io/image.png",
     "size": { "w": 4901, "h": 4736 }
   },
   {
     "title": "hh",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0xa2d9ded6115b7b7208459450d676f0127418ae7a",
     "url": "https://rarible.com/token/polygon/0xa2d9ded6115b7b7208459450d676f0127418ae7a:90273974914282870690346437205062680115842312674309263334320963164031386910721?tab=owners",
     "file": "https://bafybeig3qdnhqrxujlqg4tqn4p4f2dri3vtyp4kdggvloubnuspi44wuiu.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 3888, "h": 2538 }
   },
   {
     "title": "disco warp",
-    "minted": "xx",
-    "url": "https://rarible.com/token/polygon/0x913b46c810ca7a9f5a88894ccff086832b823b24:90273974914282870690346437205062680115842312674309263334320963164031386910729?tab=owners",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0x913b46c810ca7a9f5a88894ccff086832b823b24",
+    "url": "https://rarible.com/token/polygon/0x913b46c810ca7a9f5a88894ccff086832b823b24:90273974914282870690346437205062680115842312674309263334320963164031386910728",
     "file": "https://bafybeie7o3i4yztcnwcvn7vm2tl3nbcyngubl6ozetlplfueog7kwhipji.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 4187, "h": 4187 }
   },
   {
     "title": "wild desire",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0x913b46c810ca7a9f5a88894ccff086832b823b24",
     "url": "https://rarible.com/token/polygon/0x913b46c810ca7a9f5a88894ccff086832b823b24:90273974914282870690346437205062680115842312674309263334320963164031386910725?tab=owners",
     "file": "https://bafybeig6b5obr6xjuzojv2ooalexb635pmcyetsmnqvbeehzz7gmw55mqa.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 1308, "h": 1308 }
   },
   {
     "title": "Marseille first time",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0xa2d9ded6115b7b7208459450d676f0127418ae7a",
     "url": "https://rarible.com/token/polygon/0xa2d9ded6115b7b7208459450d676f0127418ae7a:90273974914282870690346437205062680115842312674309263334320963164031386910731?tab=owners",
     "file": "https://bafybeidmmelnnt4zzvuuzezoprabgo4of2fiyn6lr5z6kwxz5nibeilazy.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 2580, "h": 1960 }
   },
   {
     "title": "camouflage",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0xa2d9ded6115b7b7208459450d676f0127418ae7a",
     "url": "https://rarible.com/token/polygon/0xa2d9ded6115b7b7208459450d676f0127418ae7a:90273974914282870690346437205062680115842312674309263334320963164031386910730?tab=owners",
     "file": "https://bafybeigntr5m5wliquv6ljcxoj3tmvhhkmfdnqewpym7zuvbxyn43bxvhy.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 4190, "h": 4044 }
   },
   {
     "title": "Paradise Valey",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0x913b46c810ca7a9f5a88894ccff086832b823b24",
     "url": "https://rarible.com/token/polygon/0x913b46c810ca7a9f5a88894ccff086832b823b24:90273974914282870690346437205062680115842312674309263334320963164031386910723?tab=owners",
     "file": "https://bafybeifc3zi7n66ytepzevkhsx54hf5llidcgykrchrpbikhdtn53i4ofi.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 4580, "h": 3480 }
   },
   {
     "title": "mind warp",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0xa2d9ded6115b7b7208459450d676f0127418ae7a",
     "url": "https://rarible.com/token/polygon/0xa2d9ded6115b7b7208459450d676f0127418ae7a:90273974914282870690346437205062680115842312674309263334320963164031386910726?tab=owners",
     "file": "https://bafybeid2stie2nb2voh4f3mphpchwhipf5pmw3zf3ived4kz3ko6hp6buu.ipfs.infura-ipfs.io/image.jpeg",
-    "size": { "w": 4580, "h": 3480 }
+    "size": { "w": 1082, "h": 1020 }
   },
   {
     "title": "you will never be free",
-    "minted": "xx",
+    "price": "0.3 ETH",
+    "chain": "MATIC polygon",
+    "contract": "0xa2d9ded6115b7b7208459450d676f0127418ae7a",
     "url": "https://rarible.com/token/polygon/0xa2d9ded6115b7b7208459450d676f0127418ae7a:90273974914282870690346437205062680115842312674309263334320963164031386910722?tab=owners",
     "file": "https://bafybeigmfpwlvzpwsmuoeqizsgiof6xheefjugt3lmw2hzb377lrmofik4.ipfs.infura-ipfs.io/image.jpeg",
     "size": { "w": 1558, "h": 1554 }

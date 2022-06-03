@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.75",
+    "@nfte/react": "^1.0.4",
     "@plaiceholder/next": "^2.3.0",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.20",

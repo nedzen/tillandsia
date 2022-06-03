@@ -10,12 +10,14 @@ import Link from 'next/link';
 //   size: string[];
 // };
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const NFT = (props): any => {
-  const { title, url, file, size } = props.data;
+  const { title, url, file, size, price } = props.data;
   const { w, h } = size;
 
   return (
     <>
+      <h3>{title}</h3>
       <Image
         blurDataURL={file}
         placeholder="blur"
@@ -27,9 +29,12 @@ const NFT = (props): any => {
         layout="responsive"
       />
       <p>
-        <Link href={url}>
-          <a>Get NFT on rarible</a>
-        </Link>
+        <strong>
+          <Link href={url}>
+            <a>Buy {price}</a>
+          </Link>
+          &nbsp; &gt;
+        </strong>
       </p>
     </>
   );
