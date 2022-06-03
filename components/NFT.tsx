@@ -24,6 +24,7 @@ const NFT = (props): any => {
         width={w}
         height={h}
         priority
+        layout="responsive"
       />
       <p>
         <Link href={url}>
