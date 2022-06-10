@@ -44,5 +44,7 @@ IPFS docs : <https://docs.ipfs.io/how-to/address-ipfs-on-web/>
 https://docs.pinata.cloud/api-pinning/pinning-services-api#configuring-pinata-in-the-ipfs-cli
 
 This seems to work only with ERC-20
+
 <!-- import { NFTE } from '@nfte/react';
 <NFTE contract="0x2953399124f0cbb46d2cbacd8a89cf0599974963" tokenId="90273974914282870690346437205062680115842312674309263334320963167329921794049"/> -->
+<!-- https://www.youtube.com/watch?v=AaCgydeMu64 -->

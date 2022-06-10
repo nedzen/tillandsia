@@ -18,9 +18,12 @@ module.exports = withPlaiceholder({
       'bafybeifc3zi7n66ytepzevkhsx54hf5llidcgykrchrpbikhdtn53i4ofi.ipfs.infura-ipfs.io',
       'bafybeid2stie2nb2voh4f3mphpchwhipf5pmw3zf3ived4kz3ko6hp6buu.ipfs.infura-ipfs.io',
       'bafybeigmfpwlvzpwsmuoeqizsgiof6xheefjugt3lmw2hzb377lrmofik4.ipfs.infura-ipfs.io',
+      'bafybeihtua55jzg7mytobbqydfqic2cjbppdthdrz2mu3olrgevx6cwcgq.ipfs.infura-ipfs.io',
+      'bafybeiexxda6di7w66rcpi22rcjaqycrnh5qr2jbyq6zonxkmhvqr5fnim.ipfs.infura-ipfs.io',
+      'bafybeigvj47y3tlplaxqzyvz26jsejsy2pxk3f2o2p77lh75lw2mo6eyky.ipfs.infura-ipfs.io',
     ],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840]
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
   },
 });
 

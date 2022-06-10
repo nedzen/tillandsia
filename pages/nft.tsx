@@ -19,7 +19,7 @@ export const NFTpage = (): JSX.Element => {
               <NFT data={nft} />
             </li>
           );
-        })}
+        }).reverse()}
       </ul>
     </Layout>
   );
