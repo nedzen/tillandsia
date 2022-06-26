@@ -254,11 +254,11 @@ header.featured {
 a.imageLink {
   display: block;
   img {
-    border: 2px solid transparent!important;
+    border: 2px solid transparent !important;
   }
   &:hover {
     img {
-      border-color: $pink!important;
+      border-color: $pink !important;
     }
   }
 }
