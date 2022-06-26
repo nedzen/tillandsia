@@ -5,7 +5,7 @@ export const NotFound = (): JSX.Element => {
   return (
     <Layout>
       <main>
-        <h1>404</h1>
+        <h1 className="postTitle">404</h1>
         <p>Page not found</p>
       </main>
     </Layout>

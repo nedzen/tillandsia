@@ -67,10 +67,14 @@ $unit_15: to-rem($_unit * 40); // 640
 $unit_16: to-rem($_unit * 48); // 768
 
 /* COLORS --------------------------------------- */
+// Signaling
+$pink: transparentize(fuchsia, 0.6);
+$pink-2: transparentize(blue, 0.8);
+
 $purple: #6100ff;
 $base-color: #1d1d1d;
 $base-link-color: black;
-$base-link-hover: $purple;
+$base-link-hover: $pink;
 $base-bg: #f2f2f2;
 
 /* Neutrals palette */
@@ -85,9 +89,6 @@ $n-2: #e1e1e1;
 $n-1: #ededed;
 $n-0: #f9f9f9; // gray light
 
-// Signaling
-$pink: transparentize(fuchsia, 0.6);
-$pink-2: transparentize(blue, 0.8);
 
 // // Social media
 // $tw_color: #00aced;
@@ -219,6 +220,8 @@ $nav-h: to-rem(90px);
 // GENERAL from BOOTSTRAP ---------------------------------------
 
 $font-directory-path: '../public/fonts/';
+$image-path: '../public/images/';
+
 $container-max-widths: (
   sm: 33.75em,
   md: 45em,

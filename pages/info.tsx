@@ -8,9 +8,11 @@ export const About = (): JSX.Element => {
         title: 'Marius',
       }}
     >
+      <header className="postHeader">
+        <h1 className="postTitle">etc</h1>
+      </header>
       <main>
-        <h1>About Page</h1>
-        <p>Welcome to the about page</p>
+        <p>/more/</p>
       </main>
     </Layout>
   );

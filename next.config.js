@@ -22,6 +22,7 @@ module.exports = withPlaiceholder({
       'bafybeiexxda6di7w66rcpi22rcjaqycrnh5qr2jbyq6zonxkmhvqr5fnim.ipfs.infura-ipfs.io',
       'bafybeigvj47y3tlplaxqzyvz26jsejsy2pxk3f2o2p77lh75lw2mo6eyky.ipfs.infura-ipfs.io',
       'ipfs.io',
+      'mariusnedelcu.com',
     ],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],

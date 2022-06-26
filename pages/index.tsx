@@ -5,9 +5,14 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { getAllPosts } from '../lib/api';
 import { PostType } from '../types/post';
+import Image from 'next/image';
 
 type IndexProps = {
   posts: PostType[];
+};
+
+const Caption = (props): JSX.Element => {
+  return <div className="caption" {...props} />;
 };
 
 export const Index = ({ posts }: IndexProps): JSX.Element => {
@@ -28,7 +33,26 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
                     <a>{post.title}</a>
                   </Link>
                 </h3>
-                {post.image ? post.image : ''}
+                {post.image ? (
+                  <>
+                    <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                      <a className="imageLink">
+                        <Image
+                          blurDataURL="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                          placeholder="blur"
+                          alt={`Bridge`}
+                          src={post.image}
+                          width={post.imageW}
+                          height={post.imageH}
+                          priority
+                        />
+                      </a>
+                    </Link>
+                    <Caption>{post.image}</Caption>
+                  </>
+                ) : (
+                  ''
+                )}
                 <p>{post.description}</p>
               </article>
             </li>
@@ -47,6 +71,9 @@ export const getStaticProps: GetStaticProps = async () => {
     'title',
     'tag',
     'image',
+    'imageW',
+    'imageH',
+    'imageCaption',
   ]);
   return {
     props: { posts },

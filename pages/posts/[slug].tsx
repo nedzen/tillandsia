@@ -43,7 +43,18 @@ const PostPage = ({ source, frontMatter }: PostPageProps): JSX.Element => {
   return (
     <Layout customMeta={customMeta}>
       <header className="postHeader">
+        <Image
+          blurDataURL="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          placeholder="blur"
+          alt={`Bridge`}
+          src={frontMatter.image}
+          width={frontMatter.imageW}
+          height={frontMatter.imageH}
+          priority
+        />
         <h1 className="postTitle"> {frontMatter.title} </h1>
+      </header>
+      <main className="pt2">
         <div className="postMeta">
           {format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}
           &nbsp;
@@ -53,8 +64,6 @@ const PostPage = ({ source, frontMatter }: PostPageProps): JSX.Element => {
             ''
           )}
         </div>
-      </header>
-      <main>
         <article>
           <MDXRemote {...source} components={components} />
         </article>

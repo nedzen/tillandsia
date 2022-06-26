@@ -48,3 +48,19 @@ This seems to work only with ERC-20
 <!-- import { NFTE } from '@nfte/react';
 <NFTE contract="0x2953399124f0cbb46d2cbacd8a89cf0599974963" tokenId="90273974914282870690346437205062680115842312674309263334320963167329921794049"/> -->
 <!-- https://www.youtube.com/watch?v=AaCgydeMu64 -->
+
+### adding images
+
+```
+<Image
+  blurDataURL={
+    'https://ipfs.io/ipfs/QmZ8xq37g7r5DrXgxpfifTZcJnfHdQkbQy4WxBsR5Xn7h9'
+  }
+  placeholder="blur"
+  alt={`Bridge`}
+  src={`https://ipfs.io/ipfs/QmZ8xq37g7r5DrXgxpfifTZcJnfHdQkbQy4WxBsR5Xn7h9`}
+  width={1440}
+  height={960}
+  priority
+/>
+```
