@@ -12,7 +12,7 @@ import NFT from '../components/NFT';
 export const NFTpage = (): JSX.Element => {
   return (
     <Layout>
-      <main>
+      <main className="NFT">
         <ul className="articleList">
           {NFTs.map((nft, index: number) => {
             return (

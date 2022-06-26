@@ -76,6 +76,9 @@ a {
 main {
   @extend %container;
   margin: 0 auto;
+  &.NFT {
+    max-width: 900px;
+  }
 }
 
 .post-title {
