@@ -19,11 +19,21 @@
 
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
 
-.pt1 { padding-top: $unit; }
-.pt2 { padding-top: $unit*2; }
-.pt3 { padding-top: $unit*3; }
-.pt4 { padding-top: $unit*4; }
-.pt5 { padding-top: $unit*5; }
+.pt1 {
+  padding-top: $unit;
+}
+.pt2 {
+  padding-top: $unit * 2;
+}
+.pt3 {
+  padding-top: $unit * 3;
+}
+.pt4 {
+  padding-top: $unit * 4;
+}
+.pt5 {
+  padding-top: $unit * 5;
+}
 
 html {
   overflow: hidden;
@@ -41,7 +51,7 @@ body {
   height: 100%;
   overflow: auto;
   font-size: 100%;
-  
+
   margin: 0;
 }
 
@@ -154,7 +164,7 @@ input.textInput {
   &.pink {
     background-color: $pink;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 1;
@@ -205,7 +215,7 @@ input.textInput {
 
 header.postHeader {
   position: relative;
-  top:0;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 0;
@@ -219,9 +229,15 @@ header.postHeader {
 
 h1.postTitle {
   font-family: 'hexregular';
-  @include media-breakpoint-up(sm) { font-size: to-rem(50); }
-  @include media-breakpoint-up(md) { font-size: to-rem(70); }
-  @include media-breakpoint-up(lg) { font-size: to-rem(100); }
+  @include media-breakpoint-up(sm) {
+    font-size: to-rem(50);
+  }
+  @include media-breakpoint-up(md) {
+    font-size: to-rem(70);
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: to-rem(100);
+  }
 }
 
 // not used yet
