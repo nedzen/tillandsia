@@ -8,8 +8,10 @@ export const About = (): JSX.Element => {
         title: 'Marius',
       }}
     >
-      <h1>About Page</h1>
-      <p>Welcome to the about page</p>
+      <main>
+        <h1>About Page</h1>
+        <p>Welcome to the about page</p>
+      </main>
     </Layout>
   );
 };

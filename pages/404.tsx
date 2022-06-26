@@ -4,7 +4,10 @@ import Layout from '../components/Layout';
 export const NotFound = (): JSX.Element => {
   return (
     <Layout>
-      <h1>404</h1>
+      <main>
+        <h1>404</h1>
+        <p>Page not found</p>
+      </main>
     </Layout>
   );
 };

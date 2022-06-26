@@ -13,28 +13,28 @@ type IndexProps = {
 export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
-      {posts.map((post) => (
-        <article key={post.slug}>
-          <p> {format(parseISO(post.date), 'MMMM dd, yyyy')}</p>
-          <h3 className="post-title">
-            <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
-              <a className="text-gray-900 dark:text-white dark:hover:text-blue-400">
-                {post.title}
-              </a>
-            </Link>
-          </h3>
-          <p>{post.description}</p>
-          <mark>
-            <p> | {post.tag} | </p>
-          </mark>
-          <mark>
-            <p> | {post.image} | </p>
-          </mark>
-          <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+      <main className="pt3">
+        {posts.map((post) => (
+          <article key={post.slug}>
+            <p> {format(parseISO(post.date), 'MMMM dd, yyyy')}</p>
+            <h3 className="post-title">
+              <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                <a>{post.title}</a>
+              </Link>
+            </h3>
+            <p>{post.description}</p>
+            <mark>
+              <p> | {post.tag} | </p>
+            </mark>
+            <mark>
+              <p> | {post.image} | </p>
+            </mark>
+            {/* <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
             <a>Read More</a>
-          </Link>
-        </article>
-      ))}
+          </Link> */}
+          </article>
+        ))}
+      </main>
     </Layout>
   );
 };

@@ -13,26 +13,28 @@ type IndexProps = {
 export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
-      <ul className="articleList">
-        {posts.map((post) => (
-          <li key={post.slug}>
-            <article>
-              <div className="postMeta">
-                {format(parseISO(post.date), 'MMMM dd, yyyy')}
-                &nbsp;
-                {post.tag ? <span className="postTag">{post.tag}</span> : ''}
-              </div>
-              <h3 className="post-title h4">
-                <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
-                  <a>{post.title}</a>
-                </Link>
-              </h3>
-              {/* { post.image ? '' : '' } */}
-              <p>{post.description}</p>
-            </article>
-          </li>
-        ))}
-      </ul>
+      <main>
+        <ul className="articleList">
+          {posts.map((post) => (
+            <li key={post.slug}>
+              <article>
+                <div className="postMeta">
+                  {format(parseISO(post.date), 'MMMM dd, yyyy')}
+                  &nbsp;
+                  {post.tag ? <span className="postTag">{post.tag}</span> : ''}
+                </div>
+                <h3 className="post-title h4">
+                  <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                    <a>{post.title}</a>
+                  </Link>
+                </h3>
+                {post.image ? post.image : ''}
+                <p>{post.description}</p>
+              </article>
+            </li>
+          ))}
+        </ul>
+      </main>
     </Layout>
   );
 };

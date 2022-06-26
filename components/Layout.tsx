@@ -20,7 +20,7 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
       <Head customMeta={customMeta} />
       <Navigation />
       {router.pathname == '/' ? <Subscribe /> : ''}
-      <main>{children}</main>
+      {children}
       <Footer />
     </>
   );
