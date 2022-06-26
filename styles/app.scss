@@ -192,9 +192,9 @@ input.textInput {
 
 .siteFooter {
   padding: $unit 0;
-  > ul > li {
-    font-size: $small-fs;
-  }
+  // > ul > li {
+  //   font-size: $small-fs;
+  // }
 }
 
 @include scrollbars(3px, #fff, #000);
