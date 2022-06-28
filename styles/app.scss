@@ -66,7 +66,7 @@ li {
 
 a {
   color: $base-link-color;
-  text-decoration: underline;
+  text-decoration: none;
   @include transition(100ms);
   &:hover {
     color: $base-link-hover;
@@ -87,6 +87,10 @@ main {
   a {
     text-decoration: none;
     font-weight: normal;
+    border-bottom: 1px solid $pink;
+    &:hover {
+      border-bottom: 1px solid transparent;
+    }
   }
 }
 
@@ -185,6 +189,10 @@ input.textInput {
     a {
       font-family: $hex-ff;
       text-decoration: none;
+      border-bottom: 1px solid $pink;
+      &:hover {
+        border-bottom: 1px solid transparent;
+      }
     }
   }
 }
@@ -263,5 +271,11 @@ a.imageLink {
     img {
       border-color: $pink !important;
     }
+  }
+}
+
+article {
+  p a {
+    border-bottom: 1px solid $pink;
   }
 }
