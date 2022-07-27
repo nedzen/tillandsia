@@ -20,43 +20,49 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
     <Layout>
       <main>
         <ul className="articleList">
-          {posts.map((post) => (
-            <li key={post.slug}>
-              <article>
-                <div className="postMeta">
-                  {format(parseISO(post.date), 'MMMM dd, yyyy')}
-                  &nbsp;
-                  {post.tag ? <span className="postTag">{post.tag}</span> : ''}
-                </div>
-                <h3 className="post-title h4">
-                  <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
-                    <a>{post.title}</a>
-                  </Link>
-                </h3>
-                {post.image ? (
-                  <>
+          {posts
+            .map((post) => (
+              <li key={post.slug}>
+                <article>
+                  <div className="postMeta">
+                    {format(parseISO(post.date), 'MMMM dd, yyyy')}
+                    &nbsp;
+                    {post.tag ? (
+                      <span className="postTag">{post.tag}</span>
+                    ) : (
+                      ''
+                    )}
+                  </div>
+                  <h3 className="post-title h4">
                     <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
-                      <a className="imageLink">
-                        <Image
-                          blurDataURL="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                          placeholder="blur"
-                          alt={`Bridge`}
-                          src={post.image}
-                          width={post.imageW}
-                          height={post.imageH}
-                          priority
-                        />
-                      </a>
+                      <a>{post.title}</a>
                     </Link>
-                    <Caption>{post.image}</Caption>
-                  </>
-                ) : (
-                  ''
-                )}
-                <p>{post.description}</p>
-              </article>
-            </li>
-          ))}
+                  </h3>
+                  {post.image ? (
+                    <>
+                      <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                        <a className="imageLink">
+                          <Image
+                            blurDataURL="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                            placeholder="blur"
+                            alt={`Bridge`}
+                            src={post.image}
+                            width={post.imageW}
+                            height={post.imageH}
+                            priority
+                          />
+                        </a>
+                      </Link>
+                      <Caption>{post.image}</Caption>
+                    </>
+                  ) : (
+                    ''
+                  )}
+                  <p>{post.description}</p>
+                </article>
+              </li>
+            ))
+            .reverse()}
         </ul>
       </main>
     </Layout>
