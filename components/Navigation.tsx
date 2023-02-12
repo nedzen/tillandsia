@@ -11,7 +11,7 @@ const Navigation = (): JSX.Element => {
       <ul className="navLinks">
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a>x</a>
           </Link>
         </li>
         <li>
@@ -20,8 +20,13 @@ const Navigation = (): JSX.Element => {
           </Link>
         </li>
         <li>
+          <Link href="/design">
+            <a>Design</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/nft">
-            <a>NFT</a>
+            <a>Art</a>
           </Link>
         </li>
       </ul>

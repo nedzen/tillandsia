@@ -15,6 +15,7 @@
   max-width: $site-width;
   display: block;
   padding: 0 calc($unit/2);
+  outline: 1px solid #FF00CC;
 }
 
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
@@ -78,6 +79,9 @@ main {
   margin: 0 auto;
   &.NFT {
     max-width: 900px;
+  }
+  &.DSGN {
+    min-height: auto;
   }
 }
 
@@ -279,3 +283,4 @@ article {
     border-bottom: 1px solid $pink;
   }
 }
+
