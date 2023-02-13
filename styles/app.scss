@@ -78,6 +78,12 @@ ul {
 
 li {
   list-style-type: none;
+  > a {
+    border-bottom: 1px solid $pink;
+    &:hover {
+      border-bottom: none;
+    }
+  }
 }
 
 a {
@@ -259,10 +265,13 @@ header.postHeader {
   background-image: url('../public/images/g.svg');
   background-size: 200px auto;
   .intro {
+    padding: calc($unit / 2);
+    
     p {
       font-size: $h4-fs;
       line-height: $base-lh;
-      font-weight: bold;
+      // font-weight: bold;
+      max-width: 800px;
     }
     text-align: left;
     max-width: 1100px;
@@ -315,7 +324,9 @@ article {
 // Setting up the design section layout
 
 .project {
-  margin-bottom: 100px;
+  margin-bottom: calc($unit * 2);
+  padding-bottom: calc($unit * 2);
+  border-bottom: 1px solid $pink;
 }
 
 .block {
@@ -354,6 +365,8 @@ article {
 
 .figmaEmbed {
   border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: $unit;
+  margin-bottom: $unit;
   @include size(100%, 70vh);
 }
 
@@ -390,4 +403,8 @@ article {
   li {
     list-style-type: square;
   }
+}
+
+.coverImg {
+  background-color: $pink;
 }

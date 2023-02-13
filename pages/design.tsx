@@ -30,7 +30,7 @@ const CoverImg = ({ ...props }) => {
         alt={`cover`}
         src={props.src}
         width={1000}
-        height={200}
+        height={500}
         layout="responsive"
         priority
       />
@@ -63,16 +63,104 @@ export const About = (): JSX.Element => {
             many startups. My purpose is to simplify things for people and help
             them save time. I love yoga and cucumbers.
           </p>
+          <h4>Projects I worked on: </h4>
+          <ul className="list">
+            <li>
+              <a href="#">Helpdesk platforms</a>
+            </li>
+            <li>
+              <a href="#">Helpcenter</a>
+            </li>
+            <li>
+              <a href="#">Gorgias Branding and Website redesign</a>
+            </li>
+            <li>
+              <a href="#">Hookdeck</a>
+            </li>
+          </ul>
         </div>
       </header>
 
       <main className="DSGN">
         <div className="project">
           <CoverImg src={data.gorgiasApp.images[0].url} />
-          {/* <div className="projectHeader">
-            <h2>Gorgias - Helpcenter</h2>
-          </div> */}
+          <div className="block">
+            <div className="c-left">
+              <strong>Project</strong>
+              <ul className="projectMeta">
+                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Client: Gorgias</li>
+                <li className="tags">
+                  <span>Expertise: </span>
+                  <b>UX</b>
+                  <b>UI</b>
+                  <b>Design Systems</b>
+                  <b>Prototype</b>
+                  <b>Testing</b>
+                </li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <h2>Helpdesk</h2>
+              <p>
+                Gorgias is a San-Francisco-based company focused on providing
+                the best helpdesk product out there. It introduces some unique
+                features to help agents treat support requests more effectively;
+                configure automatic responses, flawlessly integrations with
+                social media channels, and most popular platforms in the
+                e-commerce ecosystem.
+              </p>
+            </div>
+          </div>
 
+          <FigmaEmbed embed={data.gorgiasApp.embed} />
+
+          <div className="block">
+            <div className="c-left">
+              <strong>Role</strong>
+              <ul className="projectMeta">
+                <li>Product Designer</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <p>
+                For the past 3 years, I have worked regularly with Gorias on
+                multiple fronts. We started with rebranding and moved on to
+                redesigning the product. In the design process, I gathered app
+                usage data, made hypotheses, produced prototypes, looked at
+                client feedback, and validated my design choices with the
+                cofounders, respectively the CTO and CEO. I made a thoroughly
+                documented design system to enable collaboration and scale
+                within the product team. During the implementation phase, I was
+                actively involved in the GitHub workflow to respond to devs
+                requests. I have designed the native app and the chat widget
+                used on the customer`s e-commerce websites. I have gradually
+                implemented workflows and processes to speed up production and
+                make a more customer-centric product.
+              </p>
+              <p>
+                The redesign solved all the usability issues. Clients loved it
+                from day one. 90% of the feedback was positive. In the following
+                months, the company had spectacular growth. It went from 5 to 15
+                employees, Launched on Shopify, Raised a series A of 14M,
+                extended in Europe, Launched on Magento, raised 25M series B,
+                expanded to 70+ employees, and served more than 4000 customers.
+              </p>
+              <p>
+                I have greatly evolved professionally working within the Gorgias
+                product team. I learned to work in short feedback loops and
+                involve the people who knew best the specific issues I was
+                trying to solve. I got better at taking and giving feedback. I
+                learned how to create design systems that scale. I have gained
+                extended experience in the E-commerce ecosystem, customers,
+                Shopify, and a plethora of other services that we used for
+                integrations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
           <div className="block">
             <div className="c-left">
               <strong>Project</strong>
@@ -105,7 +193,7 @@ export const About = (): JSX.Element => {
             </div>
           </div>
 
-          <FigmaEmbed embed={data.gorgiasApp.embed} />
+          <FigmaEmbed embed={data.gorgiasHelpcenter.embed} />
 
           <div className="block">
             <div className="c-left">
@@ -122,7 +210,7 @@ export const About = (): JSX.Element => {
               <ul className="list">
                 <li>
                   Design the interface for the product on both platforms;
-                  (embedded and chat-widget)
+                  (embedded and chat-widget){' '}
                 </li>
                 <li>Create a unified modular design system.</li>
                 <li>
@@ -135,11 +223,11 @@ export const About = (): JSX.Element => {
                 </li>
                 <li>
                   Produce prototypes for early testing with a group of customers
-                  and get feedback from the product team.
+                  and get feedback from the product team.{' '}
                 </li>
                 <li>
                   Refine the design, implement feedback, and further challenge
-                  UX.
+                  UX.{' '}
                 </li>
               </ul>
               <p>
@@ -151,6 +239,157 @@ export const About = (): JSX.Element => {
                 had to be aligned aesthetically with the customers eCommerce
                 website.
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="block">
+            <div className="c-left">
+              <strong>Project</strong>
+              <ul className="projectMeta">
+                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Client: Gorgias</li>
+                <li className="tags">
+                  <span>Expertise: </span>
+                  <b>UX</b>
+                  <b>UI</b>
+                  <b>Design Systems</b>
+                  <b>Prototype</b>
+                  <b>Testing</b>
+                </li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <h2>Gorgias - Website redesign</h2>
+              <p>
+                The design of the old website was dated. The colors were too
+                common, the typography was pretty bad and the illustrations
+                showing the product were dated or bluntly made by non-designer
+                people. We needed a full rehaul of the entire website and a new
+                style guide.
+              </p>
+            </div>
+          </div>
+
+          <FigmaEmbed embed={data.gorgiasWww.embed} />
+
+          <div className="block">
+            <div className="c-left">
+              <strong>Role</strong>
+              <ul className="projectMeta">
+                <li>Product Designer</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <p>
+                I was eager to take on this project, my responsibility was to:
+              </p>
+              <ul className="list">
+                <li>
+                  Produce a new visual appeal for the brand that would
+                  incorporate the company`s values and ambitions.{' '}
+                </li>
+                <li>
+                  Come up with a strategy for effectively presenting key
+                  features of the product.
+                </li>
+                <li>
+                  Collaborate with the head of marketing in Paris to define the
+                  strategy, the voice, and tone of the language; and also to
+                  write the initial copy.
+                </li>
+                <li>
+                  Create a new brand style guide including colors,
+                  illustrations, icons, typography, etc.
+                </li>
+                <li>
+                  Make a brand book where the new guidelines are referenced.
+                </li>
+                <li>
+                  Design the new website entirely and create a design system to
+                  easily produce new pages.
+                </li>
+                <li>
+                  Supervise the production of collateral design assets (mainly
+                  promotional materials) by other freelancers.
+                </li>
+              </ul>
+              <p>
+                The results were impressive. Customer acquisition grew by 200%.
+                We received mixed feedback but mostly good. We AB-tested and
+                tweaked some copywriting and illustrations, people understood
+                much better the product`s functionality and pricing. Bounce-rate
+                dropped. We released the new website around the beginning of the
+                pandemic so there was that too, the entire eCommerce sector was
+                booming. The conversion of the ads was great, the bold colors
+                and style worked fabulously!
+              </p>
+              <p>
+                I learned quite a bit about the growth marketing tactics applied
+                at a fast-growing company. I also learned how to conduct
+                effective AB-testing and how to write good copy. It was cool to
+                collaborate with the marketing team, assist along with the
+                production of new promotional assets, test new taglines, and
+                see, first-hand what converts best.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <CoverImg src={data.hookdeck.images[0].url} />
+          <div className="block">
+            <div className="c-left">
+              <strong>Project</strong>
+              <ul className="projectMeta">
+                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Client: Hookdeck</li>
+                <li className="tags">
+                  <span>Expertise: </span>
+                  <b>UX</b>
+                  <b>UI</b>
+                  <b>Design Systems</b>
+                  <b>Prototype</b>
+                  <b>Testing</b>
+                </li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <h2>Hookdeck</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                imperdiet est nisi, ac mattis diam laoreet a. Sed interdum
+                luctus magna. Cras ultrices pellentesque quam. Ut dolor massa,
+                fermentum venenatis tincidunt sed, interdum in nisi. Suspendisse
+                potenti. Maecenas vel tellus tempus orci congue vulputate.
+                Aliquam elementum felis dignissim porttitor aliquet. Sed
+                accumsan nec leo ac ultrices. Nullam fringilla odio bibendum
+                magna mollis porttitor. Integer venenatis diam enim, in tempor
+                leo sodales non. Mauris semper tellus augue, a scelerisque justo
+                aliquet vitae. Sed interdum nunc a dictum placerat. Curabitur
+                fringilla lorem eget enim malesuada, at volutpat enim efficitur.
+              </p>
+            </div>
+          </div>
+
+          <FigmaEmbed embed={data.hookdeck.embed} />
+
+          <div className="block">
+            <div className="c-left">
+              <strong>Role</strong>
+              <ul className="projectMeta">
+                <li>Product Designer</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+              <ul className="list">
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+              </ul>
             </div>
           </div>
         </div>
