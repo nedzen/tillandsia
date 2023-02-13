@@ -437,6 +437,176 @@ export const About = (): JSX.Element => {
             </div>
           </div>
         </div>
+
+        <div className="project">
+          <div className="coverImg">
+            <Image
+              blurDataURL={blurIMG}
+              placeholder="blur"
+              alt={`cover`}
+              src="/images/dive.svg"
+              width={1000}
+              height={500}
+              layout="responsive"
+              priority
+            />
+          </div>
+          <div className="block">
+            <div className="c-left">
+              <strong>Dive Website</strong>
+              <ul className="projectMeta">
+                <li>Date: {Pdata.gorgiasApp.date}</li>
+                <li>Client: Dive Analytics</li>
+                <li>Industry: BI / Ecommerce</li>
+                <li></li>
+                <li className="tags">
+                  <span>Expertise: </span>
+                  <b>UX</b>
+                  <b>UI</b>
+                  <b>Design Systems</b>
+                  <b>Prototype</b>
+                  <b>Testing</b>
+                </li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <h2>Dive Analytics</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                imperdiet est nisi, ac mattis diam laoreet a. Sed interdum
+                luctus magna. Cras ultrices pellentesque quam. Ut dolor massa,
+                fermentum venenatis tincidunt sed, interdum in nisi. Suspendisse
+                potenti. Maecenas vel tellus tempus orci congue vulputate.
+                Aliquam elementum felis dignissim porttitor aliquet. Sed
+                accumsan nec leo ac ultrices. Nullam fringilla odio bibendum
+                magna mollis porttitor. Integer venenatis diam enim, in tempor
+                leo sodales non. Mauris semper tellus augue, a scelerisque justo
+                aliquet vitae. Sed interdum nunc a dictum placerat. Curabitur
+                fringilla lorem eget enim malesuada, at volutpat enim efficitur.
+              </p>
+            </div>
+          </div>
+
+          <FigmaEmbed embed={Pdata.diveWww.embed} />
+
+          <div className="block">
+            <div className="c-left">
+              <strong>Role</strong>
+              <ul className="projectMeta">
+                <li>Product Designer</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+              <ul className="list">
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+              </ul>
+            </div>
+          </div>
+          <div className="block">
+            <div className="c-left">
+              <strong>Files</strong>
+              <ul className="projectMeta">
+                <li>Download JPG files</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <ul className="list">
+                <li>
+                  <a href="#">PREVIEW_1: Automatic retries </a>
+                </li>
+                <li>
+                  <a href="#">PREVIEW_2: Filters </a>
+                </li>
+                <li>
+                  <a href="#">PREVIEW_3: Sidebar Redesign </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="block">
+            <div className="c-left">
+              <strong>Project</strong>
+              <ul className="projectMeta">
+                <li>Date: {Pdata.gorgiasApp.date}</li>
+                <li>Client: Dive Analytics</li>
+                <li>Industry: BI / Ecommerce</li>
+                <li></li>
+                <li className="tags">
+                  <span>Expertise: </span>
+                  <b>UX</b>
+                  <b>UI</b>
+                  <b>Design Systems</b>
+                  <b>Prototype</b>
+                  <b>Testing</b>
+                </li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <h2>Dive Analytics</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                imperdiet est nisi, ac mattis diam laoreet a. Sed interdum
+                luctus magna. Cras ultrices pellentesque quam. Ut dolor massa,
+                fermentum venenatis tincidunt sed, interdum in nisi. Suspendisse
+                potenti. Maecenas vel tellus tempus orci congue vulputate.
+                Aliquam elementum felis dignissim porttitor aliquet. Sed
+                accumsan nec leo ac ultrices. Nullam fringilla odio bibendum
+                magna mollis porttitor. Integer venenatis diam enim, in tempor
+                leo sodales non. Mauris semper tellus augue, a scelerisque justo
+                aliquet vitae. Sed interdum nunc a dictum placerat. Curabitur
+                fringilla lorem eget enim malesuada, at volutpat enim efficitur.
+              </p>
+            </div>
+          </div>
+
+          <FigmaEmbed embed={Pdata.diveApp.embed} />
+
+          <div className="block">
+            <div className="c-left">
+              <strong>Role</strong>
+              <ul className="projectMeta">
+                <li>Product Designer</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+              <ul className="list">
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+                <li>Lore ipsum</li>
+              </ul>
+            </div>
+          </div>
+          <div className="block">
+            <div className="c-left">
+              <strong>Files</strong>
+              <ul className="projectMeta">
+                <li>Download JPG files</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <ul className="list">
+                <li>
+                  <a href="#">PREVIEW_1: Automatic retries </a>
+                </li>
+                <li>
+                  <a href="#">PREVIEW_2: Filters </a>
+                </li>
+                <li>
+                  <a href="#">PREVIEW_3: Sidebar Redesign </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
   );

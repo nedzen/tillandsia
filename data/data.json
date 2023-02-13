@@ -42,5 +42,27 @@
         "h": 500
       }
     ]
+  },
+  "diveWww": {
+    "date": "Nov / 2021",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3DVxwLphLkcaDIPqIT-1",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1pmEEnWGwoNTKJCNmLbQKZ0T6PvsgF7-n&export=download",
+        "w": 1000,
+        "h": 500
+      }
+    ]
+  },
+  "diveApp": {
+    "date": "Nov / 2021",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D453%253A55026%26t%3DVxwLphLkcaDIPqIT-1",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1pmEEnWGwoNTKJCNmLbQKZ0T6PvsgF7-n&export=download",
+        "w": 1000,
+        "h": 500
+      }
+    ]
   }
 }
