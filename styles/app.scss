@@ -11,7 +11,7 @@
 
 %container {
   @include transition(200ms);
-  @include mx-center;
+  // @include mx-center;
   max-width: $site-width;
   display: block;
   padding: 0 calc($unit/2);
@@ -34,6 +34,9 @@
 }
 .pt5 {
   padding-top: $unit * 5;
+}
+.pb05 {
+  padding-bottom: $unit/2;
 }
 .pb1 {
   padding-bottom: $unit;
@@ -102,6 +105,7 @@ main {
     max-width: 900px;
   }
   &.DSGN {
+    padding-top: $unit * 2;
     min-height: auto;
     max-width: 1100px;
     // background: $pink;
@@ -208,7 +212,11 @@ input.textInput {
 }
 
 .navLinks {
-  @extend %container;
+  // @extend %container;
+  // max-width: auto!important;
+  // background-color: red;
+  padding: 0 $unit/2;
+  text-align: left;
   li {
     font-size: $base-fs;
     display: inline-block;
@@ -268,11 +276,18 @@ header.postHeader {
     padding: calc($unit / 2);
 
     p {
-      font-size: $h4-fs;
-      line-height: $base-lh;
-      // font-weight: bold;
+      &:first-child {
+        padding-top: 0!important;
+        margin-top: 0!important;
+      }
+      font-size: $h3-fs;
+      // line-height: $base-lh;
+      font-weight: bold;
       max-width: 800px;
+      // font-family: $hex-ff;
+      // line-height: 120%;
     }
+
     text-align: left;
     max-width: 1100px;
     @include mx-center;
@@ -386,7 +401,8 @@ article {
   }
   b {
     display: inline-block;
-    background-color: lighten($base-color, 76%);
+    // background-color: lighten($base-color, 76%);
+    background-color: $pink;
     color: $base-color;
     line-height: 150%;
     border-radius: 2px;
@@ -407,4 +423,11 @@ article {
 
 .coverImg {
   background-color: $pink;
+  padding: $unit * 3;
+  margin-bottom: $unit * 2;
+  > * {
+    max-width: 200px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
 }

@@ -12,17 +12,17 @@ const Footer = (): JSX.Element => {
       <ul className="navLinks">
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a>M</a>
           </Link>
         </li>
         <li>
-          <Link href="/info">
-            <a>Info</a>
+          <Link href="/design">
+            <a>design</a>
           </Link>
         </li>
         <li>
           <Link href="/nft">
-            <a>NFT</a>
+            <a>art</a>
           </Link>
         </li>
       </ul>

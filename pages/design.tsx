@@ -23,22 +23,22 @@ const blurIMG =
 const FigmaEmbed = ({ ...props }) => (
   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
 );
-const CoverImg = ({ ...props }) => {
-  return (
-    <div className="pt2 pb2">
-      <Image
-        blurDataURL={blurIMG}
-        placeholder="blur"
-        alt={`cover`}
-        src={props.src}
-        width={1000}
-        height={500}
-        layout="responsive"
-        priority
-      />
-    </div>
-  );
-};
+// const CoverImg = ({ ...props }) => {
+//   return (
+//     <div className="pt2 pb2">
+//       <Image
+//         blurDataURL={blurIMG}
+//         placeholder="blur"
+//         alt={`cover`}
+//         src={props.src}
+//         width={1000}
+//         height={500}
+//         layout="responsive"
+//         priority
+//       />
+//     </div>
+//   );
+// };
 
 export const About = (): JSX.Element => {
   // const { data, error } = useSWR('/api/staticdata', fetcher);
@@ -64,7 +64,9 @@ export const About = (): JSX.Element => {
             many startups. My purpose is to simplify things for people and help
             them save time. I love yoga and cucumbers.
           </p>
-          <h4>Projects I worked on: </h4>
+          <div className="pb05">
+            <strong>PROJECTS:</strong>
+          </div>
           <ul className="list">
             <li>
               <a href="#">Helpdesk platforms</a>
@@ -84,7 +86,18 @@ export const About = (): JSX.Element => {
 
       <main className="DSGN">
         <div className="project">
-          <CoverImg src={Pdata.gorgiasApp.images[0].url} />
+          <div className="coverImg">
+            <Image
+              blurDataURL={blurIMG}
+              placeholder="blur"
+              alt={`cover`}
+              src="/images/gorgias.svg"
+              width={1000}
+              height={500}
+              layout="responsive"
+              priority
+            />
+          </div>
           <div className="block">
             <div className="c-left">
               <strong>Project</strong>
@@ -113,8 +126,6 @@ export const About = (): JSX.Element => {
               </p>
             </div>
           </div>
-
-          <FigmaEmbed embed={Pdata.gorgiasApp.embed} />
 
           <div className="block">
             <div className="c-left">
@@ -339,7 +350,18 @@ export const About = (): JSX.Element => {
         </div>
 
         <div className="project">
-          <CoverImg src={Pdata.hookdeck.images[0].url} />
+          <div className="coverImg">
+            <Image
+              blurDataURL={blurIMG}
+              placeholder="blur"
+              alt={`cover`}
+              src="/images/hookdeck.svg"
+              width={1000}
+              height={500}
+              layout="responsive"
+              priority
+            />
+          </div>
           <div className="block">
             <div className="c-left">
               <strong>Project</strong>
