@@ -381,7 +381,8 @@ article {
   margin-top: $unit;
   margin-bottom: $unit;
   @include size(100%, 80vh);
-  box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1), 0px 7px 33px rgba(47, 49, 51, 0.12);
+  box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1),
+    0px 7px 33px rgba(47, 49, 51, 0.12);
   border-radius: 6px;
 }
 
@@ -425,7 +426,8 @@ article {
   padding-top: 10vh;
   padding-bottom: 10vh;
   margin-bottom: $unit * 2;
-  box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1), 0px 7px 33px rgba(47, 49, 51, 0.12);
+  box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1),
+    0px 7px 33px rgba(47, 49, 51, 0.12);
   border-radius: 6px;
   > * {
     max-width: 200px;
