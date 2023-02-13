@@ -11,11 +11,10 @@
 
 %container {
   @include transition(200ms);
-  // @include mx-center;
-  max-width: $site-width;
+  @include mx-center;
+  max-width: 133rem;
   display: block;
   padding: 0 calc($unit/2);
-  // outline: 1px solid #ff00cc;
 }
 
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
@@ -107,8 +106,7 @@ main {
   &.DSGN {
     padding-top: $unit * 2;
     min-height: auto;
-    max-width: 1100px;
-    // background: $pink;
+    // max-width: 1100px;
   }
 }
 
@@ -135,7 +133,7 @@ main {
 .subscribeForm {
   display: block;
   @extend %container;
-  margin: calc($unit * 2) auto;
+  margin: calc($unit * 2) calc($unit * 2);
 }
 
 .subscribeWrap {
@@ -382,7 +380,9 @@ article {
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: $unit;
   margin-bottom: $unit;
-  @include size(100%, 70vh);
+  @include size(100%, 80vh);
+  box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1), 0px 7px 33px rgba(47, 49, 51, 0.12);
+  border-radius: 6px;
 }
 
 // ----------------------------------------------------------------
@@ -421,9 +421,12 @@ article {
 }
 
 .coverImg {
-  background-color: $pink;
-  padding: $unit * 3;
+  background-color: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   margin-bottom: $unit * 2;
+  box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1), 0px 7px 33px rgba(47, 49, 51, 0.12);
+  border-radius: 6px;
   > * {
     max-width: 200px;
     margin-left: auto !important;
