@@ -1,12 +1,14 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Image from 'next/dist/client/image';
+import Pdata from '../data/data.json';
 
 //useSWR allows the use of SWR inside function components
-import useSWR from 'swr';
+// import useSWR from 'swr';
 
 //Write a fetcher function to wrap the native fetch function and return the result of a call to url in json format
-const fetcher = (url) => fetch(url).then((res) => res.json());
+// const fetcher = (url) => fetch(url).then((res) => res.json());
+
 const blurIMG =
   'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60';
 // const PortofolioPic = (props: any) :any => {
@@ -39,12 +41,11 @@ const CoverImg = ({ ...props }) => {
 };
 
 export const About = (): JSX.Element => {
-  const { data, error } = useSWR('/api/staticdata', fetcher);
-
+  // const { data, error } = useSWR('/api/staticdata', fetcher);
   //Handle the error state
-  if (error) return <div>Failed to load</div>;
+  // if (error) return <div>Failed to load</div>;
   //Handle the loading state
-  if (!data) return <div>Loading...</div>;
+  // if (!data) return <div>Loading...</div>;
   //Handle the ready state and display the result contained in the data object mapped to the structure of the json file
 
   return (
@@ -83,12 +84,12 @@ export const About = (): JSX.Element => {
 
       <main className="DSGN">
         <div className="project">
-          <CoverImg src={data.gorgiasApp.images[0].url} />
+          <CoverImg src={Pdata.gorgiasApp.images[0].url} />
           <div className="block">
             <div className="c-left">
               <strong>Project</strong>
               <ul className="projectMeta">
-                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Date: {Pdata.gorgiasApp.date}</li>
                 <li>Client: Gorgias</li>
                 <li className="tags">
                   <span>Expertise: </span>
@@ -113,7 +114,7 @@ export const About = (): JSX.Element => {
             </div>
           </div>
 
-          <FigmaEmbed embed={data.gorgiasApp.embed} />
+          <FigmaEmbed embed={Pdata.gorgiasApp.embed} />
 
           <div className="block">
             <div className="c-left">
@@ -165,7 +166,7 @@ export const About = (): JSX.Element => {
             <div className="c-left">
               <strong>Project</strong>
               <ul className="projectMeta">
-                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Date: {Pdata.gorgiasApp.date}</li>
                 <li>Client: Gorgias</li>
                 <li className="tags">
                   <span>Expertise: </span>
@@ -193,7 +194,7 @@ export const About = (): JSX.Element => {
             </div>
           </div>
 
-          <FigmaEmbed embed={data.gorgiasHelpcenter.embed} />
+          <FigmaEmbed embed={Pdata.gorgiasHelpcenter.embed} />
 
           <div className="block">
             <div className="c-left">
@@ -248,7 +249,7 @@ export const About = (): JSX.Element => {
             <div className="c-left">
               <strong>Project</strong>
               <ul className="projectMeta">
-                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Date: {Pdata.gorgiasApp.date}</li>
                 <li>Client: Gorgias</li>
                 <li className="tags">
                   <span>Expertise: </span>
@@ -272,7 +273,7 @@ export const About = (): JSX.Element => {
             </div>
           </div>
 
-          <FigmaEmbed embed={data.gorgiasWww.embed} />
+          <FigmaEmbed embed={Pdata.gorgiasWww.embed} />
 
           <div className="block">
             <div className="c-left">
@@ -338,12 +339,12 @@ export const About = (): JSX.Element => {
         </div>
 
         <div className="project">
-          <CoverImg src={data.hookdeck.images[0].url} />
+          <CoverImg src={Pdata.hookdeck.images[0].url} />
           <div className="block">
             <div className="c-left">
               <strong>Project</strong>
               <ul className="projectMeta">
-                <li>Date: {data.gorgiasApp.date}</li>
+                <li>Date: {Pdata.gorgiasApp.date}</li>
                 <li>Client: Hookdeck</li>
                 <li className="tags">
                   <span>Expertise: </span>
@@ -373,7 +374,7 @@ export const About = (): JSX.Element => {
             </div>
           </div>
 
-          <FigmaEmbed embed={data.hookdeck.embed} />
+          <FigmaEmbed embed={Pdata.hookdeck.embed} />
 
           <div className="block">
             <div className="c-left">
