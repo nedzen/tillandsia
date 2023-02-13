@@ -277,8 +277,8 @@ header.postHeader {
 
     p {
       &:first-child {
-        padding-top: 0!important;
-        margin-top: 0!important;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
       }
       font-size: $h3-fs;
       // line-height: $base-lh;
@@ -427,7 +427,7 @@ article {
   margin-bottom: $unit * 2;
   > * {
     max-width: 200px;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
