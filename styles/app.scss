@@ -266,7 +266,7 @@ header.postHeader {
     }
     text-align: left;
     max-width: 1100px;
-    @include mx-center
+    @include mx-center;
   }
 }
 
@@ -323,7 +323,7 @@ article {
   padding-top: $unit;
   padding-bottom: $unit;
   display: block;
-  
+
   @include media-breakpoint-up(sm) {
     @include display-flex;
     // outline: 1px solid blue;
@@ -368,7 +368,9 @@ article {
 
 .tags {
   display: inline-block;
-  li {line-height: 100%!important;}
+  li {
+    line-height: 100% !important;
+  }
   b {
     display: inline-block;
     background-color: lighten($base-color, 76%);
