@@ -415,6 +415,27 @@ export const About = (): JSX.Element => {
               </ul>
             </div>
           </div>
+          <div className="block">
+            <div className="c-left">
+              <strong>Files</strong>
+              <ul className="projectMeta">
+                <li>Download JPG files</li>
+              </ul>
+            </div>
+            <div className="c-right">
+              <ul className="list">
+                <li>
+                  <a href="#">PREVIEW_1: Automatic retries </a>
+                </li>
+                <li>
+                  <a href="#">PREVIEW_2: Filters </a>
+                </li>
+                <li>
+                  <a href="#">PREVIEW_3: Sidebar Redesign </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </main>
     </Layout>
