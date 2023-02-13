@@ -1,17 +1,11 @@
 {
   "gorgiasApp": {
     "date": "Nov / 2021",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D103%253A8851%26t%3D1SnWzHuhqpBDe5LP-1",
     "images": [
       {
-        "url": "https://drive.google.com/uc?id=1Sg8v864XvbXaapNqBzDCPyQ2CyvKZhqv&export=download",
-        "desc": "image from archillect",
-        "w": 200,
-        "h": 200
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1DFSYYMxJdHGGsH9tKaVJaUHIy811tr_-&export=download",
-        "desc": "image from archillect",
-        "w": 200,
+        "url": "https://drive.google.com/uc?id=1P2WVFP5mqA-_tOaf8T8VeNuVhonKXt6d&export=download",
+        "w": 1000,
         "h": 200
       }
     ]

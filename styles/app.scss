@@ -15,7 +15,7 @@
   max-width: $site-width;
   display: block;
   padding: 0 calc($unit/2);
-  outline: 1px solid #ff00cc;
+  // outline: 1px solid #ff00cc;
 }
 
 // =====≠=====≠=====≠=====≠=====≠=====≠=====≠=====≠
@@ -34,6 +34,21 @@
 }
 .pt5 {
   padding-top: $unit * 5;
+}
+.pb1 {
+  padding-bottom: $unit;
+}
+.pb2 {
+  padding-bottom: $unit * 2;
+}
+.pb3 {
+  padding-bottom: $unit * 3;
+}
+.pb4 {
+  padding-bottom: $unit * 4;
+}
+.pb5 {
+  padding-bottom: $unit * 5;
 }
 
 html {
@@ -82,6 +97,8 @@ main {
   }
   &.DSGN {
     min-height: auto;
+    max-width: 1100px;
+    // background: $pink;
   }
 }
 
@@ -241,6 +258,16 @@ header.postHeader {
   padding-bottom: $unit;
   background-image: url('../public/images/g.svg');
   background-size: 200px auto;
+  .intro {
+    p {
+      font-size: $h4-fs;
+      line-height: $base-lh;
+      font-weight: bold;
+    }
+    text-align: left;
+    max-width: 1100px;
+    @include mx-center
+  }
 }
 
 h1.postTitle {
@@ -281,5 +308,84 @@ a.imageLink {
 article {
   p a {
     border-bottom: 1px solid $pink;
+  }
+}
+
+// ----------------------------------------------------------------
+// Setting up the design section layout
+
+.project {
+  margin-bottom: 100px;
+}
+
+.block {
+  // border: 3px solid #ff00cc;
+  padding-top: $unit;
+  padding-bottom: $unit;
+  display: block;
+  
+  @include media-breakpoint-up(sm) {
+    @include display-flex;
+    // outline: 1px solid blue;
+  }
+  .c-left {
+    padding-top: calc($unit/2);
+    // background-color: orange;
+    max-width: 30%;
+    min-width: 300px;
+  }
+  .c-right {
+    // background-color: green;
+    flex-grow: 1;
+  }
+}
+
+.projectHeader {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+.row {
+  background-color: white;
+  width: 100%;
+  clear: both;
+}
+
+.figmaEmbed {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  @include size(100%, 70vh);
+}
+
+// ----------------------------------------------------------------
+.projectMeta {
+  font-size: to-rem(15px);
+  display: block;
+  li {
+    line-height: 170%;
+  }
+}
+
+.tags {
+  display: inline-block;
+  li {line-height: 100%!important;}
+  b {
+    display: inline-block;
+    background-color: lighten($base-color, 76%);
+    color: $base-color;
+    line-height: 150%;
+    border-radius: 2px;
+    margin-right: 2px;
+    padding: 0 4px;
+    font-weight: normal;
+  }
+}
+
+.list {
+  font-size: $base-fs;
+  line-height: $base-lh;
+  padding-left: calc($unit/2);
+  li {
+    list-style-type: square;
   }
 }
