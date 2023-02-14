@@ -69,7 +69,7 @@ const Project = ({ ...props }) => {
           </ul>
         </div>
         <div className="c-right">
-          <p> {details} </p>
+          <div dangerouslySetInnerHTML={{ __html: details }} />
           <ul className="list">
             {tasks.map((item: any, i: number) => (
               <li key={i}>{item}</li>
