@@ -1,10 +1,10 @@
 [
   {
     "ID": "01_gorgias_app",
-    "title": "Gorgias - Designing a Helpdesk product with over 10,000 customers resolving millions of support tickets daily.",
+    "title": "Gorgias: Designing a Helpdesk product with over 10,000 customers resolving millions of support tickets daily.",
     "coverImg": "/images/gorgias.svg",
     "date": "Nov / 2021",
-    "client": "Gorgias",
+    "client": "Gorgias.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D103%253A8851%26t%3D1SnWzHuhqpBDe5LP-1",
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
     "intro": "Gorgias is a San Francisco-based company focused on providing the best helpdesk product for e-commerce Platforms like Shopify, Magento, and BigCommerce. Merchants love to use Gorgias because it integrates with social media channels where most support requests are initiated and uses AI automation flows to treat tickets effectively. Presently, Gorias is at 75M in funding, with over 250+ employees and offices in 7 countries.",
@@ -19,6 +19,40 @@
       "Test prototypes with a group of users and gather feedback.",
       "Iterate design solutions based on user feedback.",
       "Actively search and identify UX issues and suggest improvements."
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1IsM1Tna_7mDVsTqOi5y1kvMK1Ua3JX-I&export=download",
+        "text": "PREVIEW_1: Ticket listing view."
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1rJadJte643yh_4twrA78C9V83FOiNzwU&export=download",
+        "text": "PREVIEW_2: Web App preview stats view."
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1w0vaCtibli35YNQSmNoH57MW9Z7si-Fe&export=download",
+        "text": "PREVIEW_3: Overview of the mobile app."
+      }
+    ]
+  },
+  {
+    "ID": "02_hookdeck_app",
+    "title": "Hookdeck: Improving the UX for a technical product that saves hundreds of hours of dev-time every day",
+    "coverImg": "/images/hookdeck.svg",
+    "date": "Nov / 2021",
+    "client": "Hookdeck.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A42396%26t%3D1SnWzHuhqpBDe5LP-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Hookdeck is a Canada-based company focused on providing infrastructure for webhook management. The product enables customers to do operations on their webhooks that would otherwise require custom development in the back ends of their products. With Hookdeck, you can view, monitor, manage, throttle, retry or transform packages sent by your webhooks. It is an essential product for modern tech that uses a microservice architecture.",
+    "details": "<p>It was a great experience working at Hookdeck as a product designer. It was stimulating to work closely with Alex, who is the CEO and a designer himself. The challenges were always thrilling; I had to know everything about webhook workflows to improve this product's UX. During my time at Hookdeck, I worked on optimizing certain features and designing new ones, collaborating closely with the product team and a group of power users.</p>",
+    "tasks": [
+      "Design UI's and create prototypes for new features",
+      "Actively search and identify UX issues and suggest improvements",
+      "Implement workflows to facilitate collaboration with devs and other designers",
+      "Test prototypes with a group of users and gather feedback",
+      "Iterate design solutions based on user feedback",
+      "Create a comprehensive UI design system for the web app"
     ],
     "role": "Product Designer",
     "images": [
