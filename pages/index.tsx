@@ -3,8 +3,7 @@ import Layout from '../components/Layout';
 import Image from 'next/dist/client/image';
 import ProjectData from '../data/data2.json';
 
-const blurIMG =
-  'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60';
+const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
 const FigmaEmbed = ({ ...props }) => (
   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
@@ -56,7 +55,7 @@ const Project = ({ ...props }) => {
         </div>
         <div className="c-right">
           <h2>{title}</h2>
-          <p>{intro}</p>
+          <p dangerouslySetInnerHTML={{ __html: intro }} />
         </div>
       </div>
 
@@ -136,7 +135,7 @@ export const About = (): JSX.Element => {
           </div>
           <ul className="list">
             <li>
-              <a href="#">Helpdesk platforms</a>
+              <a href="#01_gorgias_app">Helpdesk platforms</a>
             </li>
             <li>
               <a href="#">Helpcenter</a>
