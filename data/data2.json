@@ -1,32 +1,38 @@
 [
   {
     "ID": "01_gorgias_app",
-    "title": "Gorgias app helpdesk SAS - UI/UX",
+    "title": "Gorgias - Designing a Helpdesk product with over 10,000 customers resolving millions of support tickets daily.",
     "coverImg": "/images/gorgias.svg",
     "date": "Nov / 2021",
     "client": "Gorgias",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D103%253A8851%26t%3D1SnWzHuhqpBDe5LP-1",
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
-    "intro": "Gorgias is a <b>San-Francisco-based company</b> focused on providing the best helpdesk product out there. It introduces some unique features to help agents treat support requests more effectively; configure automatic responses, flawlessly integrations with social media channels, and most popular platforms in the e-commerce ecosystem.",
-    "details": "<p>For the past 3 years, I have worked regularly with Gorias on multiple fronts. We started with rebranding and moved on to redesigning the product. In the design process, I gathered app usage data, made hypotheses, produced prototypes, looked at client feedback, and validated my design choices with the cofounders, respectively the CTO and CEO. I made a thoroughly documented design system to enable collaboration and scale within the product team. During the implementation phase, I was actively involved in the GitHub workflow to respond to devs requests. I have designed the native app and the chat widget used on the</p><p>customer`s e-commerce websites. I have gradually implemented workflows and processes to speed up production and make a more customer-centric product.\nThe redesign solved all the usability issues. Clients loved it from day one. 90% of the feedback was positive. In the following months, the company had spectacular growth. It went from 5 to 15 employees, Launched on Shopify, Raised a series A of 14M, extended in Europe, Launched on Magento, raised 25M series B, expanded to 70+ employees, and served more than 4000 customers.\nI have greatly evolved professionally working within the Gorgias product team. I learned to work in short feedback loops and involve the people who knew best the specific issues I was trying to solve. I got better at taking and giving feedback. I learned how to create design systems that scale. I have gained extended experience in the E-commerce ecosystem, customers, Shopify, and a plethora of other services that we used for integrations.</p>",
+    "intro": "Gorgias is a San Francisco-based company focused on providing the best helpdesk product for e-commerce Platforms like Shopify, Magento, and BigCommerce. Merchants love to use Gorgias because it integrates with social media channels where most support requests are initiated and uses AI automation flows to treat tickets effectively. Presently, Gorias is at 75M in funding, with over 250+ employees and offices in 7 countries.",
+    "details": "<p>I have worked with Gorgias on multiple projects, from branding and marketing to product design. At the core of our collaboration was a shared belief that we could create a product that makes customer support easier. Working closely with the product team, I designed features, gathered customer feedback, and implemented workflows to collaborate more effectively and improve the product.</p>",
     "tasks": [
-      "create this and that from scratch when there was nothing",
-      "create this and that from scratch when there was nothing",
-      "create this and that from scratch when there was nothing"
+      "Identify UX issues, and suggest solutions.",
+      "Work with developers to implement new features and provide feedback or required visual assets.",
+      "Design UI's and create prototypes for new features.",
+      "Work with product owners to design solutions (products) to meet other needs of our customers.",
+      "Implement workflows to facilitate collaboration with devs.",
+      "Create a comprehensive UI design system for the web app, the widget, and for the mobile app.",
+      "Test prototypes with a group of users and gather feedback.",
+      "Iterate design solutions based on user feedback.",
+      "Actively search and identify UX issues and suggest improvements."
     ],
     "role": "Product Designer",
     "images": [
       {
-        "url": "https://drive.google.com/uc?id=1x8BrkkNiNKFphjEXg8rK8LvoIBoiJjoB&export=download",
-        "text": "something"
+        "url": "https://drive.google.com/uc?id=1IsM1Tna_7mDVsTqOi5y1kvMK1Ua3JX-I&export=download",
+        "text": "PREVIEW_1: Ticket listing view."
       },
       {
-        "url": "https://drive.google.com/uc?id=1x8BrkkNiNKFphjEXg8rK8LvoIBoiJjoB&export=download",
-        "text": "something"
+        "url": "https://drive.google.com/uc?id=1rJadJte643yh_4twrA78C9V83FOiNzwU&export=download",
+        "text": "PREVIEW_2: Web App preview stats view."
       },
       {
-        "url": "https://drive.google.com/uc?id=1x8BrkkNiNKFphjEXg8rK8LvoIBoiJjoB&export=download",
-        "text": "something"
+        "url": "https://drive.google.com/uc?id=1w0vaCtibli35YNQSmNoH57MW9Z7si-Fe&export=download",
+        "text": "PREVIEW_3: Overview of the mobile app."
       }
     ]
   }

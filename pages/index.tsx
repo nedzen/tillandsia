@@ -82,7 +82,7 @@ const Project = ({ ...props }) => {
         <div className="c-left">
           <strong>Files</strong>
           <ul className="projectMeta">
-            <li>Download JPG previews</li>
+            <li>Download PNG previews</li>
           </ul>
         </div>
 
@@ -122,12 +122,13 @@ export const About = (): JSX.Element => {
               priority
             />
             <p>
-              I am a multidisciplinary designer who excels at the intersection
-              of digital product design and brand identity. I have had the
-              privilege to make products used and loved by millions through
-              working with companies like Facebook, Hewlett Packard Enterprise,
-              Gorgias and many startups. My purpose is to simplify things for
-              people and help them save time.
+              Hi, I`m Marius, and my main professional focus is digital product
+              design. I work at the intersection of digital product design and
+              brand identity. In the past few years, I`ve been able to design
+              products used and loved by millions through working with companies
+              like Gorgias, Hookdeck, HPE, and many startups. With every design
+              challenge I undertake, I strive to simplify things for the end
+              user and maximize profit for my clients.
             </p>
           </>
           <div className="pb05">
