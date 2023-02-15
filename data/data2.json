@@ -57,21 +57,213 @@
     "role": "Product Designer",
     "images": [
       {
-        "url": "https://drive.google.com/uc?id=15_PpVYGmj8UzHhgdqdbD7o8_V9pV5QYl&export=download",
-        "text": "PREVIEW_1: Redesign Quotas (feature UX)"
+        "url": "https://drive.google.com/uc?id=1kesABtqGTbGb2b3uHjNRGYnigmmGGK67&export=download",
+        "text": "PREVIEW_1: Redesign Quotas"
       },
       {
-        "url": "https://drive.google.com/uc?id=1T-8INVYoxPF-PhaCKLmRBe3PyL0m8gCf&export=download",
-        "text": "PREVIEW_2: Design Histogram (feature UX)"
+        "url": "https://drive.google.com/uc?id=10VmaarZ04948wOugN6LgVLSrNIEPRkBv&export=download",
+        "text": "PREVIEW_2: Design Histogram"
       },
       {
-        "url": "https://drive.google.com/uc?id=1YCGpqgCDDjHfD0j7W4SP2PjV4ZdFg56E&export=download",
-        "text": "PREVIEW_3: Redesign Sidebar (feature UX)"
+        "url": "https://drive.google.com/uc?id=16Kme5lc__lyQJy68tBkx9uTRYY6W7nEB&export=download",
+        "text": "PREVIEW_3: Redesign Sidebar"
       },
       {
-        "url": "https://drive.google.com/uc?id=1wKqc48TrkNb6hl-_g__LdmsSoGhse3-O&export=download",
-        "text": "PREVIEW_3: Redesign Filters (feature UX)"
+        "url": "https://drive.google.com/uc?id=1RHjH7OvtMsyT2Kd-aA8IoyQsNvGvkaxh&export=download",
+        "text": "PREVIEW_3: Redesign Histogram"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1XE801eQx-t3u_COUz3_pW86v-u8cLXyy&export=download",
+        "text": "PREVIEW_3: Redesign Filters"
+      }
+    ]
+  },
+  {
+    "ID": "03_braintrust_helpcenter",
+    "title": "Braintrust: Designing a helpcenter for the community",
+    "coverImg": "/images/braintrust.svg",
+    "date": "Nov / 2021",
+    "client": "Braintrust.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D618%253A64053%26t%3DtK7sxZO3zulXCrhl-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "intro",
+    "details": "<p>details</p>",
+    "tasks": [
+      "-",
+      "-"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1RVTBHtJkPX69B4f1-dt5e6n919AmL8Xh&export=download",
+        "text": "PREVIEW_1 Help Center - Search Results"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1SFoA6YrMoXC3WxhS-YFd6UZ2wPZ8h2ZZ&export=download",
+        "text": "PREVIEW_2 Help Center - Main View"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1-UAVjqKyBn5zsr4NYs1JO3VbImpwr5DI&export=download",
+        "text": "PREVIEW_3 Help Center - Article Page"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=132ZTN0rA-9LGcvZTPhyLKyhmvi8CzeaK&export=download",
+        "text": "PREVIEW_4 Help Center - Topic Overview"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1h4EQNUtA3z3sJQ0nA7e3pJ5LOsRkQeQ0&export=download",
+        "text": "PREVIEW_5 Help Center - Articles Overview"
+      }
+    ]
+  },
+  {
+    "ID": "05_gorgias_helpcenter",
+    "title": "Gorgias: Designing a self-service portal",
+    "coverImg": "",
+    "date": "Nov / 2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A31534%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "intro",
+    "details": "<p>details</p>",
+    "tasks": [
+      "-",
+      "-"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1iBBblnEzPKfVVFza4n2eTgTLd4txhRUj&export=download",
+        "text": "PREVIEW_1 Gorgias Helpcenter - Portal"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1q9aoAuFM2OczE2IAgDTnbUIcRseVzIuS&export=download",
+        "text": "PREVIEW_2 Gorgias Helpcenter - Portal"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=12PbOA51J5nM9Eex5YV8WYcNumxG34mDQ&export=download",
+        "text": "PREVIEW_3 Gorgias Helpcenter - Portal"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1MIkXVFL9HagHjuOVZefSO3pB6tRRwed7&export=download",
+        "text": "PREVIEW_4 Gorgias Helpcenter - Widget"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1XaifbMd-61vyE4o5O6a84XD_vrOBrK3J&export=download",
+        "text": "PREVIEW_5 Gorgias Helpcenter - Backend"
+      }
+    ]
+  },
+  {
+    "ID": "04_gorgias_www",
+    "title": "Gorgias: Branding and website",
+    "coverImg": "",
+    "date": "Nov / 2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D104%253A8860%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "intro",
+    "details": "<p>details</p>",
+    "tasks": [
+      "-",
+      "-"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1hY7svGzWGArOz5ldiQaB593D0Xi8B50g&export=download",
+        "text": "PREVIEW_1 Gorgias Landingpage"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=178lVaKMItFsDzR_UpSvZt5Z36kCSik5z&export=download",
+        "text": "PREVIEW_2 Gorgias Pricing"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1v4191b7djgtz-buEbsKxXx8MGh86-Apy&export=download",
+        "text": "PREVIEW_3 Gorgias Blog"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1S3fgmwlPwW4lzF2o2hIXIC9V6ORFcoKc&export=download",
+        "text": "PREVIEW_4 Gorgias Branding & Style Guide"
+      }
+    ]
+  },
+  {
+    "ID": "06_dive_www",
+    "title": "Dive: Designing a website for an analytics service",
+    "coverImg": "/images/dive.svg",
+    "date": "Nov / 2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "intro",
+    "details": "<p>details</p>",
+    "tasks": [
+      "-",
+      "-"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1oL6OAxLBLo6Eqj55OTPqX4dKBaDPfYLK&export=download",
+        "text": "PREVIEW_1 Dive - landing"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1krbeoYZA2bIxWZgKmoPz8GUcYYzjphWr&export=download",
+        "text": "PREVIEW_2 Dive - product"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1Bd6xaq39z4F0UzFVQVarWM239TzvWs9T&export=download",
+        "text": "PREVIEW_3 Dive - pricing"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1FWb98heRPIS7qPvncT26H3vA6LcQ4JAt&export=download",
+        "text": "PREVIEW_4 Dive - case_study"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1DvwIALXEkObyjQzrdHWxf3u53Z-slZ74&export=download",
+        "text": "PREVIEW_5 Dive - Assets"
+      }
+    ]
+  },
+  {
+    "ID": "06_dive_app",
+    "title": "Dive: Designing a website for an analytics service",
+    "coverImg": "/images/dive.svg",
+    "date": "Nov / 2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "intro",
+    "details": "<p>details</p>",
+    "tasks": [
+      "-",
+      "-"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1oL6OAxLBLo6Eqj55OTPqX4dKBaDPfYLK&export=download",
+        "text": "PREVIEW_1 Dive - landing"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1krbeoYZA2bIxWZgKmoPz8GUcYYzjphWr&export=download",
+        "text": "PREVIEW_2 Dive - product"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1Bd6xaq39z4F0UzFVQVarWM239TzvWs9T&export=download",
+        "text": "PREVIEW_3 Dive - pricing"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1FWb98heRPIS7qPvncT26H3vA6LcQ4JAt&export=download",
+        "text": "PREVIEW_4 Dive - case_study"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1DvwIALXEkObyjQzrdHWxf3u53Z-slZ74&export=download",
+        "text": "PREVIEW_5 Dive - Assets"
       }
     ]
   }
 ]
+
+
