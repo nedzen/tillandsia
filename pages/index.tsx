@@ -26,18 +26,22 @@ const Project = ({ ...props }) => {
   } = props.data;
   return (
     <div className="project">
-      <div className="coverImg" id={ID}>
-        <Image
-          blurDataURL={blurIMG}
-          placeholder="blur"
-          alt={`cover`}
-          src={coverImg}
-          width={1000}
-          height={500}
-          layout="responsive"
-          priority
-        />
-      </div>
+      {coverImg == '' ? (
+        ''
+      ) : (
+        <div className="coverImg" id={ID}>
+          <Image
+            blurDataURL={blurIMG}
+            placeholder="blur"
+            alt={`cover`}
+            src={coverImg}
+            width={1000}
+            height={500}
+            layout="responsive"
+            priority
+          />
+        </div>
+      )}
 
       <div className="block">
         <div className="c-left">
@@ -136,16 +140,14 @@ export const About = (): JSX.Element => {
           </div>
           <ul className="list">
             <li>
-              <a href="#01_gorgias_app">Helpdesk platforms</a>
+              <a href="#01_gorgias_app">
+                Helpdesk: Designing a Helpdesk with over 10,000 customers
+              </a>
             </li>
             <li>
-              <a href="#">Helpcenter</a>
-            </li>
-            <li>
-              <a href="#">Gorgias Branding and Website redesign</a>
-            </li>
-            <li>
-              <a href="#">Hookdeck</a>
+              <a href="#02_hookdeck_app">
+                Hookdeck: Improving the UX for a technical product
+              </a>
             </li>
           </ul>
         </div>
