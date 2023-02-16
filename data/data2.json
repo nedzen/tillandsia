@@ -127,11 +127,15 @@
     "client": "Gorgias.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A31534%26t%3DXqAmgx7VPNhZV1K4-1",
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
-    "intro": "intro",
-    "details": "<p>details</p>",
+    "intro": "This product is an extension of the Gorgias Helpdesk available on Premium plans and allows merchants to add self-service features for their customers. It solves the problem of the most common support requests typically related to recently placed orders. We wanted to create a product that let customers handle these operations themselves. Doing this would reduce support requests by 20-30%. The self-service portal can also host the merchant's brand documentation structured on topics, FAQs and facilitate access to more direct support methods. Its backend config is accessible inside the Gorgias helpdesk. The self-service portal can be deployed as a standalone module on its subdomain URL or be triggered within the Gorgias support widget upon specific support queries.",
+    "details": "<p>My role on this project was creating prototypes for various user flows and conducting testing in collaboration with the product manager who formulated the initial hypotheses. This product operates on three different platforms; within the support chat widget, as a standalone website, and the backend within the Gorgias helpdesk. In each case, the limitations and affordances had to be carefully considered, such as enabling customization options to align aesthetics to the customer's brand or adhering to a design system or another - within the widget or the helpdesk.</p>",
     "tasks": [
-      "-",
-      "-"
+      "Design the interface for the product on both platforms; (embedded and chat-widget)",
+      "Create a unified modular design system",
+      "Design the configuration (Backend) part of the product within the Gorgias helpdesk",
+      "Design paywalls within the helpdesk to enable access to this new feature(product)",
+      "Produce prototypes for early testing with a group of customers and get feedback from the product team",
+      "Refine the design, implement feedback"
     ],
     "role": "Product Designer",
     "images": [

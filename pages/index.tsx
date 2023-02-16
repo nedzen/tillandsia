@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Image from 'next/dist/client/image';
-import ProjectData from '../data/data2.json';
+import ProjectData from '../data/data.json';
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
@@ -140,13 +140,24 @@ export const About = (): JSX.Element => {
           </div>
           <ul className="list">
             <li>
-              <a href="#01_gorgias_app">
-                Helpdesk: Designing a Helpdesk with over 10,000 customers
+              <a href="#02_hookdeck_app">
+                Hookdeck: Improving the UX for a technical product
               </a>
             </li>
             <li>
-              <a href="#02_hookdeck_app">
-                Hookdeck: Improving the UX for a technical product
+              <a href="#01_gorgias_app">
+                Designing a Helpdesk with over 10,000 customers
+              </a>
+            </li>
+            <li>
+              <a href="#05_gorgias_helpcenter">
+                Designing a self-service portal for Ecommerce platforms
+              </a>
+            </li>
+            <li>
+              <a href="#03_braintrust_helpcenter">
+                Designing a Helpcenter & Knowledge Base for the Braintrust
+                community
               </a>
             </li>
           </ul>
