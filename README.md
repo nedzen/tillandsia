@@ -64,3 +64,5 @@ This seems to work only with ERC-20
   priority
 />
 ```
+
+tracking umami--click--signup-button

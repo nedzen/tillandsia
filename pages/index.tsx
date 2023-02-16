@@ -94,7 +94,19 @@ const Project = ({ ...props }) => {
           <ul className="list">
             {images.map((item: any, i: number) => (
               <li key={i}>
-                <a href={item.url} rel="noreferrer" target="_blank">
+                <a
+                  href={item.url}
+                  rel="noreferrer"
+                  className={
+                    'umami--TOC_link--' +
+                    ID +
+                    '__' +
+                    item.text.replace(/[\s:]/g, '') +
+                    '__' +
+                    i
+                  }
+                  target="_blank"
+                >
                   {item.text}
                 </a>
               </li>
@@ -147,22 +159,42 @@ export const About = (): JSX.Element => {
           </div>
           <ul className="list">
             <li>
-              <a href="#02_hookdeck_app">
+              <a
+                href="#02_hookdeck_app"
+                className="umami--TOC_link--02_hookdeck_app"
+              >
                 Hookdeck: Improving the UX for a technical product
               </a>
             </li>
             <li>
-              <a href="#01_gorgias_app">
-                Designing a Helpdesk with over 10,000 customers
+              <a
+                href="#01_gorgias_app"
+                className="umami--TOC_link--1_gorgias_app"
+              >
+                Gorgias: Designing a Helpdesk with over 10,000 customers
               </a>
             </li>
             <li>
-              <a href="#05_gorgias_helpcenter">
-                Designing a self-service portal for Ecommerce platforms
+              <a
+                href="#05_gorgias_helpcenter"
+                className="umami--TOC_link--05_gorgias_helpcenter"
+              >
+                Gorgias: Designing a self-service portal for Ecommerce platforms
               </a>
             </li>
             <li>
-              <a href="#03_braintrust_helpcenter">
+              <a
+                href="#05_gorgias_www"
+                className="umami--TOC_link--05_gorgias_www"
+              >
+                Gorgias: Branding and website
+              </a>
+            </li>
+            <li>
+              <a
+                href="#03_braintrust_helpcenter"
+                className="umami--TOC_link--03_braintrust_helpcenter"
+              >
                 Designing a Helpcenter & Knowledge Base for the Braintrust
                 community
               </a>
