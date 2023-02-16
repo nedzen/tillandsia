@@ -86,11 +86,14 @@
     "client": "Braintrust.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D618%253A64053%26t%3DtK7sxZO3zulXCrhl-1",
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
-    "intro": "intro",
-    "details": "<p>details</p>",
+    "intro": "Braintrust is a revolutionary freelancer marketplace that connects skilled tech experts with clients. Today the network hosts over 500 companies and 50,000 freelancers who have cumulated earnings exceeding 70M in the past two years. Braintrust introduced a blockchain-based network dynamic that enables community members to participate in the governance and have ownership by earning and holding the BTRST token.",
+    "details": "<p>I am an early member of the Braintrust network of talent, and I have witnessed its spectacular growth and energy up close, engaging in the Discord group. I wanted to get more involved, so I seized the first opportunity to contribute to improving the online platform.</p><p>The team needed to create a knowledge base to host documentation about topics of interest for both talent and clients. As the network grew exponentially, the inquiries and questions multiplied. The envisioned solution was to create a help center incorporating a knowledge base of articles structured by topic, an FAQ, and ultimately facilitating access to other more direct support methods.</p>",
     "tasks": [
-      "-",
-      "-"
+      "Create design mockups for all the pages of the help center platform using Braintrust design systems",
+      "Make the entire design adaptable to various screen sizes",
+      "Produce an interactive prototype",
+      "Test with a focus group",
+      "Implement revisions, and hand out assets for development"
     ],
     "role": "Product Designer",
     "images": [
@@ -232,7 +235,7 @@
     "coverImg": "/images/dive.svg",
     "date": "Nov / 2021",
     "client": "Gorgias.com",
-    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3DXqAmgx7VPNhZV1K4-1",
+    "embed": "xxxx",
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
     "intro": "intro",
     "details": "<p>details</p>",
@@ -243,24 +246,24 @@
     "role": "Product Designer",
     "images": [
       {
-        "url": "https://drive.google.com/uc?id=1oL6OAxLBLo6Eqj55OTPqX4dKBaDPfYLK&export=download",
-        "text": "PREVIEW_1 Dive - landing"
+        "url": "https://x",
+        "text": "xxxx"
       },
       {
-        "url": "https://drive.google.com/uc?id=1krbeoYZA2bIxWZgKmoPz8GUcYYzjphWr&export=download",
-        "text": "PREVIEW_2 Dive - product"
+        "url": "https://x",
+        "text": "xxxx"
       },
       {
-        "url": "https://drive.google.com/uc?id=1Bd6xaq39z4F0UzFVQVarWM239TzvWs9T&export=download",
-        "text": "PREVIEW_3 Dive - pricing"
+        "url": "https://x",
+        "text": "xxxx"
       },
       {
-        "url": "https://drive.google.com/uc?id=1FWb98heRPIS7qPvncT26H3vA6LcQ4JAt&export=download",
-        "text": "PREVIEW_4 Dive - case_study"
+        "url": "https://x",
+        "text": "xxxx"
       },
       {
-        "url": "https://drive.google.com/uc?id=1DvwIALXEkObyjQzrdHWxf3u53Z-slZ74&export=download",
-        "text": "PREVIEW_5 Dive - Assets"
+        "url": "https://x",
+        "text": "xxxx"
       }
     ]
   }
