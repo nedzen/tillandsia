@@ -60,7 +60,8 @@
       "Create a comprehensive UI design system for the web app, the widget, and for the mobile app.",
       "Test prototypes with a group of users and gather feedback.",
       "Iterate design solutions based on user feedback.",
-      "Actively search and identify UX issues and suggest improvements."
+      "Actively search and identify UX issues and suggest improvements.",
+      "The logo was designed by me also, 1 year before"
     ],
     "role": "Product Designer",
     "images": [
@@ -117,6 +118,41 @@
       {
         "url": "https://drive.google.com/uc?id=1XaifbMd-61vyE4o5O6a84XD_vrOBrK3J&export=download",
         "text": "PREVIEW_5 Gorgias Helpcenter - Backend"
+      }
+    ]
+  },
+  {
+    "ID": "05_gorgias_www",
+    "title": "Gorgias: Branding and website",
+    "coverImg": "",
+    "date": "2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D104%253A8860%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": ["Strategy", "Illustration", "Design", "Systems", "Marketing", "Branding", "AB testing"],
+    "intro": "The design of the old website was dated. The colors were too common, the typography was pretty bad and the illustrations showing the product were dated or bluntly made by non-designer people. We needed a full rehaul of the entire website and a new style guide.",
+    "details": "<p>The results were impressive. Customer acquisition doubled. We received mixed feedback but mostly good. We AB-tested and tweaked some copywriting and illustrations, prospect customers understood much better the product's functionality and pricing. Bounce-rate dropped. We released the new website around the beginning of the pandemic so there was that too, the entire eCommerce sector was booming. The conversion of the ads was great, the bold colors and style worked fabulously!</p> <p>I learned quite a bit about the growth marketing tactics applied at a fast-growing company. I also learned how to conduct effective AB-testing and how to write good copy. It was cool to collaborate with the marketing team, assist along with the production of new promotional assets, test new taglines, and see, first-hand what converts best.<p>",
+    "tasks": [
+      "Produce a new visual appeal for the brand that would incorporate the company's values and ambitions",
+      "Come up with a strategy for effectively presenting key features of the product",
+      "Collaborate with the head of marketing in Paris to define the strategy, the voice, and tone of the language; and also to write the initial copy",
+      "Create a new brand style guide including colors, illustrations, icons, typography",
+      "Make a brand book where the new guidelines are referenced",
+      "Design the new website entirely and create a design system to easily produce new pages",
+      "Supervise the production of collateral design assets (mainly promotional materials) by other freelancers"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "url": "https://drive.google.com/uc?id=1S3fgmwlPwW4lzF2o2hIXIC9V6ORFcoKc&export=download",
+        "text": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1v4191b7djgtz-buEbsKxXx8MGh86-Apy&export=download",
+        "text": "PREVIEW_2 Blog pages"
+      },
+      {
+        "url": "https://drive.google.com/uc?id=1hY7svGzWGArOz5ldiQaB593D0Xi8B50g&export=download",
+        "text": "PREVIEW_3 Landingpage"
       }
     ]
   },
