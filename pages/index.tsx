@@ -110,21 +110,28 @@ export const About = (): JSX.Element => {
   return (
     <Layout
       customMeta={{
-        title: 'Marius',
+        title: 'Marius Nedelcu - digital product design - UX/UI',
       }}
     >
       <header className="postHeader">
         <div className="intro">
           <>
-            <Image
-              blurDataURL={blurIMG}
-              placeholder="blur"
-              alt={`cover`}
-              src={`/images/avatar.png`}
-              width={50}
-              height={50}
-              priority
-            />
+            <ul className="secNav">
+              <li>
+                <Image
+                  blurDataURL={blurIMG}
+                  placeholder="blur"
+                  alt={`cover`}
+                  src={`/images/avatar.png`}
+                  width={50}
+                  height={50}
+                  priority
+                />
+              </li>
+              <li>
+                <mark>Contact: hello@mariusnedelcu.com</mark>
+              </li>
+            </ul>
             <p>
               Hi, I`m Marius, and my main professional focus is digital product
               design. I work at the intersection of digital product design and

@@ -171,10 +171,7 @@
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
     "intro": "intro",
     "details": "<p>details</p>",
-    "tasks": [
-      "-",
-      "-"
-    ],
+    "tasks": ["-", "-"],
     "role": "Product Designer",
     "images": [
       {
@@ -205,10 +202,7 @@
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
     "intro": "intro",
     "details": "<p>details</p>",
-    "tasks": [
-      "-",
-      "-"
-    ],
+    "tasks": ["-", "-"],
     "role": "Product Designer",
     "images": [
       {
@@ -243,10 +237,7 @@
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
     "intro": "intro",
     "details": "<p>details</p>",
-    "tasks": [
-      "-",
-      "-"
-    ],
+    "tasks": ["-", "-"],
     "role": "Product Designer",
     "images": [
       {
@@ -272,5 +263,3 @@
     ]
   }
 ]
-
-
