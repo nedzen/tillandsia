@@ -3,15 +3,14 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { MetaProps } from '../types/layout';
 
-export const WEBSITE_HOST_URL =
-  'https://www.mariusnedelcu.com/images/cover.png';
+export const WEBSITE_HOST_URL = 'https://www.mariusnedelcu.com';
 
 const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const router = useRouter();
   const meta: MetaProps = {
     title: 'Marius - Website',
     description: 'Product designer UI/UX | Portfolio site',
-    image: `${WEBSITE_HOST_URL}/images/site-preview.png`,
+    image: `${WEBSITE_HOST_URL}/images/cover.png`,
     type: 'website',
     ...customMeta,
   };
