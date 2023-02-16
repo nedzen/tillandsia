@@ -3,14 +3,14 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { MetaProps } from '../types/layout';
 
-export const WEBSITE_HOST_URL = 'https://nextjs-typescript-mdx-blog.vercel.app';
+export const WEBSITE_HOST_URL =
+  'https://www.mariusnedelcu.com/images/cover.png';
 
 const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const router = useRouter();
   const meta: MetaProps = {
     title: 'Marius - Website',
-    description:
-      'Sleep Deprived Father. Senior Web Developer. Lover of all things Ramen and Kpop.',
+    description: 'Product designer UI/UX | Portfolio site',
     image: `${WEBSITE_HOST_URL}/images/site-preview.png`,
     type: 'website',
     ...customMeta,
@@ -23,7 +23,10 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
       <meta property="og:url" content={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <link rel="canonical" href={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <meta property="og:type" content={meta.type} />
-      <meta property="og:site_name" content="Marius - Website" />
+      <meta
+        property="og:site_name"
+        content="Marius - Product design portfolio"
+      />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
       <meta property="og:image" content={meta.image} />
