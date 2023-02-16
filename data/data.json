@@ -128,7 +128,15 @@
     "date": "2021",
     "client": "Gorgias.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D104%253A8860%26t%3DXqAmgx7VPNhZV1K4-1",
-    "tags": ["Strategy", "Illustration", "Design", "Systems", "Marketing", "Branding", "AB testing"],
+    "tags": [
+      "Strategy",
+      "Illustration",
+      "Design",
+      "Systems",
+      "Marketing",
+      "Branding",
+      "AB testing"
+    ],
     "intro": "The design of the old website was dated. The colors were too common, the typography was pretty bad and the illustrations showing the product were dated or bluntly made by non-designer people. We needed a full rehaul of the entire website and a new style guide.",
     "details": "<p>The results were impressive. Customer acquisition doubled. We received mixed feedback but mostly good. We AB-tested and tweaked some copywriting and illustrations, prospect customers understood much better the product's functionality and pricing. Bounce-rate dropped. We released the new website around the beginning of the pandemic so there was that too, the entire eCommerce sector was booming. The conversion of the ads was great, the bold colors and style worked fabulously!</p> <p>I learned quite a bit about the growth marketing tactics applied at a fast-growing company. I also learned how to conduct effective AB-testing and how to write good copy. It was cool to collaborate with the marketing team, assist along with the production of new promotional assets, test new taglines, and see, first-hand what converts best.<p>",
     "tasks": [
