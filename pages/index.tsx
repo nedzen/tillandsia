@@ -9,12 +9,11 @@ const FigmaEmbed = ({ ...props }) => (
   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
 );
 
-const introcontent = `<p>Hello, I'm Marius, a digital product designer with a passion for creating designs that look great and deliver results. By combining my expertise in digital product design and brand identity, I've been able to create products that have been used and adored by millions. My client portfolio includes industry giants such as HPE, Gorgias, Hookdeck, as well as startups.</p><p>At the heart of every design project, I focus on delivering simple, intuitive designs that help businesses succeed. I love to take on UX challenges, testing hypotheses and achieve measurable results for my clients.</p><p>Let's work together to create a digital product that will not only elevate your brand but also delight your customers.</p>`;
+const introcontent = `<p>Hello, I'm Marius, a digital product designer with a passion for creating User Interfaces that look great and deliver results. By combining my expertise in User Experience and brand identity, I've been able to create products that have been used and adored by millions. My client portfolio includes industry giants such as HPE, Gorgias, Hookdeck, as well as startups.</p><p>On each project, I strive to deliver simple, intuitive designs that help businesses succeed. I love to take on UX challenges, test hypotheses and achieve measurable results for my clients.</p>`;
 
 const Project = ({ ...props }) => {
   const {
     ID,
-    date,
     client,
     embed,
     tags,
@@ -49,7 +48,7 @@ const Project = ({ ...props }) => {
         <div className="c-left">
           <strong>Project</strong>
           <ul className="projectMeta">
-            <li>Date: {date}</li>
+            {/* <li>Date: {date}</li> */}
             <li>Client: {client}</li>
             <li className="tags">
               <span>Expertise: </span>
