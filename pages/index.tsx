@@ -25,11 +25,11 @@ const Project = ({ ...props }) => {
     coverImg,
   } = props.data;
   return (
-    <div className="project">
+    <div className="project" id={ID}>
       {coverImg == '' ? (
         ''
       ) : (
-        <div className="coverImg" id={ID}>
+        <div className="coverImg">
           <Image
             blurDataURL={blurIMG}
             placeholder="blur"
@@ -98,7 +98,7 @@ const Project = ({ ...props }) => {
                   href={item.url}
                   rel="noreferrer"
                   className={
-                    'umami--TOC_link--' +
+                    'umami--click--' +
                     ID +
                     '__' +
                     item.text.replace(/[\s:]/g, '') +
@@ -161,23 +161,20 @@ export const About = (): JSX.Element => {
             <li>
               <a
                 href="#02_hookdeck_app"
-                className="umami--TOC_link--02_hookdeck_app"
+                className="umami--click--02_hookdeck_app"
               >
                 Hookdeck: Improving the UX for a technical product
               </a>
             </li>
             <li>
-              <a
-                href="#01_gorgias_app"
-                className="umami--TOC_link--1_gorgias_app"
-              >
+              <a href="#01_gorgias_app" className="umami--click--1_gorgias_app">
                 Gorgias: Designing a Helpdesk with over 10,000 customers
               </a>
             </li>
             <li>
               <a
                 href="#05_gorgias_helpcenter"
-                className="umami--TOC_link--05_gorgias_helpcenter"
+                className="umami--click--05_gorgias_helpcenter"
               >
                 Gorgias: Designing a self-service portal for Ecommerce platforms
               </a>
@@ -185,7 +182,7 @@ export const About = (): JSX.Element => {
             <li>
               <a
                 href="#05_gorgias_www"
-                className="umami--TOC_link--05_gorgias_www"
+                className="umami--click--05_gorgias_www"
               >
                 Gorgias: Branding and website
               </a>
@@ -193,7 +190,7 @@ export const About = (): JSX.Element => {
             <li>
               <a
                 href="#03_braintrust_helpcenter"
-                className="umami--TOC_link--03_braintrust_helpcenter"
+                className="umami--click--03_braintrust_helpcenter"
               >
                 Designing a Helpcenter & Knowledge Base for the Braintrust
                 community
