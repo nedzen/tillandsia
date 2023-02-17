@@ -271,11 +271,11 @@ header.postHeader {
     padding: calc($unit / 2);
 
     p {
-      &:first-child {
-        padding-top: 0 !important;
-        margin-top: 0 !important;
-      }
-      font-size: $h3-fs;
+      // &:first-child {
+      //   padding-top: 0 !important;
+      //   margin-top: 0 !important;
+      // }
+      font-size: $h4-fs;
       // line-height: $base-lh;
       font-weight: bold;
       max-width: 900px;

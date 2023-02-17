@@ -9,6 +9,8 @@ const FigmaEmbed = ({ ...props }) => (
   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
 );
 
+const introcontent = `<p>Hello, I'm Marius, a digital product designer with a passion for creating designs that look great and deliver results. By combining my expertise in digital product design and brand identity, I've been able to create products that have been used and adored by millions. My client portfolio includes industry giants such as HPE, Gorgias, Hookdeck, as well as startups.</p><p>At the heart of every design project, I focus on delivering simple, intuitive designs that help businesses succeed. I love to take on UX challenges, testing hypotheses and achieve measurable results for my clients.</p><p>Let's work together to create a digital product that will not only elevate your brand but also delight your customers.</p>`;
+
 const Project = ({ ...props }) => {
   const {
     ID,
@@ -144,15 +146,7 @@ export const About = (): JSX.Element => {
                 <mark>Contact: hello@mariusnedelcu.com</mark>
               </li>
             </ul>
-            <p>
-              Hi, I`m Marius, and my main professional focus is digital product
-              design. I work at the intersection of digital product design and
-              brand identity. In the past few years, I`ve been able to design
-              products used and loved by millions through working with companies
-              like Gorgias, Hookdeck, HPE, and many startups. With every design
-              challenge I undertake, I strive to simplify things for the end
-              user and maximize profit for my clients.
-            </p>
+            <div dangerouslySetInnerHTML={{ __html: introcontent }} />
           </>
           <div className="pb05">
             <strong>PROJECTS:</strong>
