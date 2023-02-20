@@ -3,6 +3,11 @@ import Layout from '../components/Layout';
 import Image from 'next/dist/client/image';
 import ProjectData from '../data/data.json';
 
+import NextJsImage from '../components/NextJsImage';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
+
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
 const FigmaEmbed = ({ ...props }) => (
@@ -25,6 +30,9 @@ const Project = ({ ...props }) => {
     tasks,
     coverImg,
   } = props.data;
+
+  const [open, setOpen] = React.useState(false);
+
   return (
     <div className="project" id={ID}>
       {coverImg == '' ? (
@@ -93,28 +101,52 @@ const Project = ({ ...props }) => {
 
         <div className="c-right">
           <ul className="list">
+            <button
+              type="button"
+              className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              onClick={() => setOpen(true)}
+            >
+              Open Lightbox
+            </button>
+
             {images.map((item: any, i: number) => (
               <li key={i}>
                 <a
-                  href={item.url}
+                  onClick={() => setOpen(true)}
                   rel="noreferrer"
                   className={
                     'umami--click--' +
                     ID +
                     '__' +
-                    item.text.replace(/[\s:]/g, '') +
+                    item.alt.replace(/[\s:]/g, '') +
                     '__' +
                     i
                   }
-                  target="_blank"
                 >
-                  {item.text}
+                  <Image
+                    blurDataURL={blurIMG}
+                    placeholder="blur"
+                    alt={`cover`}
+                    src={item.src}
+                    width={item.width / 30}
+                    height={item.height / 30}
+                    layout="fixed"
+                    priority
+                  />
+                  {item.alt}
                 </a>
               </li>
             ))}
           </ul>
         </div>
       </div>
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={images}
+        render={{ slide: NextJsImage }}
+        plugins={[Zoom]}
+      />
     </div>
   );
 };

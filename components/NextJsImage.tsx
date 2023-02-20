@@ -1,13 +1,9 @@
-import Image, { StaticImageData } from 'next/image';
-import type { Slide, ContainerRect } from 'yet-another-react-lightbox';
+import React from 'react';
+import Image from 'next/dist/client/image';
+const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
-export default function NextJsImage(
-  slide: Slide,
-  offset: number,
-  rect: ContainerRect
-) {
-  const image = slide as StaticImageData;
-
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const NextJsImage = (image, offset, rect) => {
   const width = Math.round(
     Math.min(rect.width, (rect.height / image.height) * image.width)
   );
@@ -18,11 +14,13 @@ export default function NextJsImage(
   return (
     <div style={{ position: 'relative', width, height }}>
       <Image
-        fill
         alt=""
+        blurDataURL={blurIMG}
         src={image}
+        layout="fill"
         loading="eager"
         placeholder="blur"
+        objectFit="contain"
         draggable={false}
         sizes={
           typeof window !== 'undefined'
@@ -32,4 +30,6 @@ export default function NextJsImage(
       />
     </div>
   );
-}
+};
+
+export default NextJsImage;

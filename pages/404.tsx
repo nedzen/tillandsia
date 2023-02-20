@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import NextJsImage from '../components/NextJsImage';
 import Image from 'next/dist/client/image';
 
 import Lightbox from 'yet-another-react-lightbox';
@@ -8,35 +9,6 @@ import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import slides from 'data/portfolioSlides.json';
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
-
-const NextJsImage = (image, offset, rect) => {
-  const width = Math.round(
-    Math.min(rect.width, (rect.height / image.height) * image.width)
-  );
-  const height = Math.round(
-    Math.min(rect.height, (rect.width / image.width) * image.height)
-  );
-
-  return (
-    <div style={{ position: 'relative', width, height }}>
-      <Image
-        alt=""
-        blurDataURL={blurIMG}
-        src={image}
-        layout="fill"
-        loading="eager"
-        placeholder="blur"
-        objectFit="contain"
-        draggable={false}
-        sizes={
-          typeof window !== 'undefined'
-            ? `${Math.ceil((width / window.innerWidth) * 100)}vw`
-            : `${width}px`
-        }
-      />
-    </div>
-  );
-};
 
 export const NotFound = (): JSX.Element => {
   const [open, setOpen] = React.useState(false);

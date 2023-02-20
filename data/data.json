@@ -1,47 +1,5 @@
 [
   {
-    "ID": "02_hookdeck_app",
-    "title": "Hookdeck: Improving the UX for a technical product that saves hundreds of hours of dev-time every day",
-    "coverImg": "/images/hookdeck.svg",
-    "date": "2022",
-    "client": "Hookdeck.com",
-    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A42396%26t%3D1SnWzHuhqpBDe5LP-1",
-    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
-    "intro": "Hookdeck is a Canada-based company focused on providing infrastructure for webhook management. The product enables customers to do operations on their webhooks that would otherwise require custom development in the back ends of their products. With Hookdeck, you can view, monitor, manage, throttle, retry or transform packages sent by your webhooks. It is an essential product for modern tech that uses a microservice architecture.",
-    "details": "<p>It was a great experience working at Hookdeck as a product designer. It was stimulating to work closely with Alex, who is the CEO and a designer himself. The challenges were always thrilling; I had to know everything about webhook workflows to improve this product's UX. During my time at Hookdeck, I worked on optimizing certain features and designing new ones, collaborating closely with the product team and a group of power users.</p>",
-    "tasks": [
-      "Design UI's and create prototypes for new features",
-      "Actively search and identify UX issues and suggest improvements",
-      "Implement workflows to facilitate collaboration with devs and other designers",
-      "Test prototypes with a group of users and gather feedback",
-      "Iterate design solutions based on user feedback",
-      "Create a comprehensive UI design system for the web app"
-    ],
-    "role": "Product Designer",
-    "images": [
-      {
-        "url": "https://drive.google.com/uc?id=1kesABtqGTbGb2b3uHjNRGYnigmmGGK67&export=download",
-        "text": "PREVIEW_1: Redesign Quotas"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=10VmaarZ04948wOugN6LgVLSrNIEPRkBv&export=download",
-        "text": "PREVIEW_2: Design Histogram"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=16Kme5lc__lyQJy68tBkx9uTRYY6W7nEB&export=download",
-        "text": "PREVIEW_3: Redesign Sidebar"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1RHjH7OvtMsyT2Kd-aA8IoyQsNvGvkaxh&export=download",
-        "text": "PREVIEW_3: Redesign Histogram"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1XE801eQx-t3u_COUz3_pW86v-u8cLXyy&export=download",
-        "text": "PREVIEW_3: Redesign Filters"
-      }
-    ]
-  },
-  {
     "ID": "01_gorgias_app",
     "title": "Gorgias: Designing a Helpdesk product with over 10,000 customers resolving millions of support tickets daily.",
     "coverImg": "/images/gorgias.svg",
@@ -66,142 +24,22 @@
     "role": "Product Designer",
     "images": [
       {
-        "url": "https://drive.google.com/uc?id=1IsM1Tna_7mDVsTqOi5y1kvMK1Ua3JX-I&export=download",
-        "text": "PREVIEW_1: Ticket listing view."
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app.png",
+        "alt": "PREVIEW_1: Ticket listing view.",
+        "width": 4885,
+        "height": 5524
       },
       {
-        "url": "https://drive.google.com/uc?id=1rJadJte643yh_4twrA78C9V83FOiNzwU&export=download",
-        "text": "PREVIEW_2: Web App preview stats view."
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app-1.png",
+        "alt": "PREVIEW_2: Web App preview stats view.",
+        "width": 4885,
+        "height": 10258
       },
       {
-        "url": "https://drive.google.com/uc?id=1w0vaCtibli35YNQSmNoH57MW9Z7si-Fe&export=download",
-        "text": "PREVIEW_3: Overview of the mobile app."
-      }
-    ]
-  },
-  {
-    "ID": "05_gorgias_helpcenter",
-    "title": "Gorgias: Designing a self-service portal for Ecommerce platforms",
-    "coverImg": "",
-    "date": "2021",
-    "client": "Gorgias.com",
-    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A31534%26t%3DXqAmgx7VPNhZV1K4-1",
-    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
-    "intro": "This product is an extension of the Gorgias Helpdesk available on Premium plans and allows merchants to add self-service features for their customers. It solves the problem of the most common support requests typically related to recently placed orders. We wanted to create a product that let customers handle these operations themselves. Doing this would reduce support requests by 20-30%. The self-service portal can also host the merchant's brand documentation structured on topics, FAQs and facilitate access to more direct support methods. Its backend config is accessible inside the Gorgias helpdesk. The self-service portal can be deployed as a standalone module on its subdomain URL or be triggered within the Gorgias support widget upon specific support queries.",
-    "details": "<p>My role on this project was creating prototypes for various user flows and conducting testing in collaboration with the product manager who formulated the initial hypotheses. This product operates on three different platforms; within the support chat widget, as a standalone website, and the backend within the Gorgias helpdesk. In each case, the limitations and affordances had to be carefully considered, such as enabling customization options to align aesthetics to the customer's brand or adhering to a design system or another - within the widget or the helpdesk.</p>",
-    "tasks": [
-      "Design the interface for the product on both platforms; (embedded and chat-widget)",
-      "Create a unified modular design system",
-      "Design the configuration (Backend) part of the product within the Gorgias helpdesk",
-      "Design paywalls within the helpdesk to enable access to this new feature(product)",
-      "Produce prototypes for early testing with a group of customers and get feedback from the product team",
-      "Refine the design, implement feedback"
-    ],
-    "role": "Product Designer",
-    "images": [
-      {
-        "url": "https://drive.google.com/uc?id=1iBBblnEzPKfVVFza4n2eTgTLd4txhRUj&export=download",
-        "text": "PREVIEW_1 Gorgias Helpcenter - Portal"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1q9aoAuFM2OczE2IAgDTnbUIcRseVzIuS&export=download",
-        "text": "PREVIEW_2 Gorgias Helpcenter - Portal"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=12PbOA51J5nM9Eex5YV8WYcNumxG34mDQ&export=download",
-        "text": "PREVIEW_3 Gorgias Helpcenter - Portal"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1MIkXVFL9HagHjuOVZefSO3pB6tRRwed7&export=download",
-        "text": "PREVIEW_4 Gorgias Helpcenter - Widget"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1XaifbMd-61vyE4o5O6a84XD_vrOBrK3J&export=download",
-        "text": "PREVIEW_5 Gorgias Helpcenter - Backend"
-      }
-    ]
-  },
-  {
-    "ID": "05_gorgias_www",
-    "title": "Gorgias: Branding and website",
-    "coverImg": "",
-    "date": "2021",
-    "client": "Gorgias.com",
-    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D104%253A8860%26t%3DXqAmgx7VPNhZV1K4-1",
-    "tags": [
-      "Strategy",
-      "Illustration",
-      "Design",
-      "Systems",
-      "Marketing",
-      "Branding",
-      "AB testing"
-    ],
-    "intro": "The design of the old website was dated. The colors were too common, the typography was pretty bad and the illustrations showing the product were dated or bluntly made by non-designer people. We needed a full rehaul of the entire website and a new style guide.",
-    "details": "<p>The results were impressive. Customer acquisition doubled. We received mixed feedback but mostly good. We AB-tested and tweaked some copywriting and illustrations, prospect customers understood much better the product's functionality and pricing. Bounce-rate dropped. We released the new website around the beginning of the pandemic so there was that too, the entire eCommerce sector was booming. The conversion of the ads was great, the bold colors and style worked fabulously!</p> <p>I learned quite a bit about the growth marketing tactics applied at a fast-growing company. I also learned how to conduct effective AB-testing and how to write good copy. It was cool to collaborate with the marketing team, assist along with the production of new promotional assets, test new taglines, and see, first-hand what converts best.<p>",
-    "tasks": [
-      "Produce a new visual appeal for the brand that would incorporate the company's values and ambitions",
-      "Come up with a strategy for effectively presenting key features of the product",
-      "Collaborate with the head of marketing in Paris to define the strategy, the voice, and tone of the language; and also to write the initial copy",
-      "Create a new brand style guide including colors, illustrations, icons, typography",
-      "Make a brand book where the new guidelines are referenced",
-      "Design the new website entirely and create a design system to easily produce new pages",
-      "Supervise the production of collateral design assets (mainly promotional materials) by other freelancers"
-    ],
-    "role": "Product Designer",
-    "images": [
-      {
-        "url": "https://drive.google.com/uc?id=1S3fgmwlPwW4lzF2o2hIXIC9V6ORFcoKc&export=download",
-        "text": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1v4191b7djgtz-buEbsKxXx8MGh86-Apy&export=download",
-        "text": "PREVIEW_2 Blog pages"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1hY7svGzWGArOz5ldiQaB593D0Xi8B50g&export=download",
-        "text": "PREVIEW_3 Landingpage"
-      }
-    ]
-  },
-  {
-    "ID": "03_braintrust_helpcenter",
-    "title": "Braintrust: Designing a helpcenter for the community",
-    "coverImg": "/images/braintrust.svg",
-    "date": "2021",
-    "client": "Braintrust.com",
-    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D618%253A64053%26t%3DtK7sxZO3zulXCrhl-1",
-    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
-    "intro": "Braintrust is a revolutionary freelancer marketplace that connects skilled tech experts with clients. Today the network hosts over 500 companies and 50,000 freelancers who have cumulated earnings exceeding 70M in the past two years. Braintrust introduced a blockchain-based network dynamic that enables community members to participate in the governance and have ownership by earning and holding the BTRST token.",
-    "details": "<p>I am an early member of the Braintrust network of talent, and I have witnessed its spectacular growth and energy up close, engaging in the Discord group. I wanted to get more involved, so I seized the first opportunity to contribute to improving the online platform.</p><p>The team needed to create a knowledge base to host documentation about topics of interest for both talent and clients. As the network grew exponentially, the inquiries and questions multiplied. The envisioned solution was to create a help center incorporating a knowledge base of articles structured by topic, an FAQ, and ultimately facilitating access to other more direct support methods.</p>",
-    "tasks": [
-      "Create design mockups for all the pages of the help center platform using Braintrust design systems",
-      "Make the entire design adaptable to various screen sizes",
-      "Produce an interactive prototype",
-      "Test with a focus group",
-      "Implement revisions, and hand out assets for development"
-    ],
-    "role": "Product Designer",
-    "images": [
-      {
-        "url": "https://drive.google.com/uc?id=1RVTBHtJkPX69B4f1-dt5e6n919AmL8Xh&export=download",
-        "text": "PREVIEW_1 Help Center - Search Results"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1SFoA6YrMoXC3WxhS-YFd6UZ2wPZ8h2ZZ&export=download",
-        "text": "PREVIEW_2 Help Center - Main View"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1-UAVjqKyBn5zsr4NYs1JO3VbImpwr5DI&export=download",
-        "text": "PREVIEW_3 Help Center - Article Page"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=132ZTN0rA-9LGcvZTPhyLKyhmvi8CzeaK&export=download",
-        "text": "PREVIEW_4 Help Center - Topic Overview"
-      },
-      {
-        "url": "https://drive.google.com/uc?id=1h4EQNUtA3z3sJQ0nA7e3pJ5LOsRkQeQ0&export=download",
-        "text": "PREVIEW_5 Help Center - Articles Overview"
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_mobile_app.png",
+        "alt": "PREVIEW_3: Overview of the mobile app.",
+        "width": 4885,
+        "height": 5083
       }
     ]
   }
