@@ -190,6 +190,19 @@ export const About = (): JSX.Element => {
                 community
               </a>
             </li>
+            <li>
+              <a href="#06_dive_www" className="umami--click--06_dive_www">
+                Dive Analytics: Design on all fronts - product and website
+              </a>
+            </li>
+            <li>
+              <a
+                href="#07_scytale_www"
+                className="umami--click--07_scytale_www"
+              >
+                Scytale: Website design and development
+              </a>
+            </li>
           </ul>
         </div>
       </header>

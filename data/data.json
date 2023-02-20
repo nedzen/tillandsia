@@ -211,7 +211,7 @@
   },
   {
     "ID": "06_dive_www",
-    "title": "Dive: Designing an awesome website",
+    "title": "Dive Analytics - Complete redesign of the product and the marketing website",
     "coverImg": "/images/dive.svg",
     "date": "2022",
     "client": "Diveanalytics.co",
@@ -255,10 +255,10 @@
   },
   {
     "ID": "07_scytale_www",
-    "title": "Scytale: Designing an awesome website",
+    "title": "Scytale website design and development",
     "coverImg": "/images/scytale.svg",
     "date": "2022",
-    "client": "Diveanalytics.co",
+    "client": "scytale.io",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A40342%26t%3Dli7Fp6nov7vBUqsv-1",
     "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
     "intro": "Scytale is an identity management service that enables frictionless authentication across any cloud platform. The company raised a series A of 5M and was later acquired by HPE.",
