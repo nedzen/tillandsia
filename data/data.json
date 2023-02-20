@@ -208,5 +208,80 @@
         "alt": "PREVIEW_5 Help Center - Articles Overview"
       }
     ]
+  },
+  {
+    "ID": "06_dive_www",
+    "title": "Dive: Designing an awesome website",
+    "coverImg": "/images/dive.svg",
+    "date": "2022",
+    "client": "Diveanalytics.co",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3Dli7Fp6nov7vBUqsv-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Dive is a BI data analysis tool designed for eCommerce businesses. It syncs with platforms like Shopify, Google AdSense, TikTok, Facebook, and Klaviyo. With Dive's powerful data analysis tools, users can get insights from all this data by creating objective-focused custom dashboards. It also brings a suite of collaborative features, making it ideal for setting goals and tracking eCommerce KPIs for different teams; Marketing, Product, or Operations. It is used by top retail brands in France, like Asphalte and Volcomm.",
+    "details": "<p>I worked with Dive on the product and the marketing website. I created a new UI design system with a different aesthetic appeal for the product. Next, we approached each UX issue in the product, and following customer feedback, I redesigned those features. The product significantly evolved in the following months. During my collaboration with Dive, I worked on the design of a dozen new features. To ensure a seamless UX, I created Figma prototypes for each flow and tested them with a small group of customers in collaboration with the PM.</p>",
+    "tasks": [
+      "Design UI's and create prototypes for new features",
+      "Actively search and identify UX issues and suggest improvements",
+      "Implement workflows to facilitate collaboration with devs and other designers",
+      "Test prototypes with a group of users and gather feedback",
+      "Iterate design solutions based on user feedback",
+      "Create a comprehensive UI design system for the web app",
+      "Design website layout",
+      "Create visual assets to show product functionality"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_landing.png",
+        "alt": "PREVIEW_1 Landing Page"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_pricing.png",
+        "alt": "PREVIEW_2 Pricing Page"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_product.png",
+        "alt": "PREVIEW_3 Product Page"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_case_study.png",
+        "alt": "PREVIEW_4 Case Study Page"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_assets.png",
+        "alt": "PREVIEW_5 Other Dive Assets"
+      }
+    ]
+  },
+  {
+    "ID": "07_scytale_www",
+    "title": "Scytale: Designing an awesome website",
+    "coverImg": "/images/scytale.svg",
+    "date": "2022",
+    "client": "Diveanalytics.co",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A40342%26t%3Dli7Fp6nov7vBUqsv-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Scytale is an identity management service that enables frictionless authentication across any cloud platform. The company raised a series A of 5M and was later acquired by HPE.",
+    "details": "<p>Prior to starting the design phase I working with the head of marketing on the website UX & content strategy. Next, I designed and developed the website along with all the visual assets required for conveying key product features and functionality. Occasionally I also created promotional materials used in events or online growth tactics.</p>",
+    "tasks": [
+      "Design the website along with the illustrations and icons",
+      "Development of the site; jam stack - static with an API-based CMS",
+      "Implement continuous development CI/CD",
+      "Optimise for mobile and performance",
+      "Integrate performance-specific services for AB-testing and growth.",
+      "Integrate a blog and a resources section that allows visitors to download technical material after filling up a form with their info",
+      "Integrate a newsletter - Create zappier automation for transactional emailing"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/scytale_www/scytale_www.png",
+        "alt": "PREVIEW_1 Landing Page"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/scytale_www/scytale_www_blog.png",
+        "alt": "PREVIEW_2 Blog Page"
+      }
+    ]
   }
 ]
