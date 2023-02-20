@@ -1,10 +1,10 @@
 {
-  "gig" : [
+  "gig": [
     {
-    "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/Evelyn_De_Morgan_-_Angel_of_Death.jpg",
-    "alt": "image 1",
-    "width": 3840,
-    "height": 2560
+      "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/Evelyn_De_Morgan_-_Angel_of_Death.jpg",
+      "alt": "image 1",
+      "width": 3840,
+      "height": 2560
     },
     {
       "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/Evelyn_De_Morgan_-_Angel_of_Death.jpg",
