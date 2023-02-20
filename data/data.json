@@ -20,23 +20,23 @@
     "role": "Product Designer",
     "images": [
       {
-        "src": "https://drive.google.com/uc?id=1kesABtqGTbGb2b3uHjNRGYnigmmGGK67&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Quotas.png",
         "alt": "PREVIEW_1: Redesign Quotas"
       },
       {
-        "src": "https://drive.google.com/uc?id=10VmaarZ04948wOugN6LgVLSrNIEPRkBv&export=download",
-        "alt": "PREVIEW_2: Design Histogram"
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Bulk_Retry.png",
+        "alt": "PREVIEW_2: Design BULK RETRY"
       },
       {
-        "src": "https://drive.google.com/uc?id=16Kme5lc__lyQJy68tBkx9uTRYY6W7nEB&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Sidebar.png",
         "alt": "PREVIEW_3: Redesign Sidebar"
       },
       {
-        "src": "https://drive.google.com/uc?id=1RHjH7OvtMsyT2Kd-aA8IoyQsNvGvkaxh&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Histogram.png",
         "alt": "PREVIEW_3: Redesign Histogram"
       },
       {
-        "src": "https://drive.google.com/uc?id=1XE801eQx-t3u_COUz3_pW86v-u8cLXyy&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Filters.png",
         "alt": "PREVIEW_3: Redesign Filters"
       }
     ]
@@ -66,15 +66,15 @@
     "role": "Product Designer",
     "images": [
       {
-        "src": "https://drive.google.com/uc?id=1IsM1Tna_7mDVsTqOi5y1kvMK1Ua3JX-I&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app.png",
         "alt": "PREVIEW_1: Ticket listing view."
       },
       {
-        "src": "https://drive.google.com/uc?id=1rJadJte643yh_4twrA78C9V83FOiNzwU&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app-1.png",
         "alt": "PREVIEW_2: Web App preview stats view."
       },
       {
-        "src": "https://drive.google.com/uc?id=1w0vaCtibli35YNQSmNoH57MW9Z7si-Fe&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app.png",
         "alt": "PREVIEW_3: Overview of the mobile app."
       }
     ]
@@ -100,23 +100,23 @@
     "role": "Product Designer",
     "images": [
       {
-        "src": "https://drive.google.com/uc?id=1iBBblnEzPKfVVFza4n2eTgTLd4txhRUj&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/1_gorgias_helpcenter_(portal).png",
         "alt": "PREVIEW_1 Gorgias Helpcenter - Portal"
       },
       {
-        "src": "https://drive.google.com/uc?id=1q9aoAuFM2OczE2IAgDTnbUIcRseVzIuS&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/2_gorgias_helpcenter_(portal).png",
         "alt": "PREVIEW_2 Gorgias Helpcenter - Portal"
       },
       {
-        "src": "https://drive.google.com/uc?id=12PbOA51J5nM9Eex5YV8WYcNumxG34mDQ&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/3_gorgias_helpcenter_(portal).png",
         "alt": "PREVIEW_3 Gorgias Helpcenter - Portal"
       },
       {
-        "src": "https://drive.google.com/uc?id=1MIkXVFL9HagHjuOVZefSO3pB6tRRwed7&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/4_gorgias_helpcenter_(widget).png",
         "alt": "PREVIEW_4 Gorgias Helpcenter - Widget"
       },
       {
-        "src": "https://drive.google.com/uc?id=1XaifbMd-61vyE4o5O6a84XD_vrOBrK3J&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/5_gorgias_helpcenter_(backend).png",
         "alt": "PREVIEW_5 Gorgias Helpcenter - Backend"
       }
     ]
@@ -151,16 +151,20 @@
     "role": "Product Designer",
     "images": [
       {
-        "src": "https://drive.google.com/uc?id=1S3fgmwlPwW4lzF2o2hIXIC9V6ORFcoKc&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_branding.png",
         "alt": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide"
       },
       {
-        "src": "https://drive.google.com/uc?id=1v4191b7djgtz-buEbsKxXx8MGh86-Apy&export=download",
-        "alt": "PREVIEW_2 Blog pages"
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_landingpage.png",
+        "alt": "PREVIEW_3 Landingpage"
       },
       {
-        "src": "https://drive.google.com/uc?id=1hY7svGzWGArOz5ldiQaB593D0Xi8B50g&export=download",
-        "alt": "PREVIEW_3 Landingpage"
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_pricing.png",
+        "alt": "PREVIEW_2 pricing page"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_blog.png",
+        "alt": "PREVIEW_2 Blog pages"
       }
     ]
   },
@@ -184,23 +188,23 @@
     "role": "Product Designer",
     "images": [
       {
-        "src": "https://drive.google.com/uc?id=1RVTBHtJkPX69B4f1-dt5e6n919AmL8Xh&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(search_results).png",
         "alt": "PREVIEW_1 Help Center - Search Results"
       },
       {
-        "src": "https://drive.google.com/uc?id=1SFoA6YrMoXC3WxhS-YFd6UZ2wPZ8h2ZZ&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(main_view).png",
         "alt": "PREVIEW_2 Help Center - Main View"
       },
       {
-        "src": "https://drive.google.com/uc?id=1-UAVjqKyBn5zsr4NYs1JO3VbImpwr5DI&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(article_page).png",
         "alt": "PREVIEW_3 Help Center - Article Page"
       },
       {
-        "src": "https://drive.google.com/uc?id=132ZTN0rA-9LGcvZTPhyLKyhmvi8CzeaK&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(topic).png",
         "alt": "PREVIEW_4 Help Center - Topic Overview"
       },
       {
-        "src": "https://drive.google.com/uc?id=1h4EQNUtA3z3sJQ0nA7e3pJ5LOsRkQeQ0&export=download",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(articles_overview).png",
         "alt": "PREVIEW_5 Help Center - Articles Overview"
       }
     ]
