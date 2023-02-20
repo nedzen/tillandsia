@@ -37,7 +37,8 @@
     "rehype-autolink-headings": "^5.0.1",
     "rehype-slug": "^4.0.1",
     "remark-code-titles": "^0.1.1",
-    "swr": "^2.0.3"
+    "swr": "^2.0.3",
+    "yet-another-react-lightbox": "^2.4.2"
   },
   "devDependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.75",
