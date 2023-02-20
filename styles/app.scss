@@ -449,3 +449,28 @@ article {
 .pg404 {
   max-width: 600px;
 }
+
+// .yarl__button {
+//   color:red
+// }
+
+// .yarl__icon {
+//   box-shadow: none!important;
+//   background-color: green;
+//   fill:rgba(0, 0, 0, 0.6)
+//   g {
+//     fill:rgba(0, 0, 0, 0.6)
+//   }
+//   svg {
+//     fill:rgba(0, 0, 0, 0.6)
+//   }
+// }
+
+
+.yarl__root {
+  --yarl__color_backdrop: rgba(255, 255, 255, .5 );
+  --yarl__color_button: rgba(0, 0, 0, .6);
+  --yarl__color_button_disabled: rgba(0, 0, 0, .4);
+  --yarl__color_button_active: rgba(0, 0, 0, .95);
+  --yarl__button_filter: drop-shadow(1px 1px 0px rgba(0, 0, 0, 0.1));
+}

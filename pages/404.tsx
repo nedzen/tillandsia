@@ -4,6 +4,7 @@ import Image from 'next/dist/client/image';
 
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import slides from 'data/portfolioSlides.json';
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
@@ -57,6 +58,7 @@ export const NotFound = (): JSX.Element => {
           close={() => setOpen(false)}
           slides={slides.gig}
           render={{ slide: NextJsImage }}
+          plugins={[Zoom]}
         />
         <Image
           blurDataURL={blurIMG}
