@@ -26,6 +26,7 @@ module.exports = withPlaiceholder({
       'mariusnedelcu.com',
       'link.storjshare.io',
       'bgphmyryzzmge66vnkmd3ejzoi2ykmkkj5q35qa4gpkkpj7qg4.arweave.net',
+      's3.eu-west-1.amazonaws.com'
     ],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
