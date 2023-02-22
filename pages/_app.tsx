@@ -10,16 +10,6 @@ import '../styles/app.scss';
 
 if (typeof window !== 'undefined') {
   // This ensures that as long as we are client-side, posthog is always ready
-  // NOTE: If set as an environment variable be sure to prefix with `NEXT_PUBLIC_`
-  // For more info see https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser
-
-  posthog.init('phc_1QBmle4Cc7P82mKBGL3JtPpfElYMu1Eu8d4U1VcwQ4v', {
-    api_host: 'https://app.posthog.com',
-  });
-}
-
-if (typeof window !== 'undefined') {
-  // This ensures that as long as we are client-side, posthog is always ready
   posthog.init('phc_1QBmle4Cc7P82mKBGL3JtPpfElYMu1Eu8d4U1VcwQ4v', {
     api_host: 'https://app.posthog.com',
     loaded: (posthog) => {
