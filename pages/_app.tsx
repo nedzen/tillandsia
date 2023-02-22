@@ -1,12 +1,10 @@
-// import { ThemeProvider } from 'next-themes';
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-// import * as Fathom from 'fathom-client';
-import posthog from 'posthog-js';
-
 import type { AppProps } from 'next/app';
 import React from 'react';
 import '../styles/app.scss';
+
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import posthog from 'posthog-js';
 
 if (typeof window !== 'undefined') {
   // This ensures that as long as we are client-side, posthog is always ready
@@ -31,29 +29,6 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
       router.events.off('routeChangeComplete', handleRouteChange);
     };
   }, []);
-
-  // for fathom
-  // useEffect(() => {
-  //   // Initialize Fathom when the app loads
-  //   // Example: yourdomain.com
-  //   //  - Do not include https://
-  //   //  - This must be an exact match of your domain.
-  //   //  - If you're using www. for your domain, make sure you include that here.
-  //   Fathom.load('KLODAZSU', {
-  //     includedDomains: ['mariusnedelcu.com'],
-  //   });
-
-  //   function onRouteChangeComplete() {
-  //     Fathom.trackPageview();
-  //   }
-  //   // Record a pageview when route changes
-  //   router.events.on('routeChangeComplete', onRouteChangeComplete);
-
-  //   // Unassign event listener
-  //   return () => {
-  //     router.events.off('routeChangeComplete', onRouteChangeComplete);
-  //   };
-  // }, []);
 
   return <Component {...pageProps} />;
 }
