@@ -2,8 +2,13 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Image from 'next/dist/client/image';
 import ProjectData from '../data/data.json';
+import posthog from 'posthog-js';
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
+
+const handleOnBuy = () => {
+  posthog.capture('purchase', { price: 5900, currency: 'USD' });
+};
 
 const FigmaEmbed = ({ ...props }) => (
   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
@@ -212,6 +217,9 @@ export const About = (): JSX.Element => {
           <Project key={i} data={item} />
         ))}
       </main>
+      <div>
+        <button onClick={handleOnBuy}>Test</button>
+      </div>
     </Layout>
   );
 };
