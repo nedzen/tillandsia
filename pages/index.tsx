@@ -2,128 +2,16 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Image from 'next/dist/client/image';
 import ProjectData from '../data/data.json';
-import posthog from 'posthog-js';
+// import posthog from 'posthog-js';
+// import Project from '../components/Project';
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
-const handleOnBuy = () => {
-  posthog.capture('purchase', { price: 5900, currency: 'USD' });
-};
-
-const FigmaEmbed = ({ ...props }) => (
-  <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
-);
+// const handleOnBuy = () => {
+//   posthog.capture('purchase', { price: 5900, currency: 'USD' });
+// };
 
 const introcontent = `<p>Hello, I'm Marius, a digital product designer with a passion for creating User Interfaces that look great and deliver results. By combining my expertise in User Experience and brand identity, I've been able to create products that have been used and adored by millions. My client portfolio includes industry giants such as HPE, Gorgias, Hookdeck, as well as startups.</p><p>On each project, I strive to deliver simple, intuitive designs that help businesses succeed. I love to take on UX challenges, test hypotheses and achieve measurable results for my clients.</p>`;
-
-const Project = ({ ...props }) => {
-  const {
-    ID,
-    client,
-    embed,
-    tags,
-    title,
-    intro,
-    details,
-    role,
-    images,
-    tasks,
-    coverImg,
-  } = props.data;
-
-  return (
-    <div className="project" id={ID}>
-      {coverImg == '' ? (
-        ''
-      ) : (
-        <div className="coverImg">
-          <Image
-            blurDataURL={blurIMG}
-            placeholder="blur"
-            alt={`cover`}
-            src={coverImg}
-            width={1000}
-            height={500}
-            layout="responsive"
-            priority
-          />
-        </div>
-      )}
-
-      <div className="block">
-        <div className="c-left">
-          <strong>Project</strong>
-          <ul className="projectMeta">
-            {/* <li>Date: {date}</li> */}
-            <li>Client: {client}</li>
-            <li className="tags">
-              <span>Expertise: </span>
-              {tags.map((item: any, i: number) => (
-                <b key={i}>{item} </b>
-              ))}
-            </li>
-          </ul>
-        </div>
-        <div className="c-right">
-          <h2>{title}</h2>
-          <p dangerouslySetInnerHTML={{ __html: intro }} />
-        </div>
-      </div>
-
-      <FigmaEmbed embed={embed} />
-
-      <div className="block">
-        <div className="c-left">
-          <strong>Role</strong>
-          <ul className="projectMeta">
-            <li>{role}</li>
-          </ul>
-        </div>
-        <div className="c-right">
-          <div dangerouslySetInnerHTML={{ __html: details }} />
-          <ul className="list">
-            {tasks.map((item: any, i: number) => (
-              <li key={i}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      <div className="block">
-        <div className="c-left">
-          <strong>Files</strong>
-          <ul className="projectMeta">
-            <li>Download PNG previews</li>
-          </ul>
-        </div>
-
-        <div className="c-right">
-          <ul className="list">
-            {images.map((item: any, i: number) => (
-              <li key={i}>
-                <a
-                  href={item.src}
-                  rel="noreferrer"
-                  target="_blank"
-                  className={
-                    'umami--click--' +
-                    ID +
-                    '__' +
-                    item.alt.replace(/[\s:]/g, '') +
-                    '__' +
-                    i
-                  }
-                >
-                  {item.alt}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-};
 
 export const About = (): JSX.Element => {
   return (
@@ -156,7 +44,7 @@ export const About = (): JSX.Element => {
           <div className="pb05">
             <strong>PROJECTS:</strong>
           </div>
-          <ul className="list">
+          {/* <ul className="list">
             <li>
               <a
                 href="#02_hookdeck_app"
@@ -208,18 +96,21 @@ export const About = (): JSX.Element => {
                 Scytale: Website design and development
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </header>
 
       <main className="DSGN">
-        {ProjectData.map((item: any, i: number) => (
+        {ProjectData.map((item: any, i: number) => {
+          return <div key={i}>{item.ID}</div>;
+        })}
+        {/* {ProjectData.map((item: any, i: number) => (
           <Project key={i} data={item} />
-        ))}
+        ))} */}
       </main>
-      <div>
+      {/* <div>
         <button onClick={handleOnBuy}>Test</button>
-      </div>
+      </div> */}
     </Layout>
   );
 };
