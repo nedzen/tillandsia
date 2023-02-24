@@ -134,7 +134,7 @@ main {
   display: block;
   @extend %container;
   margin: calc($unit * 2) calc($unit * 2);
-  @include media-breakpoint-up (sm) {
+  @include media-breakpoint-up(sm) {
     padding: $unit;
   }
 }
@@ -480,12 +480,12 @@ article {
 .rowpost {
   @include display-flex;
   display: grid;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .post {
-   > a {
+  > a {
     display: block;
     background-color: #fff;
     padding: $unit;
@@ -493,21 +493,22 @@ article {
     height: 100%;
     &:hover {
       color: $base-color;
-      box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1), 0px 7px 33px rgba(47, 49, 51, 0.12);
+      box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1),
+        0px 7px 33px rgba(47, 49, 51, 0.12);
     }
     span {
       display: block;
       font-weight: 200;
       font-size: medium;
     }
-   }
+  }
   padding: $unit 0;
   &:first-child {
     @include media-breakpoint-down(xs) {
       padding-top: 0;
     }
   }
-  
+
   @include media-breakpoint-up(sm) {
     width: 50%;
     padding: $unit/2;
