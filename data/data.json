@@ -2,7 +2,11 @@
   {
     "ID": "02_hookdeck_app",
     "title": "Hookdeck: Improving the UX for a technical product that saves hundreds of hours of dev-time every day",
-    "coverImg": "/images/hookdeck.svg",
+    "coverImg": {
+        "src": "/images/hookdeck.svg",
+        "width": 150,
+        "height": 40
+      },
     "date": "2022",
     "client": "Hookdeck.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A42396%26t%3D1SnWzHuhqpBDe5LP-1",
@@ -44,7 +48,11 @@
   {
     "ID": "01_gorgias_app",
     "title": "Gorgias: Designing a Helpdesk product with over 10,000 customers resolving millions of support tickets daily.",
-    "coverImg": "/images/gorgias.svg",
+    "coverImg": {
+        "src": "/images/gorgias.svg",
+        "width": 122,
+        "height": 40
+      },
     "date": "2018-2021",
     "client": "Gorgias.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D103%253A8851%26t%3D1SnWzHuhqpBDe5LP-1",
@@ -82,7 +90,11 @@
   {
     "ID": "05_gorgias_helpcenter",
     "title": "Gorgias: Designing a self-service portal for Ecommerce platforms",
-    "coverImg": "",
+    "coverImg": {
+        "src": "/images/gorgias.svg",
+        "width": 122,
+        "height": 40
+      },
     "date": "2021",
     "client": "Gorgias.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A31534%26t%3DXqAmgx7VPNhZV1K4-1",
@@ -124,7 +136,11 @@
   {
     "ID": "05_gorgias_www",
     "title": "Gorgias: Branding and website",
-    "coverImg": "",
+    "coverImg": {
+        "src": "/images/gorgias.svg",
+        "width": 122,
+        "height": 40
+      },
     "date": "2021",
     "client": "Gorgias.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D104%253A8860%26t%3DXqAmgx7VPNhZV1K4-1",
@@ -171,7 +187,11 @@
   {
     "ID": "03_braintrust_helpcenter",
     "title": "Braintrust: Designing a helpcenter for the community",
-    "coverImg": "/images/braintrust.svg",
+    "coverImg": {
+        "src": "/images/braintrust.svg",
+        "width": 140,
+        "height": 40
+      },
     "date": "2021",
     "client": "Braintrust.com",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D618%253A64053%26t%3DtK7sxZO3zulXCrhl-1",
@@ -212,7 +232,11 @@
   {
     "ID": "06_dive_www",
     "title": "Dive Analytics - Complete redesign of the product and the marketing website",
-    "coverImg": "/images/dive.svg",
+    "coverImg": {
+        "src": "/images/dive.svg",
+        "width": 80,
+        "height": 40
+      },
     "date": "2022",
     "client": "Diveanalytics.co",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3Dli7Fp6nov7vBUqsv-1",
@@ -256,7 +280,11 @@
   {
     "ID": "07_scytale_www",
     "title": "Scytale website design and development",
-    "coverImg": "/images/scytale.svg",
+    "coverImg": {
+        "src": "/images/scytale.svg",
+        "width": 120,
+        "height": 40
+      },
     "date": "2022",
     "client": "scytale.io",
     "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A40342%26t%3Dli7Fp6nov7vBUqsv-1",

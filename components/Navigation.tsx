@@ -11,17 +11,12 @@ const Navigation = (): JSX.Element => {
       <ul className="navLinks">
         <li>
           <Link href="/">
-            <a>M</a>
+            <a>Marius</a>
           </Link>
         </li>
         <li>
-          <Link href="/design">
-            <a>design</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/nft">
-            <a>art</a>
+          <Link href="/info">
+            <a>info</a>
           </Link>
         </li>
       </ul>

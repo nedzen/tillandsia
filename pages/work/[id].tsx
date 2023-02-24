@@ -1,7 +1,8 @@
-// import Link from 'next/link';
+import { GetStaticPaths, GetStaticProps } from 'next';
 import React from 'react';
-// import { useRouter } from 'next/router';
-// import Subscribe from './Subscribe';
+import Layout, { WEBSITE_HOST_URL } from '../../components/Layout';
+import { MetaProps } from '../../types/layout';
+import ProjectData from '../../data/data.json';
 import Image from 'next/dist/client/image';
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
@@ -9,6 +10,27 @@ const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 const FigmaEmbed = ({ ...props }) => (
   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
 );
+
+type ProjectProps = {
+  projectInfo: {
+    ID: string;
+    title: string;
+    coverImg: {
+      src: string;
+      width: number;
+      height: number;
+    };
+    date: string;
+    client: string;
+    embed: string;
+    tags: any;
+    intro: string;
+    details: string;
+    tasks: Array<string>;
+    role: string;
+    images: Array<string>;
+  };
+};
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const Project = ({ ...props }) => {
@@ -28,22 +50,18 @@ const Project = ({ ...props }) => {
 
   return (
     <div className="project" id={ID}>
-      {coverImg == '' ? (
-        ''
-      ) : (
-        <div className="coverImg">
-          <Image
-            blurDataURL={blurIMG}
-            placeholder="blur"
-            alt={`cover`}
-            src={coverImg}
-            width={1000}
-            height={500}
-            layout="responsive"
-            priority
-          />
-        </div>
-      )}
+      <div className="coverImg">
+        <Image
+          blurDataURL={blurIMG}
+          placeholder="blur"
+          alt={`cover`}
+          src={coverImg}
+          width={1000}
+          height={500}
+          layout="responsive"
+          priority
+        />
+      </div>
 
       <div className="block">
         <div className="c-left">
@@ -120,4 +138,48 @@ const Project = ({ ...props }) => {
   );
 };
 
-export default Project;
+const ProjectPage = ({ projectInfo }: ProjectProps): JSX.Element => {
+  const customMeta: MetaProps = {
+    title: `${projectInfo.title}`,
+    description: 'description',
+    image: `${WEBSITE_HOST_URL}/image.png`,
+    date: 'date',
+    type: 'article',
+  };
+
+  return (
+    <>
+      <Layout customMeta={customMeta}>
+        <main>
+          <Project data={projectInfo} />
+        </main>
+      </Layout>
+    </>
+  );
+};
+
+export const getStaticProps: GetStaticProps = async (context: any) => {
+  // export const getStaticProps = async (context: any) => {
+  const projectInfo = ProjectData.find(
+    (classes) => classes.ID == context.params.id
+  );
+  return {
+    props: {
+      projectInfo,
+    },
+  };
+};
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const ids = ProjectData.map((el) => el.ID);
+
+  const paths = ids.map((el) => ({
+    params: { id: el.toString() },
+  }));
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export default ProjectPage;

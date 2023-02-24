@@ -134,6 +134,9 @@ main {
   display: block;
   @extend %container;
   margin: calc($unit * 2) calc($unit * 2);
+  @include media-breakpoint-up (sm) {
+    padding: $unit;
+  }
 }
 
 .subscribeWrap {
@@ -204,13 +207,16 @@ input.textInput {
     right: 0;
     z-index: 1;
   }
-  padding: calc($unit / 2) 0;
+  padding: calc($unit / 2);
   background-color: #fff;
 }
 
 .navLinks {
-  padding: 0 $unit/2;
-  text-align: left;
+  padding: 0 0;
+  @include media-breakpoint-up(xl) {
+    padding: 0 $unit;
+  }
+  @extend %container;
   li {
     font-size: $base-fs;
     display: inline-block;
@@ -334,6 +340,7 @@ article {
 // Setting up the design section layout
 
 .project {
+  margin-top: calc($unit * 2);
   margin-bottom: calc($unit * 2);
   padding-bottom: calc($unit * 2);
   border-bottom: 1px solid lighten($base-color, 70%);
@@ -468,4 +475,45 @@ article {
   --yarl__color_button_disabled: rgba(0, 0, 0, 0.4);
   --yarl__color_button_active: rgba(0, 0, 0, 0.95);
   --yarl__button_filter: drop-shadow(1px 1px 0px rgba(0, 0, 0, 0.1));
+}
+
+.rowpost {
+  @include display-flex;
+  display: grid;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.post {
+   > a {
+    display: block;
+    background-color: #fff;
+    padding: $unit;
+    border-radius: 13px;
+    height: 100%;
+    &:hover {
+      color: $base-color;
+      box-shadow: 0px 2px 6px rgba(47, 49, 51, 0.1), 0px 7px 33px rgba(47, 49, 51, 0.12);
+    }
+    span {
+      display: block;
+      font-weight: 200;
+      font-size: medium;
+    }
+   }
+  padding: $unit 0;
+  &:first-child {
+    @include media-breakpoint-down(xs) {
+      padding-top: 0;
+    }
+  }
+  
+  @include media-breakpoint-up(sm) {
+    width: 50%;
+    padding: $unit/2;
+  }
+  width: 100%;
+  h4 {
+    font-weight: 100;
+  }
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { MetaProps } from '../types/layout';
 import Head from './Head';
-// import Navigation from './Navigation';
-// import Footer from './Footer';
+import Navigation from './Navigation';
+import Footer from './Footer';
 import Subscribe from './Subscribe';
 import { useRouter } from 'next/router';
 
@@ -18,10 +18,10 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
   return (
     <>
       <Head customMeta={customMeta} />
-      {/* <Navigation /> */}
+      <Navigation />
       {children}
       {router.pathname == '/' ? <Subscribe /> : ''}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
