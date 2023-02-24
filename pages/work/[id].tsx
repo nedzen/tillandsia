@@ -4,7 +4,6 @@ import Layout, { WEBSITE_HOST_URL } from '../../components/Layout';
 import { MetaProps } from '../../types/layout';
 import ProjectData from '../../data/data.json';
 import Image from 'next/dist/client/image';
-
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
 const FigmaEmbed = ({ ...props }) => (
@@ -32,7 +31,6 @@ type ProjectProps = {
   };
 };
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const Project = ({ ...props }) => {
   const {
     ID,
@@ -113,7 +111,7 @@ const Project = ({ ...props }) => {
         <div className="c-right">
           <ul className="list">
             {images.map((item: any, i: number) => (
-              <li key={i}>
+              <li key={i} className="lightbox">
                 <a
                   href={item.src}
                   rel="noreferrer"

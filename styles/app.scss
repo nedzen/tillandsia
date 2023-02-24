@@ -54,7 +54,8 @@
 }
 
 html {
-  overflow: hidden;
+  // causes the next link to not scroll to top
+  // overflow: hidden;
   height: 100%;
   @include media-breakpoint-up(sm) {
     font-size: 53%;
