@@ -45,7 +45,6 @@ const GalleryContainer = styled.div`
   padding: 0em;
 `;
 
-
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 const GridImage = ({ key, index, left, top, photo, onClick }) => {
   const { height, width, src, alt, caption } = photo;
@@ -86,7 +85,7 @@ const Caption = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: hsla(1, 100%, 100%, .8);
+  background: hsla(1, 100%, 100%, 0.8);
   color: black;
   h4 {
     text-align: center;

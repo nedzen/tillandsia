@@ -82,7 +82,11 @@ const CoolLightbox = ({
         />
       )}
       renderPrevButton={({ canPrev }) => (
-        <ArrowButton position="left" onClick={gotoPrevious} disabled={!canPrev} />
+        <ArrowButton
+          position="left"
+          onClick={gotoPrevious}
+          disabled={!canPrev}
+        />
       )}
       renderNextButton={({ canNext }) => (
         <ArrowButton position="right" onClick={gotoNext} disabled={!canNext} />
@@ -108,11 +112,14 @@ CoolLightbox.propTypes = {
 export default CoolLightbox;
 
 const StyledLightbox = styled(Lightbox)`
-  background: hsla(1, 100%, 100%, .8);
-  * ::selection { background: blue; }
-  * ::-moz-selection { background: orange; }
+  background: hsla(1, 100%, 100%, 0.8);
+  * ::selection {
+    background: blue;
+  }
+  * ::-moz-selection {
+    background: orange;
+  }
 `;
-
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const LightboxHeader = ({ images, currentIndex, onClose }) => (
@@ -180,7 +187,9 @@ const TopHeaderBar = styled.header`
   color: black;
   font-size: 12px;
   background-color: none;
-  > * {height: inherit;}
+  > * {
+    height: inherit;
+  }
 `;
 
 const ArrowButton = ({ position, onClick, disabled }) => {
@@ -199,11 +208,14 @@ const ArrowButton = ({ position, onClick, disabled }) => {
             zIndex: 999,
           }}
         >
-          <button className='lightboxControls' style={{ position: {position} }} onClick={onClick} >
-            {position === 'left' && "PREVIOUS"}
-            {position === 'right' && "NEXT"}
+          <button
+            className="lightboxControls"
+            style={{ position: { position } }}
+            onClick={onClick}
+          >
+            {position === 'left' && 'PREVIOUS'}
+            {position === 'right' && 'NEXT'}
           </button>
-
         </animated.div>
       )
   );
