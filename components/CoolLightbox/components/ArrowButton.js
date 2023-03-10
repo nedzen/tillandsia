@@ -25,7 +25,7 @@ const ArrowButton = ({ position, onClick, disabled }) => {
           <Button position={position} type="button" onClick={onClick}>
             {/* {position === 'left' && <IoIosArrowBack />}
             {position === 'right' && <IoIosArrowForward />} */}
-            
+
             {/* {position === 'left' && <IoIosArrowBack />}
             {position === 'right' && <IoIosArrowForward />} */}
           </Button>
