@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import React from "react";
-import styled from "styled-components";
-import { GoMarkGithub, GoCode } from "react-icons/go";
+import React from 'react';
+import styled from 'styled-components';
+// import { GoMarkGithub, GoCode } from 'react-icons/go';
 
 const Footer = () => (
   <StyledFooter>
@@ -12,7 +12,7 @@ const Footer = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <GoMarkGithub size="1.5em" />
+        {/* <GoMarkGithub size="1.5em" /> */}
         GitHub
       </StyledLink>
       <StyledLink
@@ -20,7 +20,7 @@ const Footer = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <GoCode size="1.5em" />
+        {/* <GoCode size="1.5em" /> */}
         Codesandbox
       </StyledLink>
     </LinkContainer>

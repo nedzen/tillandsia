@@ -1,37 +1,92 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 import Layout, { WEBSITE_HOST_URL } from '../../components/Layout';
 import { MetaProps } from '../../types/layout';
 import ProjectData from '../../data/data.json';
 import Image from 'next/image';
+import Lightbox from '../../components/CoolLightbox';
+import ImageMosaic from '../../components/ImageMosaic';
 
 import 'photoswipe/dist/photoswipe.css';
 
-// import Lightbox, { ImagesListType } from 'react-spring-lightbox';
+export const mosaicImages = [
+  {
+    src: 'https://i.imgur.com/8oNzu0S.png',
+    alt: 'README.md',
+    caption: 'README.md',
+    width: 2486,
+    height: 1469,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://timellenberger.com/static/blog-content/dark-mode/win10-dark-mode.jpg',
+    alt: 'Windows 10 Dark Mode Setting',
+    caption: 'Windows 10 Dark Mode Setting',
+    width: 2848,
+    height: 2035,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://timellenberger.com/static/blog-content/dark-mode/macos-dark-mode.png',
+    alt: 'macOS Mojave Dark Mode Setting',
+    caption: 'macOS Mojave Dark Mode Setting',
+    width: 1200,
+    height: 1218,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://timellenberger.com/static/blog-content/dark-mode/android-9-dark-mode.jpg',
+    alt: 'Android 9.0 Dark Mode Setting',
+    caption: 'Android 9.0 Dark Mode Setting',
+    width: 1280,
+    height: 600,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://i.imgur.com/8oNzu0S.png',
+    alt: 'README.md',
+    caption: 'README.md',
+    width: 2486,
+    height: 1469,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://timellenberger.com/static/blog-content/dark-mode/win10-dark-mode.jpg',
+    alt: 'Windows 10 Dark Mode Setting',
+    caption: 'Windows 10 Dark Mode Setting',
+    width: 2848,
+    height: 2035,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://timellenberger.com/static/blog-content/dark-mode/macos-dark-mode.png',
+    alt: 'macOS Mojave Dark Mode Setting',
+    caption: 'macOS Mojave Dark Mode Setting',
+    width: 1200,
+    height: 1218,
+    loading: 'lazy',
+  },
+  {
+    src: 'https://timellenberger.com/static/blog-content/dark-mode/android-9-dark-mode.jpg',
+    alt: 'Android 9.0 Dark Mode Setting',
+    caption: 'Android 9.0 Dark Mode Setting',
+    width: 1280,
+    height: 600,
+    loading: 'lazy',
+  },
+];
 
-// const images: ImagesListType = [
-//     {
-//         src: 'https://timellenberger.com/static/blog-content/dark-mode/win10-dark-mode.jpg',
-//         loading: 'lazy',
-//         alt: 'Windows 10 Dark Mode Setting',
-//     },
-//     {
-//         src: 'https://timellenberger.com/static/blog-content/dark-mode/macos-dark-mode.png',
-//         loading: 'lazy',
-//         alt: 'macOS Mojave Dark Mode Setting',
-//     },
-//     {
-//         src: 'https://timellenberger.com/static/blog-content/dark-mode/android-9-dark-mode.jpg',
-//         loading: 'lazy',
-//         alt: 'Android 9.0 Dark Mode Setting',
-//     },
-// ];
+export const lightboxImages = mosaicImages.map(({ src, alt, caption }) => ({
+  src,
+  alt,
+  caption,
+}));
 
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
-const FigmaEmbed = ({ ...props }) => (
-  <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
-);
+// const FigmaEmbed = ({ ...props }) => (
+//   <iframe className="figmaEmbed" src={props.embed} allowFullScreen></iframe>
+// );
 
 type ProjectProps = {
   projectInfo: {
@@ -58,7 +113,7 @@ const Project = ({ ...props }) => {
   const {
     ID,
     client,
-    embed,
+    // embed,
     tags,
     title,
     intro,
@@ -68,6 +123,9 @@ const Project = ({ ...props }) => {
     tasks,
     coverImg,
   } = props.data;
+
+  const [isOpen, setOpen] = useState(false);
+  const [currentImageIndex, setCurrentIndex] = useState(0);
 
   return (
     <div className="project" id={ID}>
@@ -104,7 +162,7 @@ const Project = ({ ...props }) => {
         </div>
       </div>
 
-      <FigmaEmbed embed={embed} />
+      {/* <FigmaEmbed embed={embed} /> */}
 
       <div className="block">
         <div className="c-left">
@@ -133,8 +191,44 @@ const Project = ({ ...props }) => {
 
         <div className="c-right">
           <ul className="list">
-            {/* <CoolLightbox/> */}
+            <div>
+              <h1>test</h1>
 
+              <ImageMosaic
+                images={mosaicImages}
+                handleClick={(e, { index }) => {
+                  setCurrentIndex(index);
+                  setOpen(true);
+                }}
+              />
+              <Lightbox
+                currentImageIndex={currentImageIndex}
+                setCurrentIndex={setCurrentIndex}
+                isOpen={isOpen}
+                onClose={() => setOpen(false)}
+                images={lightboxImages}
+                /* Add your own UI */
+                // renderHeader={() => (<CustomHeader />)}
+                // renderFooter={() => (<CustomFooter />)}
+                // renderPrevButton={() => (<CustomLeftArrowButton />)}
+                // renderNextButton={() => (<CustomRightArrowButton />)}
+                // renderImageOverlay={() => (<ImageOverlayComponent >)}
+                /* Add styling */
+                // className="cool-class"
+                // style={{ background: "grey" }}
+                /* Handle closing */
+                // onClose={handleClose}
+                /* Use single or double click to zoom */
+                // singleClickToZoom
+                /* react-spring config for open/close animation */
+                // pageTransitionConfig={{
+                //   from: { transform: "scale(0.75)", opacity: 0 },
+                //   enter: { transform: "scale(1)", opacity: 1 },
+                //   leave: { transform: "scale(0.75)", opacity: 0 },
+                //   config: { mass: 1, tension: 320, friction: 32 }
+                // }}
+              />
+            </div>
             {images.map((item: any, i: number) => (
               <li key={i} className="lightbox">
                 <a

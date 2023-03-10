@@ -1,14 +1,15 @@
-import React from "react";
-import { FiHeart, FiPrinter, FiShare } from "react-icons/fi";
-import styled from "styled-components";
-import Color from "color";
+import React from 'react';
+// import { FiHeart, FiPrinter, FiShare } from 'react-icons/fi';
+import styled from 'styled-components';
+import Color from 'color';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const ImageOverlay = () => (
   <OverlayContainer>
     <p>Create your own UI</p>
-    <FiPrinter size="3em" />
+    {/* <FiPrinter size="3em" />
     <FiShare size="3em" />
-    <FiHeart size="3em" />
+    <FiHeart size="3em" /> */}
   </OverlayContainer>
 );
 
