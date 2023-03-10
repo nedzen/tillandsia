@@ -520,6 +520,38 @@ article {
   }
 }
 
-* {
-  outline: 1px dotted red;
+// * {
+//   outline: 1px dotted red;
+// }
+
+.lightboxFooter {
+  position: absolute;
+  padding: 0px 20px;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #FF00CC;
+  color: blue;
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.lightboxControls {
+  cursor: pointer;
+  background-color: $base-color;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  font-size: 2em;
+  margin: 10px;
+  border-radius: 2px;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: $pink;
+    color: $base-color;
+  }
 }
