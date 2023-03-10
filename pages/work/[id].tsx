@@ -1,9 +1,32 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import React from 'react';
+// import React, { useState } from 'react';
 import Layout, { WEBSITE_HOST_URL } from '../../components/Layout';
 import { MetaProps } from '../../types/layout';
 import ProjectData from '../../data/data.json';
-import Image from 'next/dist/client/image';
+import Image from 'next/image';
+
+import 'photoswipe/dist/photoswipe.css';
+
+// import Lightbox, { ImagesListType } from 'react-spring-lightbox';
+
+// const images: ImagesListType = [
+//     {
+//         src: 'https://timellenberger.com/static/blog-content/dark-mode/win10-dark-mode.jpg',
+//         loading: 'lazy',
+//         alt: 'Windows 10 Dark Mode Setting',
+//     },
+//     {
+//         src: 'https://timellenberger.com/static/blog-content/dark-mode/macos-dark-mode.png',
+//         loading: 'lazy',
+//         alt: 'macOS Mojave Dark Mode Setting',
+//     },
+//     {
+//         src: 'https://timellenberger.com/static/blog-content/dark-mode/android-9-dark-mode.jpg',
+//         loading: 'lazy',
+//         alt: 'Android 9.0 Dark Mode Setting',
+//     },
+// ];
+
 const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
 const FigmaEmbed = ({ ...props }) => (
@@ -110,6 +133,8 @@ const Project = ({ ...props }) => {
 
         <div className="c-right">
           <ul className="list">
+            {/* <CoolLightbox/> */}
+
             {images.map((item: any, i: number) => (
               <li key={i} className="lightbox">
                 <a

@@ -23,6 +23,7 @@ module.exports = withPlaiceholder({
       'bafybeigvj47y3tlplaxqzyvz26jsejsy2pxk3f2o2p77lh75lw2mo6eyky.ipfs.infura-ipfs.io',
       'drive.google.com',
       'ipfs.io',
+      'placekitten.com',
       'mariusnedelcu.com',
       'link.storjshare.io',
       'bgphmyryzzmge66vnkmd3ejzoi2ykmkkj5q35qa4gpkkpj7qg4.arweave.net',
