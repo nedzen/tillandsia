@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import React from "react";
-import PropTypes from "prop-types";
-import styled from "styled-components";
-import Gallery from "react-photo-gallery";
-import GridImage from "./components/GridImage";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import Gallery from 'react-photo-gallery';
+import GridImage from './components/GridImage';
 
 const ImageMosaic = ({ images, handleClick }) => (
   <GalleryContainer>
     <Gallery
-      columns={containerWidth => {
+      columns={(containerWidth) => {
         let columns = 1;
         if (containerWidth >= 500) columns = 2;
         if (containerWidth >= 900) columns = 3;
@@ -31,10 +31,10 @@ ImageMosaic.propTypes = {
       caption: PropTypes.string.isRequired,
       height: PropTypes.number.isRequired,
       width: PropTypes.number.isRequired,
-      src: PropTypes.string.isRequired
+      src: PropTypes.string.isRequired,
     })
   ),
-  handleClick: PropTypes.func.isRequired
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default ImageMosaic;

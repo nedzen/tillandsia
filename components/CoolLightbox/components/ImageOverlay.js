@@ -1,7 +1,7 @@
-import React from "react";
-import { FiHeart, FiPrinter, FiShare } from "react-icons/fi";
-import styled from "styled-components";
-import Color from "color";
+import React from 'react';
+import { FiHeart, FiPrinter, FiShare } from 'react-icons/fi';
+import styled from 'styled-components';
+import Color from 'color';
 
 const ImageOverlay = () => (
   <OverlayContainer>

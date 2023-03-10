@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styled from "styled-components";
-import { IoIosClose } from "react-icons/io";
-import Color from "color";
-import ButtonControl from "./ButtonControl";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { IoIosClose } from 'react-icons/io';
+import Color from 'color';
+import ButtonControl from './ButtonControl';
 
 const LightboxHeader = ({ galleryTitle, images, currentIndex, onClose }) => (
   <TopHeaderBar>
@@ -30,9 +30,9 @@ LightboxHeader.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
       src: PropTypes.string.isRequired,
-      alt: PropTypes.string.isRequired
+      alt: PropTypes.string.isRequired,
     })
-  ).isRequired
+  ).isRequired,
 };
 
 export default LightboxHeader;
@@ -88,10 +88,7 @@ const TopHeaderBar = styled.header`
   padding: 10px 2px 10px 20px;
   color: ${({ theme }) => theme.headerNavFontColor};
   background-color: ${({ theme }) =>
-    Color(theme.pageBackgroundColor)
-      .alpha(0.5)
-      .hsl()
-      .string()};
+    Color(theme.pageBackgroundColor).alpha(0.5).hsl().string()};
   > * {
     height: inherit;
   }

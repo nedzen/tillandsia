@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import React from "react";
-import styled from "styled-components";
-import { GoMarkGithub, GoCode } from "react-icons/go";
+import React from 'react';
+import styled from 'styled-components';
+import { GoMarkGithub, GoCode } from 'react-icons/go';
 
 const Footer = () => (
   <StyledFooter>

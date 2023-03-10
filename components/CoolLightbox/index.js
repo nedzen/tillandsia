@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import React from "react";
-import PropTypes from "prop-types";
-import Lightbox from "react-spring-lightbox";
-import styled from "styled-components";
-import Color from "color";
-import { ArrowButton, Header, Footer, ImageOverlay } from "./components";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Lightbox from 'react-spring-lightbox';
+import styled from 'styled-components';
+import Color from 'color';
+import { ArrowButton, Header, Footer, ImageOverlay } from './components';
 
 /**
  * Double click + pinch to zoom
@@ -15,11 +15,19 @@ import { ArrowButton, Header, Footer, ImageOverlay } from "./components";
  * @see https://github.com/tim-soft/react-spring-lightbox
  * @see https://timellenberger.com
  */
-const CoolLightbox = ({ images, currentImageIndex, setCurrentIndex, isOpen, onClose }) => {
-  
-  const gotoPrevious = () => currentImageIndex > 0 && setCurrentIndex(currentImageIndex - 1);
+const CoolLightbox = ({
+  images,
+  currentImageIndex,
+  setCurrentIndex,
+  isOpen,
+  onClose,
+}) => {
+  const gotoPrevious = () =>
+    currentImageIndex > 0 && setCurrentIndex(currentImageIndex - 1);
 
-  const gotoNext = () => currentImageIndex + 1 < images.length && setCurrentIndex(currentImageIndex + 1);
+  const gotoNext = () =>
+    currentImageIndex + 1 < images.length &&
+    setCurrentIndex(currentImageIndex + 1);
 
   return (
     <StyledLightbox
@@ -58,23 +66,20 @@ CoolLightbox.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
       src: PropTypes.string.isRequired,
-      alt: PropTypes.string.isRequired
+      alt: PropTypes.string.isRequired,
     })
   ),
   currentImageIndex: PropTypes.number.isRequired,
   setCurrentIndex: PropTypes.func.isRequired,
   isOpen: PropTypes.bool.isRequired,
-  onClose: PropTypes.func.isRequired
+  onClose: PropTypes.func.isRequired,
 };
 
 export default CoolLightbox;
 
 const StyledLightbox = styled(Lightbox)`
   background: ${({ theme }) =>
-    Color(theme.accentColor)
-      .alpha(0.95)
-      .hsl()
-      .string()};
+    Color(theme.accentColor).alpha(0.95).hsl().string()};
   * ::selection {
     background: ${({ theme }) => theme.pageContentSelectionColor};
   }

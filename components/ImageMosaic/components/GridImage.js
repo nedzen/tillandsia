@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import React from "react";
-import PropTypes from "prop-types";
-import styled from "styled-components";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 /**
  * A single image element in a masonry style image grid
@@ -13,7 +13,7 @@ const GridImage = ({ key, index, left, top, photo, onClick }) => {
     <ImageContainer
       key={`${key}-${index}`}
       index={index}
-      onClick={e => onClick(e, { index })}
+      onClick={(e) => onClick(e, { index })}
       style={{ left, top, height, width }}
     >
       <OverlayContainer>
@@ -38,8 +38,8 @@ GridImage.propTypes = {
     caption: PropTypes.string.isRequired,
     height: PropTypes.number.isRequired,
     width: PropTypes.number.isRequired,
-    src: PropTypes.string.isRequired
-  }).isRequired
+    src: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default GridImage;
