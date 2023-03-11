@@ -179,7 +179,6 @@ const ProjectPage = ({ projectInfo }: ProjectProps): JSX.Element => {
 };
 
 export const getStaticProps: GetStaticProps = async (context: any) => {
-  // export const getStaticProps = async (context: any) => {
   const projectInfo = ProjectData.find(
     (classes) => classes.ID == context.params.id
   );
