@@ -23,13 +23,12 @@ import NextImage from 'next/image';
 //   </GalleryContainer>
 // );
 
-
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-const Timg = ({key, photos, onClick }) => {
+const Timg = ({ key, photos, onClick }) => {
   const { height, width, src, alt, caption } = photos;
-  let index = 2
+  let index = 2;
   return (
-    <div key={`${key}-${index}`} index={index} >
+    <div key={`${key}-${index}`} index={index}>
       <NextImage
         blurDataURL={blurIMG}
         onClick={(e) => onClick(e, { key })}
@@ -47,16 +46,16 @@ const Timg = ({key, photos, onClick }) => {
   );
 };
 
-
 const ImageMosaic = ({ images, handleClick }) => {
-  
-let total = images.length
+  let total = images.length;
   return (
-  <>
-    {images.map((item, i) => <Timg key={i} index={total} onClick={handleClick} photos={item} />)}
-  </>
-)};
-
+    <>
+      {images.map((item, i) => (
+        <Timg key={i} index={total} onClick={handleClick} photos={item} />
+      ))}
+    </>
+  );
+};
 
 // ImageMosaic.propTypes = {
 //   images: PropTypes.arrayOf(
@@ -96,7 +95,7 @@ export default ImageMosaic;
 //         src={src}
 //         alt={alt}
 //         caption={caption}
-//       />  
+//       />
 //       <h4>{caption}</h4>
 //     </div>
 //   );
