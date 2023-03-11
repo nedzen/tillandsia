@@ -1,11 +1,11 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import Layout, { WEBSITE_HOST_URL } from '../../components/Layout';
 import { MetaProps } from '../../types/layout';
 import ProjectData from '../../data/data.json';
 import Image from 'next/image';
-import Lightbox from '../../components/CoolLightbox';
-import ImageMosaic from '../../components/ImageMosaic';
+// import Lightbox from '../../components/CoolLightbox';
+// import ImageMosaic from '../../components/ImageMosaic';
 
 import 'photoswipe/dist/photoswipe.css';
 
@@ -51,8 +51,8 @@ const Project = ({ ...props }) => {
     coverImg,
   } = props.data;
 
-  const [isOpen, setOpen] = useState(false);
-  const [currentImageIndex, setCurrentIndex] = useState(0);
+  // const [isOpen, setOpen] = useState(false);
+  // const [currentImageIndex, setCurrentIndex] = useState(0);
 
   return (
     <div className="project" id={ID}>
@@ -117,40 +117,40 @@ const Project = ({ ...props }) => {
         </div>
 
         <div className="c-right">
-          <ImageMosaic
-            images={images}
-            handleClick={(e, { index }) => {
-              setCurrentIndex(index);
-              setOpen(true);
-            }}
-          />
-          <Lightbox
-            currentImageIndex={currentImageIndex}
-            setCurrentIndex={setCurrentIndex}
-            isOpen={isOpen}
-            onClose={() => setOpen(false)}
-            images={images}
-          />
-          <ul className="list">
-            {images.map((item: any, i: number) => (
-              <li key={i}>
-                <a
-                  href={item.src}
-                  rel="noreferrer"
-                  target="_blank"
-                  className={
-                    'umami--click--' +
-                    ID +
-                    '__' +
-                    item.alt.replace(/[\s:]/g, '') +
-                    '__' +
-                    i
-                  }
-                >
-                  {item.alt}
-                </a>
-              </li>
-            ))}
+          <ul className="listPreviews">
+            {images.map((item: any, i: number) => {
+              const { height, width, src, alt } = item;
+
+              return (
+                <li key={i}>
+                  <Image
+                    blurDataURL={blurIMG}
+                    placeholder="blur"
+                    alt={alt}
+                    src={src}
+                    width={width}
+                    height={height}
+                    layout="responsive"
+                    priority
+                  />
+                  <a
+                    href={item.src}
+                    rel="noreferrer"
+                    target="_blank"
+                    className={
+                      'umami--click--' +
+                      ID +
+                      '__' +
+                      item.alt.replace(/[\s:]/g, '') +
+                      '__' +
+                      i
+                    }
+                  >
+                    {item.alt}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>

@@ -429,6 +429,24 @@ article {
   }
 }
 
+.listPreviews {
+  li {
+    display: block;
+    margin-bottom: $unit;
+    font-size: 1.5em;
+    a {
+      display: block;
+      background-color: #fff;
+      padding: $unit/2;
+      &:hover {
+        color: #000;
+        border-bottom: 1px solid $pink;
+        background-color: $pink;
+      }
+    }
+  }
+}
+
 .coverImg {
   background-color: white;
   padding-top: 10vh;

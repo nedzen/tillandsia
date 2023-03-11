@@ -27,40 +27,40 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Quotas.png",
         "alt": "PREVIEW_1: Redesign Quotas",
         "caption": "PREVIEW_1: Redesign Quotas",
-        "width": 2486,
-        "height": 1469,
+        "width": 8251,
+        "height": 2696,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Bulk_Retry.png",
         "alt": "PREVIEW_2: Design BULK RETRY",
         "caption": "PREVIEW_2: Design BULK RETRY",
-        "width": 2486,
-        "height": 1469,
+        "width": 8042,
+        "height": 2998,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Sidebar.png",
         "alt": "PREVIEW_3: Redesign Sidebar",
         "caption": "PREVIEW_3: Redesign Sidebar",
-        "width": 2486,
-        "height": 1469,
+        "width": 5245,
+        "height": 2708,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Histogram.png",
         "alt": "PREVIEW_3: Redesign Histogram",
         "caption": "PREVIEW_3: Redesign Histogram",
-        "width": 2486,
-        "height": 1469,
+        "width": 10500,
+        "height": 2999,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Filters.png",
         "alt": "PREVIEW_3: Redesign Filters",
         "caption": "PREVIEW_3: Redesign Filters",
-        "width": 2486,
-        "height": 1469,
+        "width": 10203,
+        "height": 4715,
         "loading": "lazy"
       }
     ]
@@ -97,24 +97,24 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app.png",
         "alt": "PREVIEW_1: Ticket listing view.",
         "caption": "PREVIEW_1: Ticket listing view.",
-        "width": 2486,
-        "height": 1469,
+        "width": 4885,
+        "height": 5083,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app-1.png",
         "alt": "PREVIEW_2: Web App preview stats view.",
         "caption": "PREVIEW_2: Web App preview stats view.",
-        "width": 2486,
-        "height": 1469,
+        "width": 4885,
+        "height": 10258,
         "loading": "lazy"
       },
       {
-        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app.png",
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_mobile_app.png",
         "alt": "PREVIEW_3: Overview of the mobile app.",
         "caption": "PREVIEW_3: Overview of the mobile app.",
-        "width": 2486,
-        "height": 1469,
+        "width": 4885,
+        "height": 5083,
         "loading": "lazy"
       }
     ]
@@ -147,40 +147,40 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/1_gorgias_helpcenter_(portal).png",
         "alt": "PREVIEW_1 Gorgias Helpcenter - Portal",
         "caption": "PREVIEW_1 Gorgias Helpcenter - Portal",
-        "width": 2486,
-        "height": 1469,
+        "width": 5413,
+        "height": 8986,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/2_gorgias_helpcenter_(portal).png",
         "alt": "PREVIEW_2 Gorgias Helpcenter - Portal",
         "caption": "PREVIEW_2 Gorgias Helpcenter - Portal",
-        "width": 2486,
-        "height": 1469,
+        "width": 5267,
+        "height": 9650,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/3_gorgias_helpcenter_(portal).png",
         "alt": "PREVIEW_3 Gorgias Helpcenter - Portal",
         "caption": "PREVIEW_3 Gorgias Helpcenter - Portal",
-        "width": 2486,
-        "height": 1469,
+        "width": 5401,
+        "height": 3899,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/4_gorgias_helpcenter_(widget).png",
         "alt": "PREVIEW_4 Gorgias Helpcenter - Widget",
         "caption": "PREVIEW_4 Gorgias Helpcenter - Widget",
-        "width": 2486,
-        "height": 1469,
+        "width": 5113,
+        "height": 2713,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/5_gorgias_helpcenter_(backend).png",
         "alt": "PREVIEW_5 Gorgias Helpcenter - Backend",
         "caption": "PREVIEW_5 Gorgias Helpcenter - Backend",
-        "width": 2486,
-        "height": 1469,
+        "width": 5113,
+        "height": 4010,
         "loading": "lazy"
       }
     ]
@@ -222,32 +222,32 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_branding.png",
         "alt": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide",
         "caption": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide",
-        "width": 2486,
-        "height": 1469,
+        "width": 4885,
+        "height": 9500,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_landingpage.png",
         "alt": "PREVIEW_3 Landingpage",
         "caption": "PREVIEW_3 Landingpage",
-        "width": 2486,
-        "height": 1469,
+        "width": 3163,
+        "height": 13966,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_pricing.png",
         "alt": "PREVIEW_2 pricing page",
         "caption": "PREVIEW_2 pricing page",
-        "width": 2486,
-        "height": 1469,
+        "width": 2562,
+        "height": 7024,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_blog.png",
         "alt": "PREVIEW_2 Blog pages",
         "caption": "PREVIEW_2 Blog pages",
-        "width": 2486,
-        "height": 1469,
+        "width": 2562,
+        "height": 9370,
         "loading": "lazy"
       }
     ]
@@ -279,40 +279,40 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(search_results).png",
         "alt": "PREVIEW_1 Help Center - Search Results",
         "caption": "PREVIEW_1 Help Center - Search Results",
-        "width": 2486,
-        "height": 1469,
+        "width": 2460,
+        "height": 5016,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(main_view).png",
         "alt": "PREVIEW_2 Help Center - Main View",
         "caption": "PREVIEW_2 Help Center - Main View",
-        "width": 2486,
-        "height": 1469,
+        "width": 9090,
+        "height": 5697,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(article_page).png",
         "alt": "PREVIEW_3 Help Center - Article Page",
         "caption": "PREVIEW_3 Help Center - Article Page",
-        "width": 2486,
-        "height": 1469,
+        "width": 2460,
+        "height": 8580,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(topic).png",
         "alt": "PREVIEW_4 Help Center - Topic Overview",
         "caption": "PREVIEW_4 Help Center - Topic Overview",
-        "width": 2486,
-        "height": 1469,
+        "width": 2460,
+        "height": 4962,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(articles_overview).png",
         "alt": "PREVIEW_5 Help Center - Articles Overview",
         "caption": "PREVIEW_5 Help Center - Articles Overview",
-        "width": 2486,
-        "height": 1469,
+        "width": 2460,
+        "height": 8880,
         "loading": "lazy"
       }
     ]
@@ -347,40 +347,40 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_landing.png",
         "alt": "PREVIEW_1 Landing Page",
         "caption": "PREVIEW_1 Landing Page",
-        "width": 2486,
-        "height": 1469,
+        "width": 3601,
+        "height": 10550,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_pricing.png",
         "alt": "PREVIEW_2 Pricing Page",
         "caption": "PREVIEW_2 Pricing Page",
-        "width": 2486,
-        "height": 1469,
+        "width": 3601,
+        "height": 5543,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_product.png",
         "alt": "PREVIEW_3 Product Page",
         "caption": "PREVIEW_3 Product Page",
-        "width": 2486,
-        "height": 1469,
+        "width": 3601,
+        "height": 7353,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_case_study.png",
         "alt": "PREVIEW_4 Case Study Page",
         "caption": "PREVIEW_4 Case Study Page",
-        "width": 2486,
-        "height": 1469,
+        "width": 3601,
+        "height": 8219,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_assets.png",
         "alt": "PREVIEW_5 Other Dive Assets",
         "caption": "PREVIEW_5 Other Dive Assets",
-        "width": 2486,
-        "height": 1469,
+        "width": 2704,
+        "height": 2100,
         "loading": "lazy"
       }
     ]
@@ -414,16 +414,16 @@
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/scytale_www/scytale_www.png",
         "alt": "PREVIEW_1 Landing Page",
         "caption": "PREVIEW_5 Other Dive Assets",
-        "width": 2486,
-        "height": 1469,
+        "width": 5263,
+        "height": 9467,
         "loading": "lazy"
       },
       {
         "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/scytale_www/scytale_www_blog.png",
         "alt": "PREVIEW_2 Blog Page",
         "caption": "PREVIEW_5 Other Dive Assets",
-        "width": 2486,
-        "height": 1469,
+        "width": 5122,
+        "height": 5586,
         "loading": "lazy"
       }
     ]
