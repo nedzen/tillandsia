@@ -14,11 +14,11 @@ const Navigation = (): JSX.Element => {
             <a>Marius</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/info">
             <a>info</a>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
